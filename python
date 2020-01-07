@@ -1,0 +1,108 @@
+>>> 2+2
+4
+>>> 2*5.5
+11.0
+>>> 5.5000000000000000000000*2.3048273482742374982347
+12.676550415508306
+>>> print("ganesh")
+ganesh
+>>> 8/5
+1.6
+>>> 8/0.258
+31.007751937984494
+>>> round(1.196182619361946194168528412937618376193861847612938619476390816289764,10)
+1.1961826194
+>>> round(1.1961826193619461941685284129376183761938618476129386194763908162897640,30)
+1.1961826193619463
+>>> round(1.19618261936194619416852841293761837619386184761293861947639081628976400,25)
+1.1961826193619463
+>>> "ganesh\tganesh"
+'ganesh\tganesh'
+>>> "ganesh/t"
+'ganesh/t'
+>>> "ganesh"[1:]
+'anesh'
+>>> "ganesh"[:]
+'ganesh'
+>>> "ganesh"[-1:-5]
+''
+>>> "ganesh"[-1:-4]
+''
+>>> "ganesh"[-4:-1]
+'nes'
+>>> "ganesh"[:-1]
+'ganes'
+>>> "ganesh"[::-1]
+'hsenag'
+>>> "ganesh"[-1:-1:-1].
+  File "<stdin>", line 1
+    "ganesh"[-1:-1:-1].
+                      ^
+SyntaxError: invalid syntax
+>>> "ganesh"[-1:-1:-1]
+''
+>>> "ganesh"[:-1:-1]
+''
+>>> "ganesh"[:-1:]
+'ganes'
+3*"ganesh"+'hahahahah'
+'ganeshganeshganeshhahahahah'
+>>> ganesh[0]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ganesh' is not defined
+>>> "ganesh"[0]
+'g'
+>>> nt.from_bytes(b'\x00\x10', byteorder='big')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'nt' is not defined
+>>> int.from_bytes(b'\x00\x10', byteorder='big')
+16
+>>> int.from_bytes(b'\x00\x10', byteorder='small')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: byteorder must be either 'little' or 'big'
+>>> int.from_bytes(b'\x00\x10', byteorder='SmalL')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: byteorder must be either 'little' or 'big'
+>>> int.from_bytes(b'\x00\x10', byteorder='little')
+4096
+>>> l=[]
+>>> l
+[]
+>>> l.append(1,2,3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: append() takes exactly one argument (3 given)
+>>> l.append(1)
+>>> l
+[1]
+>>> l.expend(1,2,3,4)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'expend'
+>>> l.expend([1,2,3,4])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'expend'
+>>> l.extend([1,2,3,4])
+>>> l
+[1, 1, 2, 3, 4]
+>>> l.append([1,2,3,4])
+>>> l
+[1, 1, 2, 3, 4, [1, 2, 3, 4]]
+>>> l.remove([1,2,3,4,5])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: list.remove(x): x not in list
+>>> l.remove([1,2,3,4])
+>>> l
+[1, 1, 2, 3, 4]
+>>> l.remove(1)
+>>> l
+[1, 2, 3, 4]
+>>> l+=l
+>>> l
+[1, 2, 3, 4, 1, 2, 3, 4]
