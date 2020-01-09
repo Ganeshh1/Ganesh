@@ -1,0 +1,373 @@
+=====================================================================STRING OPERATION =================================================================
+>>>name="GAnesh KUamr"
+>>> name.capitalise()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'capitalise'
+>>> name.capitalize()
+'Ganesh kuamr'
+>>> name.casefold()
+'ganesh kuamr'
+>>> name.center()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: center() takes at least 1 argument (0 given)
+>>> "1 2 3".center()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: center() takes at least 1 argument (0 given)
+>>> name.center("a")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object cannot be interpreted as an integer
+>>> name.center(20,"#")
+'####GAnesh KUamr####'
+>>> name.center(20)
+'    GAnesh KUamr    '
+>>> name.center("#")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object cannot be interpreted as an integer
+>>> "ganesh".count("g")
+1
+>>> "ganesh".count("a")
+\1
+>>> 
+>>> "ganesh".count()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: count() takes at least 1 argument (0 given)
+>>> "ganesh".count("g:")
+0
+>>> "ganesh".count("g",10)
+0
+>>> "ganesh".count("g",6)
+0
+>>> "ganesh".count("g",0)
+1
+>>> "ganesh".count("h",5)
+1
+>>> "ganesh kumar".count("a",0,9)
+1
+>>> "ganesh kumar".count("a",1,9)
+1
+>>> "ganesh kumar".count("a",1,11)
+2
+>>> "ganesh kumar".count("a",,11)
+  File "<stdin>", line 1
+    "ganesh kumar".count("a",,11)
+                             ^
+SyntaxError: invalid syntax
+>>> "ganesh kumar".count("g",0,11)
+1
+>>> "ganesh kumar".count("g",1,11)
+0
+>>> "ganesh kumar".count("g",1)
+0
+>>> "ganesh kumar".count("g",1)
+0
+>>> "ganesh kumar".encode()
+b'ganesh kumar'
+>>> "1ganesh".capitalize()
+'1ganesh'
+>>> "1ganesh kumar uh".capitalize()
+'1ganesh kumar uh'
+>>> "1ganesh kumar uh".capitalize(10)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: capitalize() takes no arguments (1 given)
+>>> "ganesh".casefold()
+'ganesh'
+>>> "Hai".centre(10,"#")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'centre'
+>>> "Hai".center(10,"#")
+'###Hai####'
+>>> "ganesh".count('a',0,0)
+0
+>>> "ganesh".count('a',7,1)
+0
+>>> "ganesh".count('a',-7,-1)
+1
+>>> "ganesh".count('a')
+1
+>>> "ganesh".encode(encoding="uft-8")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+LookupError: unknown encoding: uft-8
+>>> "ganesh".encode("uft-8","ignore")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+LookupError: unknown encoding: uft-8
+>>> "ganesh".encode("ascii","ignore")
+b'ganesh'
+>>> "ganesh".endswwith()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'endswwith'
+>>> "ganesh".endswith()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: endswith() takes at least 1 argument (0 given)
+>>> "ganesh".endswith("h")
+True
+>>> "ganesh".endswith("h",1,5)
+False
+>>> "ganesh".endswith("h",-1,-5)
+False
+>>> "ganesh".endswith("h",0,-5)
+False
+>>> "ganesh".endswith("h",0,0)
+False
+>>> "ganesh".endswith("h",-1,7)
+True
+>>> "kumar"[1:-1:2]
+'ua'
+>>> "kumar"[1:-2]
+'um'
+>>> "kumar"[1:2]
+'u'
+>>> "kumar"[1:1]
+''
+>>> "kumar"[1:3]
+'um'
+>>> "ga\tn\te\tsh".expandtabs(10)
+'ga        n         e         sh'
+>>> "ga\tn\te\tsh".expandtabs(9)
+'ga       n        e        sh'
+>>> "ga\tn\te\tsh".expandtabs(5)
+'ga   n    e    sh'
+>>> "ga\tn\te\tsh".expandtabs(0)
+'ganesh'
+>>> "ga\tn\te\tsh".expandtabs(1)
+'ga n e sh'
+>>> "ga\tn\te\tsh".expandtabs(2)
+'ga  n e sh'
+>>> len('ga  n e sh')
+10
+>>> len("ga\tn\te\tsh".expandtabs(2))
+10
+>>> len("ga\tn\te\tsh".expandtabs(10))
+32
+>>> len("ga\tn\te\tsh".expandtabs(12))
+38
+>>> "ga\tn\te\tsh".expandtabs(12)
+'ga          n           e           sh'
+>>> len("xyz  12345     abc")
+18
+>>> "gabnesh".index("j")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: substring not found
+>>> "ganesh".join(" ")
+' '
+>>> "ganwesh".translate()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: translate() takes exactly one argument (0 given)
+>>> "ganwesh".translate("g")
+'ganwesh'
+>>> "ganesh".partition()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: partition() takes exactly one argument (0 given)
+>>> "ganesh".partition(1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: Can't convert 'int' object to str implicitly
+>>> "ganesh".partition("gakuujh")
+('ganesh', '', '')
+>>> "ganesh".partition("e")
+('gan', 'e', 'sh')
+>>> "ganesh".partition("h")
+('ganes', 'h', '')
+>>> ganesh".zfill(10)
+  File "<stdin>", line 1
+    ganesh".zfill(10)
+                    ^
+SyntaxError: EOL while scanning string literal
+>>> "ganesh".zfill(10)
+'0000ganesh'
+>>> "ganesh".zfill(-1)
+'ganesh'
+>>> "ganesh".zfill(-10)
+'ganesh'
+>>> "ganesh".zfill(20)
+'00000000000000ganesh'
+=========================================================================LIST OPERATIONS===============================================================
+>>> list1=[1,2,3,3,4,5,6]
+>>> list1.append([1,2,3,4,5])
+>>> list1
+[1, 2, 3, 3, 4, 5, 6, [1, 2, 3, 4, 5]]
+>>> list1.count()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: count() takes exactly one argument (0 given)
+>>> list1.count(1)
+1
+>>> list1.count(7)
+0
+>>> list1.count(1,0,7)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: count() takes exactly one argument (3 given)
+=[1,34,45,-1,68,90]
+>>> l.sort(reverse=True)
+>>> l
+[90, 68, 45, 34, 1, -1]
+>>> l.append([1,2,3])
+>>> l.sort(reverse=True)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unorderable types: int() < list()
+>>>  list(range(0,10,-1)
+  File "<stdin>", line 1
+    list(range(0,10,-1)
+    ^
+IndentationError: unexpected indent
+>>> list(range(0,10,-1)
+... 
+... 
+... 
+... 
+... hi
+  File "<stdin>", line 6
+    hi
+     ^
+SyntaxError: invalid syntax
+>>> print(range(0,10))
+range(0, 10)
+>>> print(list(range(0,10)))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> A=print(list(range(0,10)))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> A
+>>> print(A)
+None
+>>> x=[]
+>>> for i in x:
+...     print(i)
+... 
+>>> x.append([1,2,23,,4,4,5])
+  File "<stdin>", line 1
+    x.append([1,2,23,,4,4,5])
+                     ^
+SyntaxError: invalid syntax
+>>> x.append([1,2,23,4,4,5])
+>>> """hit this if u like this """
+'hit this if u like this '
+>>> for i in x:
+...     print(i)
+... 
+[1, 2, 23, 4, 4, 5]
+>>> l=[1,2,3,4,[1,2,3,4]]
+>>> for i in range(0,len(l)):
+...     for j in range(1,len(l)):
+...             if(l[i]==l[j])
+  File "<stdin>", line 3
+    if(l[i]==l[j])
+                 ^
+SyntaxError: invalid syntax
+>>> for i in range(0,len(l)):
+...     for j in range(1,len(l)):
+...             if(l[i]==l[j]):
+... 
+  File "<stdin>", line 4
+    
+    ^
+IndentationError: expected an indented block
+>>> if(a="ganesh"):
+  File "<stdin>", line 1
+    if(a="ganesh"):
+        ^
+SyntaxError: invalid syntax
+>>> if(a=1):
+  File "<stdin>", line 1
+    if(a=1):
+        ^
+SyntaxError: invalid syntax
+>>> elif(10>0):
+  File "<stdin>", line 1
+    elif(10>0):
+       ^
+SyntaxError: invalid syntax
+>>> for i in range(0,len(l)):
+...     print(l[i])
+... 
+1
+2
+3
+4
+[1, 2, 3, 4]
+>>> a=l=[1,2,3,4,5]
+>>> a.remove(5)
+>>> l
+[1, 2, 3, 4]
+>>> l.remove(1)
+>>> a
+[2, 3, 4]
+>>> a=l.copy()
+>>> a
+[2, 3, 4]
+>>> l
+[2, 3, 4]
+>>> 
+>>> l.remove(2)
+>>> l
+[3, 4]
+>>> a
+[2, 3, 4]
+>>> a=[1,2,3,[1,2,3]]
+>>> l=a.copy()
+>>> l.remove(1)
+>>> l
+[2, 3, [1, 2, 3]]
+>>> a
+[1, 2, 3, [1, 2, 3]]
+>>> l
+[2, 3, [1, 2, 3]]
+>>> l.remove(l[3][2])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> l.remove(l[3][1])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> l.del(l[3][1])
+  File "<stdin>", line 1
+    l.del(l[3][1])
+        ^
+SyntaxError: invalid syntax
+>>> l[3].remove(1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> l
+[2, 3, [1, 2, 3]]
+>>> l.remove(l[2][1)]
+  File "<stdin>", line 1
+    l.remove(l[2][1)]
+                   ^
+SyntaxError: invalid syntax
+>>> l.remove(l[2][1])
+>>> l
+[3, [1, 2, 3]]
+>>> a
+[1, 2, 3, [1, 2, 3]]
+>>> l[1][0]=10
+>>> l
+[3, [10, 2, 3]]
+>>> a
+[1, 2, 3, [10, 2, 3]]
+>>> a[1]=10
+>>> l
+[3, [10, 2, 3]]
+>>> l[1].remove(10)
+>>> l
+[3, [2, 3]]
+>>> a
+[1, 10, 3, [2, 3]]
+
+
