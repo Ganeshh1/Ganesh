@@ -1,0 +1,928 @@
+============================================NUMBER,STRING,LIST,SET,DICTIONARIES============================
+===================NUMBERS================================
+ 
+>>> 2+2
+4
+>>> 2*5.5
+11.0
+>>> 5.5000000000000000000000*2.3048273482742374982347
+12.676550415508306
+>>> print("LIST")
+'LIST'
+>>> 8/5
+1.6
+>>> 8/0.258
+31.007751937984494
+>>> round(1.196182619361946194168528412937618376193861847612938619476390816289764,10)
+1.1961826194
+>>> round(1.1961826193619461941685284129376183761938618476129386194763908162897640,30)
+1.1961826193619463
+>>> round(1.19618261936194619416852841293761837619386184761293861947639081628976400,25)
+1.1961826193619463
+
+====================================================STRINGS===============================================
+
+>>> "ganesh\tganesh"
+'ganesh\tganesh'
+>>> "ganesh/t"
+'ganesh/t'
+>>> "GeeksforGeeks"[1:]
+'eeksforGeeks'
+>>> "GeeksforGeeks"[:]
+'GeeksforGeeks'
+>>> "GeeksforGeeks"[-1:-5]
+''
+>>> "GeeksforGeeks"[-1:-4]
+''
+>>> "GeeksforGeeks"[-4:-1]
+'eek'
+>>> "GeeksforGeeks"[:-1]
+'GeeksforGeek'
+>>> "GeeksforGeeks"[::-1]
+'skeeGrofskeeG'
+>>> "GeeksforGeeks"[-1:-1:-1].
+  File "<stdin>", line 1
+    "ganesh"[-1:-1:-1].
+                      ^
+SyntaxError: invalid syntax
+>>> "GeeksforGeeks"[-1:-1:-1]
+''
+>>> "GeeksforGeeks"[:-1:-1]
+''
+>>> "GeeksforGeeks"[:-1:]
+'GeeksforGeek'
+3*"GeeksforGeeks"+'hahahahah'
+'GeeksforGeeksGeeksforGeeksGeeksforGeekshahahahah'
+>>> ganesh[0]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ganesh' is not defined
+>>> "ganesh"[0:]
+'GeeksforGeeks'
+>>> nt.from_bytes(b'\x00\x10', byteorder='big')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'nt' is not defined
+>>> int.from_bytes(b'\x00\x10', byteorder='big')
+16
+>>> int.from_bytes(b'\x00\x10', byteorder='small')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: byteorder must be either 'little' or 'big'
+>>> int.from_bytes(b'\x00\x10', byteorder='SmalL')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: byteorder must be either 'little' or 'big'
+>>> int.from_bytes(b'\x00\x10', byteorder='little')
+4096
+>>>name="GAnesh KUamr"
+>>> name.capitalise()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'capitalise'
+>>> name.capitalize()
+'Ganesh kuamr'
+>>> name.casefold()
+'ganesh kuamr'
+>>> name.center()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: center() takes at least 1 argument (0 given)
+>>> "1 2 3".center()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: center() takes at least 1 argument (0 given)
+>>> name.center("a")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object cannot be interpreted as an integer
+>>> name.center(20,"#")
+'####GAnesh KUamr####'
+>>> name.center(20)
+'    GAnesh KUamr    '
+>>> name.center("#")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object cannot be interpreted as an integer
+>>> "ganesh".count("g")
+1
+>>> "ganesh".count("a")
+\1
+>>> 
+>>> "ganesh".count()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: count() takes at least 1 argument (0 given)
+>>> "ganesh".count("g:")
+0
+>>> "ganesh".count("g",10)
+0
+>>> "ganesh".count("g",6)
+0
+>>> "ganesh".count("g",0)
+1
+>>> "ganesh".count("h",5)
+1
+>>> "ganesh kumar".count("a",0,9)
+1
+>>> "ganesh kumar".count("a",1,9)
+1
+>>> "ganesh kumar".count("a",1,11)
+2
+>>> "ganesh kumar".count("a",,11)
+  File "<stdin>", line 1
+    "ganesh kumar".count("a",,11)
+                             ^
+SyntaxError: invalid syntax
+>>> "ganesh kumar".count("g",0,11)
+1
+>>> "ganesh kumar".count("g",1,11)
+0
+>>> "ganesh kumar".count("g",1)
+0
+>>> "ganesh kumar".count("g",1)
+0
+>>> "ganesh kumar".encode()
+b'ganesh kumar'
+>>> "1ganesh".capitalize()
+'1ganesh'
+>>> "1ganesh kumar uh".capitalize()
+'1ganesh kumar uh'
+>>> "1ganesh kumar uh".capitalize(10)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: capitalize() takes no arguments (1 given)
+>>> "ganesh".casefold()
+'ganesh'
+>>> "Hai".centre(10,"#")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'centre'
+>>> "Hai".center(10,"#")
+'###Hai####'
+>>> "ganesh".count('a',0,0)
+0
+>>> "ganesh".count('a',7,1)
+0
+>>> "ganesh".count('a',-7,-1)
+1
+>>> "ganesh".count('a')
+1
+>>> "ganesh".encode(encoding="uft-8")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+LookupError: unknown encoding: uft-8
+>>> "ganesh".encode("uft-8","ignore")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+LookupError: unknown encoding: uft-8
+>>> "ganesh".encode("ascii","ignore")
+b'ganesh'
+>>> "ganesh".endswwith()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'endswwith'
+>>> "ganesh".endswith()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: endswith() takes at least 1 argument (0 given)
+>>> "ganesh".endswith("h")
+True
+>>> "ganesh".endswith("h",1,5)
+False
+>>> "ganesh".endswith("h",-1,-5)
+False
+>>> "ganesh".endswith("h",0,-5)
+False
+>>> "ganesh".endswith("h",0,0)
+False
+>>> "ganesh".endswith("h",-1,7)
+True
+>>> "kumar"[1:-1:2]
+'ua'
+>>> "kumar"[1:-2]
+'um'
+>>> "kumar"[1:2]
+'u'
+>>> "kumar"[1:1]
+''
+>>> "kumar"[1:3]
+'um'
+>>> "ga\tn\te\tsh".expandtabs(10)
+'ga        n         e         sh'
+>>> "ga\tn\te\tsh".expandtabs(9)
+'ga       n        e        sh'
+>>> "ga\tn\te\tsh".expandtabs(5)
+'ga   n    e    sh'
+>>> "ga\tn\te\tsh".expandtabs(0)
+'ganesh'
+>>> "ga\tn\te\tsh".expandtabs(1)
+'ga n e sh'
+>>> "ga\tn\te\tsh".expandtabs(2)
+'ga  n e sh'
+>>> len('ga  n e sh')
+10
+>>> len("ga\tn\te\tsh".expandtabs(2))
+10
+>>> len("ga\tn\te\tsh".expandtabs(10))
+32
+>>> len("ga\tn\te\tsh".expandtabs(12))
+38
+>>> "ga\tn\te\tsh".expandtabs(12)
+'ga          n           e           sh'
+>>> len("xyz  12345     abc")
+18
+>>> "gabnesh".index("j")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: substring not found
+>>> "ganesh".join(" ")
+' '
+>>> "ganwesh".translate()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: translate() takes exactly one argument (0 given)
+>>> "ganwesh".translate("g")
+'ganwesh'
+>>> "ganesh".partition()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: partition() takes exactly one argument (0 given)
+>>> "ganesh".partition(1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: Can't convert 'int' object to str implicitly
+>>> "ganesh".partition("gakuujh")
+('ganesh', '', '')
+>>> "ganesh".partition("e")
+('gan', 'e', 'sh')
+>>> "ganesh".partition("h")
+('ganes', 'h', '')
+>>> ganesh".zfill(10)
+  File "<stdin>", line 1
+    ganesh".zfill(10)
+                    ^
+SyntaxError: EOL while scanning string literal
+>>> "ganesh".zfill(10)
+'0000ganesh'
+>>> "ganesh".zfill(-1)
+'ganesh'
+>>> "ganesh".zfill(-10)
+'ganesh'
+>>> "ganesh".zfill(20)
+'00000000000000ganesh'
+=================================================LISTOPERATIONS===============================================================
+>>> list1=[1,2,3,3,4,5,6]
+>>> list1.append([1,2,3,4,5])
+>>> list1
+[1, 2, 3, 3, 4, 5, 6, [1, 2, 3, 4, 5]]
+>>> list1.count()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: count() takes exactly one argument (0 given)
+>>> list1.count(1)
+1
+>>> list1.count(7)
+0
+>>> list1.count(1,0,7)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: count() takes exactly one argument (3 given)
+=[1,34,45,-1,68,90]
+>>> l.sort(reverse=True)
+>>> l
+[90, 68, 45, 34, 1, -1]
+>>> l.append([1,2,3])
+>>> l.sort(reverse=True)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unorderable types: int() < list()
+>>>  list(range(0,10,-1)
+  File "<stdin>", line 1
+    list(range(0,10,-1)
+    ^
+IndentationError: unexpected indent
+>>> list(range(0,10,-1)
+... 
+... 
+... 
+... 
+... hi
+  File "<stdin>", line 6
+    hi
+     ^
+SyntaxError: invalid syntax
+>>> print(range(0,10))
+range(0, 10)
+>>> print(list(range(0,10)))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> A=print(list(range(0,10)))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> A
+>>> print(A)
+None
+>>> x=[]
+>>> for i in x:
+...     print(i)
+... 
+>>> x.append([1,2,23,,4,4,5])
+  File "<stdin>", line 1
+    x.append([1,2,23,,4,4,5])
+                     ^
+SyntaxError: invalid syntax
+>>> x.append([1,2,23,4,4,5])
+>>> """hit this if u like this """
+'hit this if u like this '
+>>> for i in x:
+...     print(i)
+... 
+[1, 2, 23, 4, 4, 5]
+>>> l=[1,2,3,4,[1,2,3,4]]
+>>> for i in range(0,len(l)):
+...     for j in range(1,len(l)):
+...             if(l[i]==l[j])
+  File "<stdin>", line 3
+    if(l[i]==l[j])
+                 ^
+SyntaxError: invalid syntax
+>>> for i in range(0,len(l)):
+...     for j in range(1,len(l)):
+...             if(l[i]==l[j]):
+... 
+  File "<stdin>", line 4
+    
+    ^
+IndentationError: expected an indented block
+>>> if(a="ganesh"):
+  File "<stdin>", line 1
+    if(a="ganesh"):
+        ^
+SyntaxError: invalid syntax
+>>> if(a=1):
+  File "<stdin>", line 1
+    if(a=1):
+        ^
+SyntaxError: invalid syntax
+>>> elif(10>0):
+  File "<stdin>", line 1
+    elif(10>0):
+       ^
+SyntaxError: invalid syntax
+>>> for i in range(0,len(l)):
+...     print(l[i])
+... 
+1
+2
+3
+4
+[1, 2, 3, 4]
+>>> a=l=[1,2,3,4,5]
+>>> a.remove(5)
+>>> l
+[1, 2, 3, 4]
+>>> l.remove(1)
+>>> a
+[2, 3, 4]
+>>> a=l.copy()
+>>> a
+[2, 3, 4]
+>>> l
+[2, 3, 4]
+>>> 
+>>> l.remove(2)
+>>> l
+[3, 4]
+>>> a
+[2, 3, 4]
+>>> a=[1,2,3,[1,2,3]]
+>>> l=a.copy()
+>>> l.remove(1)
+>>> l
+[2, 3, [1, 2, 3]]
+>>> a
+[1, 2, 3, [1, 2, 3]]
+>>> l
+[2, 3, [1, 2, 3]]
+>>> l.remove(l[3][2])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> l.remove(l[3][1])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> l.del(l[3][1])
+  File "<stdin>", line 1
+    l.del(l[3][1])
+        ^
+SyntaxError: invalid syntax
+>>> l[3].remove(1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> l
+[2, 3, [1, 2, 3]]
+>>> l.remove(l[2][1)]
+  File "<stdin>", line 1
+    l.remove(l[2][1)]
+                   ^
+SyntaxError: invalid syntax
+>>> l.remove(l[2][1])
+>>> l
+[3, [1, 2, 3]]
+>>> a
+[1, 2, 3, [1, 2, 3]]
+>>> l[1][0]=10
+>>> l
+[3, [10, 2, 3]]
+>>> a
+[1, 2, 3, [10, 2, 3]]
+>>> a[1]=10
+>>> l
+[3, [10, 2, 3]]
+>>> l[1].remove(10)
+>>> l
+[3, [2, 3]]
+>>> a
+[1, 10, 3, [2, 3]]
+ee
+>>> l=[]
+>>> l
+[]
+>>> l.append(1,2,3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: append() takes exactly one argument (3 given)
+>>> l.append(1)
+>>> l
+[1]
+>>> l.expend(1,2,3,4)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'expend'
+>>> l.expend([1,2,3,4])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'expend'
+>>> l.extend([1,2,3,4])
+>>> l
+[1, 1, 2, 3, 4]
+>>> l.append([1,2,3,4])
+>>> l
+[1, 1, 2, 3, 4, [1, 2, 3, 4]]
+>>> l.remove([1,2,3,4,5])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: list.remove(x): x not in list
+>>> l.remove([1,2,3,4])
+>>> l
+[1, 1, 2, 3, 4]
+>>> l.remove(1)
+>>> l
+[1, 2, 3, 4]
+>>> l+=l
+>>> l
+[1, 2, 3, 4, 1, 2, 3, 4]
+>>> l=[1,2]
+>>> l
+[1, 2]
+>>> for i in l:
+... print(i)
+  File "<stdin>", line 2
+    print(i)
+        ^
+IndentationError: expected an indented block
+>>> for i in l:
+...     print(i)
+... 
+1
+2
+>>> l.extend("ganesh")
+>>> l
+[1, 2, 'g', 'a', 'n', 'e', 's', 'h']
+>>> l.append("ganesh")
+>>> l
+[1, 2, 'g', 'a', 'n', 'e', 's', 'h', 'ganesh']
+>>> for i in l:
+...     print(i,len(i))
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+TypeError: object of type 'int' has no len()
+>>> z=l.copy()
+>>> z
+[1, 2, 'g', 'a', 'n', 'e', 's', 'h', 'ganesh']
+>>> z.items()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'items'
+>>> z=l.copy().items()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'items'
+>>> l.items()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'items'
+>>> x=input("pls enter a number")
+pls enter a number25
+>>> x=int(x)
+>>> x
+25
+>>> if(x<0):
+...     x=0
+...     print("Negative")
+... elif x==0:
+...     print("zero")
+... else:
+...     print("More")
+... 
+More
+>>> for i in l:
+...     print(i)
+... 
+1
+2
+g
+a
+n
+e
+s
+h
+ganesh
+>>> for i,j in l.copy().items():
+...     if j==i:
+...     del l[i]
+  File "<stdin>", line 3
+    del l[i]
+      ^
+IndentationError: expected an indented block
+>>> for i,j in l.copy().items():
+...     if j==i:
+...             del l[i]
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'items'
+>>> a = ['Mary', 'had', 'a', 'little', 'lamb']
+>>> for i in range(len(a)):
+...     print(i,a[i])
+... 
+0 Mary
+1 had
+2 a
+3 little
+4 lamb
+>>> print(range(0,10))
+range(0, 10)
+>>> list(range(0,10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> for i in range(0,10):
+...     if(i==8):
+...             print(i)
+...             break
+...     else:
+...             print("hello")
+... 
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+8
+>>> def g(m):
+...     r=[]
+...     for i in range(1,m):
+...             r.append(i)
+...     print(r)
+... 
+>>> g(10)
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+l=1;
+>>> def f(m):
+...     for i in range(0,m):
+...             l=l*i
+...             print(l)
+... 
+>>> f(10)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 3, in f
+UnboundLocalError: local variable 'l' referenced before assignment
+>>> def f(m):
+...     l=1
+...     for i in range(0,m):
+...             l=l*i
+...             print(l)
+... 
+>>> f(10)
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+>>> def f(m):
+... ...     l=1
+  File "<stdin>", line 2
+    ...     l=1
+      ^
+IndentationError: expected an indented block
+>>> ...     for i in range(0,m):
+  File "<stdin>", line 1
+    ...     for i in range(0,m):
+              ^
+SyntaxError: invalid syntax
+>>> ...             l=l*i
+  File "<stdin>", line 1
+    ...             l=l*i
+                    ^
+SyntaxError: invalid syntax
+>>> ...             print(l)
+  File "<stdin>", line 1
+    ...             print(l)
+                        ^
+SyntaxError: invalid syntax
+>>> def f(m):
+... ...     l=1
+  File "<stdin>", line 2
+    ...     l=1
+      ^
+IndentationError: expected an indented block
+>>> ...     for i in range(0,m):
+  File "<stdin>", line 1
+    ...     for i in range(0,m):
+              ^
+SyntaxError: invalid syntax
+>>> ...             l=l*i
+  File "<stdin>", line 1
+    ...             l=l*i
+                    ^
+SyntaxError: invalid syntax
+>>> ...             print(l)
+  File "<stdin>", line 1
+    ...             print(l)
+                        ^
+SyntaxError: invalid syntax
+>>> clear
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'clear' is not defined
+>>> for i in range(0,10):
+...     print(l=l*i)
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+TypeError: 'l' is an invalid keyword argument for this function
+>>> l=1
+>>> for i in range(1,9):
+...     print(l=l*i)
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+TypeError: 'l' is an invalid keyword argument for this function
+>>> for i in range(1,9):
+...     print(l*i)
+... 
+1
+2
+3
+4
+5
+6
+7
+8
+>>> def f():
+...     print("good")
+... 
+>>> f()
+good
+>>> def g(m):
+...     for i in range(1,m):
+...             
+... 
+  File "<stdin>", line 4
+    
+    ^
+IndentationError: expected an indented block
+>>> def g(m):
+...     r=[]
+...     for i in range(1,m):
+...             r.append(i)
+... 
+>>> g(10)
+>>> r
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'r' is not defined
+>>> def g(m):
+...     r=[]
+...     for i in range(1,m):
+...             r.append(i)
+...     print(r)
+... 
+>>> g(10)
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> good
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'good' is not defined
+>>> "good"
+'good'
+>>> def f(v,z=10,x=100):
+...     print(v,x,v)
+...     for i in range(z,x,v):
+...             print(i)
+... 
+>>> f(10)
+10 100 10
+10
+20
+30
+40
+50
+60
+70
+80
+90
+>>> f(2,5,10)
+2 10 2
+5
+7
+9
+>>> f(-2,-5,-10)
+-2 -10 -2
+-5
+-7
+-9
+>>> f(-2,-5,10)
+-2 10 -2
+>>> f(2,-5,-10)
+2 -10 2
+>>> f(2,-5,0)
+2 0 2
+-5
+-3
+-1
+>>> i=1
+>>> def h(a=i):
+...     print(a)
+... 
+>>> h()
+1
+>>> i=10
+>>> h()
+1
+>>> def f(10,l=[]):
+  File "<stdin>", line 1
+    def f(10,l=[]):
+           ^
+SyntaxError: invalid syntax
+>>> def f(n,l=[]):
+...     l.append(n)
+...     print(l)
+... 
+>>> f(1)
+[1]
+>>> f(10)
+[1, 10]
+>>> for i in range(5):
+...     f(i)
+... 
+[1, 10, 0]
+[1, 10, 0, 1]
+[1, 10, 0, 1, 2]
+[1, 10, 0, 1, 2, 3]
+[1, 10, 0, 1, 2, 3, 4]
+>>> "ganesh.join("kumar")
+  File "<stdin>", line 1
+    "ganesh.join("kumar")
+                      ^
+SyntaxError: invalid syntax
+>>> "ganesh".join("kumar")
+'kganeshuganeshmganeshaganeshr'
+>>> "ganesh".join("\/")
+'\\ganesh/'
+>>> "ganesh".join("\/")
+'\\ganesh/'
+>>> "ganesh".join("\")
+  File "<stdin>", line 1
+    "ganesh".join("\")
+                     ^
+SyntaxError: EOL while scanning string literal
+>>> "ganesh".join("/")
+'/'
+>>> "ganesh".join("1")
+'1'
+>>> "ganesh".join("kumar")
+'kganeshuganeshmganeshaganeshr'
+>>> "ganesh".join("kumar\/")
+'kganeshuganeshmganeshaganeshrganesh\\ganesh/'
+>>> "/".join("ganesh)
+  File "<stdin>", line 1
+    "/".join("ganesh)
+                    ^
+SyntaxError: EOL while scanning string literal
+>>> "/".join("ganesh")
+'g/a/n/e/s/h'
+>>> "".join(['1','11']
+... 
+... 
+... ganesh
+  File "<stdin>", line 4
+    ganesh
+         ^
+SyntaxError: invalid syntax
+>>> "".join(['1','11'])
+'111'
+>>> l=["abi",1,2,3,4,2354]
+>>> l
+['abi', 1, 2, 3, 4, 2354]
+>>> def f(i,*a,**b):
+...     print(i)
+...     for j in a:
+...             print(j)
+...     for k,x in b:
+...             print(k,b[x])
+...
+>>>
+>>>
+>>>f(1,[1,2,3],a=1,b=2)
+1
+[1, 2, 3, 4]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 5, in f
+ValueError: need more than 1 value to unpack
+ 
+
+
+
+===================================================SET And DICTONARIES====================================
+>>>dicta = {1: '1', 2: '2', 3: '3'}
+>>>dicta[4] = '4'
+>>>print(dicta[1])
+>>> dicta={1:'1',2:'2'}
+>>> dicta[3]='3'
+>>> dicta
+{1: '1', 2: '2', 3: '3'}
+>>> dicta[1]='1'
+>>>del(dicta[1])
+>>> dicta
+{2: '2', 3: '3'}
+>>> dicta.keys()
+[2, 3]
+>>> dicta.values()
+['2', '3']
+>>> dicta.items()
+[(2, '2'), (3, '3')]
+>>> dict1_keys = {k*2:v for (k,v) in dicta.items()}
+>>> dict1_keys 
+{4: '2', 6: '3'}
+>>> numbers = range(10)
+>>> new_dict_for = {}
+>>> for n in numbers:
+...     if n%2==0:
+...             new_dic[n]=n**2
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+NameError: name 'new_dic' is not defined
+>>> for n in numbers:
+...             new_dic[n]=n**2
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+NameError: name 'new_dic' is not defined
+>>> for n in numbers:
+...     if n%2==0:
+...             new_dict_for[n]=n**2
+... 
+>>> new_dict_for
+{0: 0, 8: 64, 2: 4, 4: 16, 6: 36}
+>>> dict1_cond = {k:v for (k,v) in new_dict_for.items() if v>2}
+>>> dict1_cond
+{8: 64, 2: 4, 4: 16, 6: 36}
+>>> people = {"Jay", "Idrish", "Archil"}
+>>> people.add("Daxit")
+>>> people
+set(['Archil', 'Idrish', 'Daxit', 'Jay'])
+>>> victims = people.intersection({1,2,3,4})
+>>> victims
+set([])
+>>> safe = people.difference({1,2,3,4,5})
+>>> safe
+set(['Archil', 'Idrish', 'Daxit', 'Jay'])
+>>> victims.clear()
+
+
+	
+
+
