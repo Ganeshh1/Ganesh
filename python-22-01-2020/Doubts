@@ -1,0 +1,5 @@
+>>>f.softspace()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: '_io.TextIOWrapper' object has no attribute 'softspace'
+

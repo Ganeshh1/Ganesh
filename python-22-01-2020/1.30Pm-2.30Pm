@@ -1,0 +1,74 @@
+>>> import io
+>>> print(io.DEFAULT_BUFFER_SIZE)
+8192
+>>> f.tell()
+0
+>>> f.name
+'Untitled Document'
+>>> f.readline()
+'1.\tEnsure APT works with HTTPS and up-to-date CA certificates are installed:\n'
+>>> f.tell()
+77
+>>> f.seek(1,76)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid whence (76, should be 0, 1 or 2)
+>>> f1=open('tet',,rb+',0)
+  File "<stdin>", line 1
+    f1=open('tet',,rb+',0)
+                  ^
+SyntaxError: invalid syntax
+>>> f1=open('tet',rb+',0)
+  File "<stdin>", line 1
+    f1=open('tet',rb+',0)
+                        ^
+SyntaxError: EOL while scanning string literal
+>>> f1=open('tet',rb+')
+  File "<stdin>", line 1
+    f1=open('tet',rb+')
+                      ^
+SyntaxError: EOL while scanning string literal
+>>> f1=open('tet','rb+',-1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'tet'
+>>> f1=open('ganesh.html','rb+',-1)
+>>> q=f1.readline()
+>>> q
+b'<html>\n'
+>>> f1.seek(10)
+10
+>>> f1.read(1)
+b'a'
+>>> f1.seek(-10,2)
+674
+>>> f1.read()
+b'\n</html>\n\n'
+>>> f1.seek(-10)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+OSError: [Errno 22] Invalid argument
+>>> f1.seek(-10,1)
+674
+>>> f1.read()
+b'\n</html>\n\n'
+>>> f1.seek(0)
+0
+>>> f1.seek(10,1)
+10
+>>> f1.read(1)
+b'a'
+>>> f1.seek(-10,1)
+1
+>>> f1.read(1)
+b'h'
+>>> f1.seek(10,1)
+12
+>>> f1.read(-10)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: read length must be positive or -1
+>>> f1.read(-1)
+b'>\n    <style>\n</style>   \n<title> Ganesh</title>\n</head>\n<body>\n    \n    <br> this is ganesh \n    <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1">Click here to access the Gmail </a>\n    <h1><i>Google Maps</i></h1>\n    <p1><a href="https://www.google.com/maps/@12.8371605,80.2246172,15z">Google Maps</a><br>\n    </p1>\n    <p1>mostly speaking this this is my first document in  ubuntu Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, eum maiores aliquid eligendi eaque veniam repellat architecto. Odio labore harum ducimus dolor ex, exercitationem facilis. Consequatur, dolorum. Odit, earum rem?  </p>\n    </body>\n\n</html>\n\n'
+>>>  
+

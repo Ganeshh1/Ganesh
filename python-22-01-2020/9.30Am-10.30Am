@@ -1,0 +1,209 @@
+aspire1326@aspire1326:~$ python3.5
+Python 3.5.2 (default, Oct  8 2019, 13:06:37) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from pathlib import Path
+>>> print(Purepath)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Purepath' is not defined
+>>> print(Purepath('/etc')
+... )
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Purepath' is not defined
+>>> p=Path('.')
+>>> print(p)
+.
+>>> [x for x in p.iterdir() if x.is_dir()]
+[PosixPath('Desktop'), PosixPath('.local'), PosixPath('python'), PosixPath('Templates'), PosixPath('.compiz'), PosixPath('.pki'), PosixPath('Documents'), PosixPath('Sky_received_files'), PosixPath('Downloads'), PosixPath('.cache'), PosixPath('.gconf'), PosixPath('Videos'), PosixPath('.sky2'), PosixPath('Ganesh'), PosixPath('.gnupg'), PosixPath('.remmina'), PosixPath('Python-3.6.0'), PosixPath('.mozilla'), PosixPath('Pictures'), PosixPath('.nano'), PosixPath('Public'), PosixPath('.git'), PosixPath('.config'), PosixPath('Music'), PosixPath('.thunderbird'), PosixPath('.vscode'), PosixPath('.gnome2')]
+>>> f=open("Default.html",'r')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'Default.html'
+>>> f=open("default.html",'r')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'default.html'
+>>> 
+KeyboardInterrupt
+>>> 
+aspire1326@aspire1326:~$ cd desktop
+bash: cd: desktop: No such file or directory
+aspire1326@aspire1326:~$ ls
+Desktop    examples.desktop  Pictures  Python-3.6.0         Templates
+Documents  Ganesh            Public    Python-3.6.0.tar.xz  Videos
+Downloads  Music             python    Sky_received_files
+aspire1326@aspire1326:~$ cd Desktop
+aspire1326@aspire1326:~/Desktop$ ls
+default.html  js1.js          newdesign.html
+ganesh.html   loginpage.html  Untitled Document
+aspire1326@aspire1326:~/Desktop$ python3.5
+Python 3.5.2 (default, Oct  8 2019, 13:06:37) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> f=open('default.html','r')
+>>> for i in f:
+...     print(i)
+... 
+<html>
+
+    <head>
+
+    <title>Ganesh Javascript</title>
+
+    <script type="text/Javascript">
+
+
+
+        function g(){
+
+ 
+
+                var text=document.getElementById("id1").value;
+
+                var r=/^([0-9 a-z A-Z \.-]+)@([0-9 a-z A-Z \.-]+).([a-z]{2,20})$/;
+
+                if(r.test(text)){
+
+                    document.getElementById("s1").innerHTML="Valid";
+
+                    document.getElementById("s1").style.visibility="visible";
+
+                    document.getElementById("s1").style.color="green";
+
+
+
+
+
+ }
+
+ else{
+
+     document.getElementById("id1").style.border="solid 3px red";
+
+    document.getElementById("s1").innerHTML="InValid";
+
+    document.getElementById("s1").style.visibility="visible";
+
+    document.getElementById("s1").style.color="red";
+
+
+
+ }
+
+        }
+
+        function f(){
+
+ 
+
+
+
+        }
+
+
+
+
+
+        
+
+
+
+</script>
+
+      
+
+</head>
+
+    <body>
+
+    <input type="text" id="id1" >
+
+    <label id="s1" style="color: crimson;visibility:hidden">Invalid</label>
+
+    <button onclick="g()"> GAnesh</button>    
+
+    </body>    
+
+
+
+</html>
+
+>>> f1=open('Python','w')
+>>> for i in f:
+...     f1.write(i)
+...     
+... 
+>>> print(f1)
+<_io.TextIOWrapper name='Python' mode='w' encoding='UTF-8'>
+>>> for i in f1:
+...     print(i)
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+io.UnsupportedOperation: not readable
+>>> f1.close()
+>>> f1.open('Python','r')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: '_io.TextIOWrapper' object has no attribute 'open'
+>>> f1=f1.write('Python','w')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: write() takes exactly one argument (2 given)
+>>> f1=f1.open('Python','w')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: '_io.TextIOWrapper' object has no attribute 'open'
+>>> f1=open('Python','w')
+>>> f1.write("Hello Ganesh")
+12
+>>> f1.write("Helllienhdliwnhedlk")
+19
+>>> f=open("ganesh.html",'r')
+>>> for i in f:
+...     f1.write(i)
+... 
+7
+7
+12
+12
+23
+8
+7
+5
+25
+117
+32
+93
+10
+304
+12
+1
+8
+1
+>>> f=open('py.html','w')
+>>> f1=open('ganesh.html','r')
+>>> for i in f1:
+...     f.write(i)
+... 
+7
+7
+12
+12
+23
+8
+7
+5
+25
+117
+32
+93
+10
+304
+12
+1
+8
+1
+

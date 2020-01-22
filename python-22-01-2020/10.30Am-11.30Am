@@ -1,0 +1,200 @@
+>>> import string
+>>> s="hello ganesh"
+>>> str(s)
+'hello ganesh'
+>>> repr(s)
+"'hello ganesh'"
+>>> len(str(s))
+12
+>>> len(repr(s))
+14
+>>> str(1/17)
+'0.058823529411764705'
+>>> repr(1/17)
+'0.058823529411764705'
+>>> s="hello"+repr(s)
+>>> s
+"hello'hello ganesh'"
+>>> repr([12,33,313,])
+'[12, 33, 313]'
+>>> [12,33,313,]
+[12, 33, 313]
+>>> for i in range(0,10):
+...     print("{0:2d} {1:3d} {2:4d}".format(x,x**2,x**3)
+... 
+... 
+... )
+... )
+  File "<stdin>", line 6
+    )
+    ^
+SyntaxError: invalid syntax
+>>> for i in range(0,10):
+...     print("{0:2d} {1:3d} {2:4d}".format(x,x**2,x**3))
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+NameError: name 'x' is not defined
+>>>     print("{0:2d} {1:3d} {2:4d}".format(i,i**2,i**3))
+  File "<stdin>", line 1
+    print("{0:2d} {1:3d} {2:4d}".format(i,i**2,i**3))
+    ^
+IndentationError: unexpected indent
+>>> 
+>>> for i in range(0,10):
+...     print("{0:2d} {1:3d} {2:4d}".format(i,i**2,i**3))
+... 
+ 0   0    0
+ 1   1    1
+ 2   4    8
+ 3   9   27
+ 4  16   64
+ 5  25  125
+ 6  36  216
+ 7  49  343
+ 8  64  512
+ 9  81  729
+>>>     print("{0} {1:3d} {2:4d}".format(i,i**2,i**3))
+  File "<stdin>", line 1
+    print("{0} {1:3d} {2:4d}".format(i,i**2,i**3))
+    ^
+IndentationError: unexpected indent
+>>> for i in range(0,10):
+...     print("{0} {1:3d} {2:4d}".format(i,i**2,i**3))
+... 
+0   0    0
+1   1    1
+2   4    8
+3   9   27
+4  16   64
+5  25  125
+6  36  216
+7  49  343
+8  64  512
+9  81  729
+>>> for i in range(0,10):
+...     print(str(x).ljust(3),str(x**2).ljust(4),repr(x**3).rjust(4))
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+NameError: name 'x' is not defined
+>>> for x in range(0,10):
+...     print(str(x).ljust(3),str(x**2).ljust(4),repr(x**3).rjust(4))
+... 
+0   0       0
+1   1       1
+2   4       8
+3   9      27
+4   16     64
+5   25    125
+6   36    216
+7   49    343
+8   64    512
+9   81    729
+>>> for x in range(0,10):
+...     print(str(x).ljust(3),str(x**2).center(4),repr(x**3).rjust(4))
+... 
+0    0      0
+1    1      1
+2    4      8
+3    9     27
+4    16    64
+5    25   125
+6    36   216
+7    49   343
+8    64   512
+9    81   729
+>>> for x in range(0,20):
+...     print(str(x).ljust(3),str(x**2).center(4),repr(x**3).rjust(4))
+... 
+0    0      0
+1    1      1
+2    4      8
+3    9     27
+4    16    64
+5    25   125
+6    36   216
+7    49   343
+8    64   512
+9    81   729
+10  100  1000
+11  121  1331
+12  144  1728
+13  169  2197
+14  196  2744
+15  225  3375
+16  256  4096
+17  289  4913
+18  324  5832
+19  361  6859
+>>>     print(str(x).ljust(3),str(x**2).center(4)[0:1],repr(x**3).rjust(4))
+  File "<stdin>", line 1
+    print(str(x).ljust(3),str(x**2).center(4)[0:1],repr(x**3).rjust(4))
+    ^
+IndentationError: unexpected indent
+>>> for x in range(0,20):
+...     print(str(x).ljust(3),str(x**2).center(4)[0:1],repr(x**3).rjust(4))
+... 
+0        0
+1        1
+2        8
+3       27
+4       64
+5      125
+6      216
+7      343
+8      512
+9      729
+10  1 1000
+11  1 1331
+12  1 1728
+13  1 2197
+14  1 2744
+15  2 3375
+16  2 4096
+17  2 4913
+18  3 5832
+19  3 6859
+>>> for x in range(0,20):
+...     print(str(x).ljust(3),str(x**2).zfill()[0:1],repr(x**3).rjust(4))
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+TypeError: zfill() takes exactly 1 argument (0 given)
+>>>     print(str(x).ljust(3),str(x**2).zfill(),repr(x**3).rjust(4))
+  File "<stdin>", line 1
+    print(str(x).ljust(3),str(x**2).zfill(),repr(x**3).rjust(4))
+    ^
+IndentationError: unexpected indent
+>>> 
+>>> for x in range(0,20):
+...     print(str(x).ljust(3),str(x**2).zfill(),repr(x**3).rjust(4))
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+TypeError: zfill() takes exactly 1 argument (0 given)
+>>> for x in range(0,20):
+...     print(str(x).ljust(3),str(x**2).zfill(10),repr(x**3).rjust(4))
+... 
+0   0000000000    0
+1   0000000001    1
+2   0000000004    8
+3   0000000009   27
+4   0000000016   64
+5   0000000025  125
+6   0000000036  216
+7   0000000049  343
+8   0000000064  512
+9   0000000081  729
+10  0000000100 1000
+11  0000000121 1331
+12  0000000144 1728
+13  0000000169 2197
+14  0000000196 2744
+15  0000000225 3375
+16  0000000256 4096
+17  0000000289 4913
+18  0000000324 5832
+19  0000000361 6859
+>>> print('Hi {name} is a {x}'.format(name='Ganesh',x='young boy'))
+Hi Ganesh is a young boy

@@ -1,0 +1,68 @@
+>>>import math
+
+>>>content = dir(math)
+>>>print content
+['__doc__', '__file__', '__name__', 'acos', 'asin', 'atan','atan2', 'ceil', 'cos', 'cosh', 'degrees', 'e', 'exp', 'fabs', 'floor', 'fmod', 'frexp','hypot', 'ldexp', 'log','log10', 'modf', 'pi', 'pow', 'radians', 'sin', 'sinh','sqrt', 'tan', 'tanh']
+>>>from math import factorial as x
+>>>y=x
+>>>y(5)
+120
+>>> import string
+>>> dir(string)
+['Formatter', 'Template', '_ChainMap', '_TemplateMetaclass', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_re', '_string', 'ascii_letters', 'ascii_lowercase', 'ascii_uppercase', 'capwords', 'digits', 'hexdigits', 'octdigits', 'printable', 'punctuation', 'whitespace']
+>>>dir()
+['__builtins__', '__doc__', '__loader__', '__name__', '__package__', '__spec__', '__warningregistry__', 'f', 'f1', 'io', 'os', 'q']
+>>dir(io)
+['BlockingIOError', 'BufferedIOBase', 'BufferedRWPair', 'BufferedRandom', 'BufferedReader', 'BufferedWriter', 'BytesIO', 'DEFAULT_BUFFER_SIZE', 'FileIO', 'IOBase', 'IncrementalNewlineDecoder', 'OpenWrapper', 'RawIOBase', 'SEEK_CUR', 'SEEK_END', 'SEEK_SET', 'StringIO', 'TextIOBase', 'TextIOWrapper', 'UnsupportedOperation', '__all__', '__author__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '_io', 'abc', 'open']
+
+
+>>>
+>>>
+>>>import Ganesh
+>>> import Ganesh
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: No module named 'Ganesh'
+>>> os.getcwd()
+'/home/aspire1326/Downloads'
+>>> os.chdir('/home/aspire1326')
+>>> os.listdir()
+['Desktop', '.local', 'python', 'Templates', '.python_history', '.compiz', '.pki', '.bash_logout', 'Documents', '.profile', 'Sky_received_files', 'Downloads', '.cache', '.gconf', 'Videos', '.sky2', '.wget-hsts', 'Ganesh', '.dmrc', '.gnupg', '.remmina', 'Python-3.6.0', '.mozilla', 'Pictures', '.ICEauthority', '.Xauthority', '.bash_history', '.gitconfig', '.nano', 'Python-3.6.0.tar.xz', 'Public', 'examples.desktop', '.xsession-errors.old', '.git', '.bashrc', '.config', 'Music', '.xsession-errors', '.sudo_as_admin_successful', '.thunderbird', '.vscode', '.gnome2']
+>>> 
+>>> os.chdir('/home/aspire1326/Ganesh')
+>>> os.listdir()
+['python', 'python-1', 'python-20-01-2020', 'python-11-02-2020', 'python-16-01-2020', 'python-22-01-2020', 'python-11-01-2020', 'python-14-01-2020 and 17-01-2020', 'python-21-01-2020', 'python-10-01-2020', 'Documentation', '.git', 'python-day-2']
+>>> os.chdir('/home/aspire1326/Ganesh/python-22-01-2020')
+>>> os.listdir()
+['9.30Am-10.30Am', '1.30Pm-2.30Pm', '4.30Pm-5.30Pm', '11.30Am-12.30Am', '10.30Am-11.30Am', 'Ganesh', 'Doubts', '3.30Pm-4.30Pm', '2.30Pm-3.30Pm']
+>>> import Ganesh
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/aspire1326/Ganesh/python-22-01-2020/Ganesh/__init__.py", line 1, in <module>
+    import fact
+ImportError: No module named 'fact'
+>>> import Ganesh
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/aspire1326/Ganesh/python-22-01-2020/Ganesh/__init__.py", line 1, in <module>
+    import fact
+ImportError: No module named 'fact'
+>>> os.chdir('/home/aspire1326/Ganesh/python-22-01-2020')
+>>> import Ganesh
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/aspire1326/Ganesh/python-22-01-2020/Ganesh/__init__.py", line 1, in <module>
+    import fact
+ImportError: No module named 'fact'
+>>> import Ganesh
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/aspire1326/Ganesh/python-22-01-2020/Ganesh/__init__.py", line 2, in <module>
+    from GAnesh import printscr
+ImportError: No module named 'GAnesh'
+>>> import Ganesh
+>>> Ganesh.fact.fact1(10)
+3628800
+>>> Ganesh.printscr.printscr()
+Hello Ganesh
+
