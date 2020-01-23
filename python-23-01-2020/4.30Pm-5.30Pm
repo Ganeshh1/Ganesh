@@ -1,0 +1,133 @@
+>>> import re
+>>> re.compile('^a..$').match('ann')
+<_sre.SRE_Match object; span=(0, 3), match='ann'>
+>>> t=re.compile('^a..$').match('ann')
+>>> t.group()
+'ann'
+>>> t.groups()
+()
+>>> t.group()
+'ann'
+>>> t.group(0)
+'ann'
+>>> t.group(1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: no such group
+>>> t.start()
+0
+>>> t.end()
+3
+>>> t.span()
+(0, 3)
+>>> t.span(1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: no such group
+>>> t.re
+re.compile('^a..$')
+>>> t=re.compile('[abc]').match('acbd de ca')
+>>> t.group()
+'a'
+>>> t=re.compile('[abc+]').match('acbd de ca')
+>>> t
+<_sre.SRE_Match object; span=(0, 1), match='a'>
+>>> t=re.compile('[abc]+').match('acbd de ca')
+>>> t
+<_sre.SRE_Match object; span=(0, 3), match='acb'>
+>>> t=re.compile('[abc]{0,20}').match('acbd de ca')
+>>> t
+<_sre.SRE_Match object; span=(0, 3), match='acb'>
+>>> t=re.compile('[a-z]{0,20}').match('acbd de ca')
+>>> t
+<_sre.SRE_Match object; span=(0, 4), match='acbd'>
+>>> t=re.compile('[a-z\s]{0,20}').match('acbd de ca')
+>>> t
+<_sre.SRE_Match object; span=(0, 10), match='acbd de ca'>
+>>> t=re.compile('[..]{0,20}').match('acbd de ca')
+>>> t
+<_sre.SRE_Match object; span=(0, 0), match=''>
+>>> t=re.compile('..').match('acbd de ca')
+>>> t
+<_sre.SRE_Match object; span=(0, 2), match='ac'>
+>>> t=re.compile('^[\sa-z]{0,10}').match('acbd de ca')
+>>> t
+<_sre.SRE_Match object; span=(0, 10), match='acbd de ca'>
+>>> t=re.compile('[^\sa-z]{0,10}').match('acbd de ca')
+>>> t
+<_sre.SRE_Match object; span=(0, 0), match=''>
+>>> t=re.compile('[\sa-z]{0,10}$').match('acbd de ca')
+>>> t
+<_sre.SRE_Match object; span=(0, 10), match='acbd de ca'>
+>>> t=re.compile('*[\sa-z]{0,10}').match('acbd de ca')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.5/re.py", line 224, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.5/re.py", line 293, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.5/sre_compile.py", line 536, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.5/sre_parse.py", line 829, in parse
+    p = _parse_sub(source, pattern, 0)
+  File "/usr/lib/python3.5/sre_parse.py", line 437, in _parse_sub
+    itemsappend(_parse(source, state))
+  File "/usr/lib/python3.5/sre_parse.py", line 638, in _parse
+    source.tell() - here + len(this))
+sre_constants.error: nothing to repeat at position 0
+>>> t=re.compile('[\sa-z]{0,10}*[a-z]').match('acbd de ca')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.5/re.py", line 224, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.5/re.py", line 293, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.5/sre_compile.py", line 536, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.5/sre_parse.py", line 829, in parse
+    p = _parse_sub(source, pattern, 0)
+  File "/usr/lib/python3.5/sre_parse.py", line 437, in _parse_sub
+    itemsappend(_parse(source, state))
+  File "/usr/lib/python3.5/sre_parse.py", line 641, in _parse
+    source.tell() - here + len(this))
+sre_constants.error: multiple repeat at position 13
+>>> t=re.compile('[\sa-z]{0,10}*[a-z]{0,1}').match('acbd de ca')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.5/re.py", line 224, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.5/re.py", line 293, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.5/sre_compile.py", line 536, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.5/sre_parse.py", line 829, in parse
+    p = _parse_sub(source, pattern, 0)
+  File "/usr/lib/python3.5/sre_parse.py", line 437, in _parse_sub
+    itemsappend(_parse(source, state))
+  File "/usr/lib/python3.5/sre_parse.py", line 641, in _parse
+    source.tell() - here + len(this))
+sre_constants.error: multiple repeat at position 13
+>>> t=re.compile('[\sa-z]*[a-z]{0,1}').match('acbd de ca')
+>>> t
+<_sre.SRE_Match object; span=(0, 10), match='acbd de ca'>
+>>> t=re.compile('[\sa-z]*[a-z]').match('acbd de ca')
+>>> t
+<_sre.SRE_Match object; span=(0, 10), match='acbd de ca'>
+>>> t=re.compile('[\sa-z]+[a-z]').match('acbd de ca')
+>>> t
+<_sre.SRE_Match object; span=(0, 10), match='acbd de ca'>
+>>> t=re.compile('[\s]+[a-z]').match('        acbd de ca')
+>>> t
+<_sre.SRE_Match object; span=(0, 9), match='        a'>
+>>> t=re.compile('[\s]?[a-z]').match('        acbd de ca')
+>>> t
+>>> t=re.compile('[\s]?[a-z]').match(' acbd de ca')
+>>> t
+<_sre.SRE_Match object; span=(0, 2), match=' a'>
+>>> t=re.compile('[\s]?[a-z|A-z|0-9]').match(' Acbd de ca')
+>>> t
+<_sre.SRE_Match object; span=(0, 2), match=' A'>
+>>> t=re.compile('[\s]?[a-z|A-z|0-9]').match(' 0cbd de ca')
+>>> t
+<_sre.SRE_Match object; span=(0, 2), match=' 0'>
+

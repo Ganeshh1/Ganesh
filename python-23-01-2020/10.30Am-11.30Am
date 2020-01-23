@@ -1,0 +1,86 @@
+>>> if(re.match(pattern,'[aba123]'):)
+  File "<stdin>", line 1
+    if(re.match(pattern,'[aba123]'):)
+                                   ^
+SyntaxError: invalid syntax
+>>> if(re.match(pattern,'[aba123]')):
+...     print('hello')
+... 
+>>> r=re.match('abchdkjhs sdkjhsdkj',[asdad])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'asdad' is not defined
+>>> r=re.match('abchdkjhs sdkjhsdkj','[asdad]')
+>>> r
+>>> r
+>>> print(r)
+None
+>>> t=[abc]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'abc' is not defined
+>>> t='[abc]'
+>>> r=re.match(pattern,t)
+>>> print(r)
+None
+>>> pattern
+'^a....$'
+>>> p='askjdhaksjdgaksjd'
+>>> r=re.match(p,t)
+>>> print(r)
+None
+>>> t='[a-c]'
+>>> t
+'[a-c]'
+>>> r=re.match(p,t)
+>>> print(r)
+None
+>>> t=['a-c']
+>>> r=re.match(p,t)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.5/re.py", line 163, in match
+    return _compile(pattern, flags).match(string)
+TypeError: expected string or bytes-like object
+>>> t='['a-c']'
+  File "<stdin>", line 1
+    t='['a-c']'
+>>> r=re.complie('[a-z]')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 're' has no attribute 'complie'
+>>> r=re.compile('[a-z]')
+>>> t=re.match('asudjhasdjkhasdjlh',r)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.5/re.py", line 163, in match
+    return _compile(pattern, flags).match(string)
+TypeError: expected string or bytes-like object
+>>> r
+re.compile('[a-z]')
+>>> t=re.match('asudjhasdjkhasdjlh',r)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.5/re.py", line 163, in match
+    return _compile(pattern, flags).match(string)
+TypeError: expected string or bytes-like object
+>>> dir(re)
+['A', 'ASCII', 'DEBUG', 'DOTALL', 'I', 'IGNORECASE', 'L', 'LOCALE', 'M', 'MULTILINE', 'S', 'Scanner', 'T', 'TEMPLATE', 'U', 'UNICODE', 'VERBOSE', 'X', '_MAXCACHE', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '__version__', '_alphanum_bytes', '_alphanum_str', '_cache', '_cache_repl', '_compile', '_compile_repl', '_expand', '_locale', '_pattern_type', '_pickle', '_subx', 'compile', 'copyreg', 'error', 'escape', 'findall', 'finditer', 'fullmatch', 'match', 'purge', 'search', 'split', 'sre_compile', 'sre_parse', 'sub', 'subn', 'sys', 'template']
+>>> t=re.compile('[a-z]+').match('asudjhasdjkhasdjlh',r)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: '_sre.SRE_Pattern' object cannot be interpreted as an integer
+>>> t=re.compile('[a-z]+').match('asudjhasdjkhasdjlh')
+>>> t
+<_sre.SRE_Match object; span=(0, 18), match='asudjhasdjkhasdjlh'>
+>>> t=re.match('asudjhasdjkhasdjlh')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: match() missing 1 required positional argument: 'string'
+>>> t=re.match('asudjhasdjkhasdjlh','[a-z]+')
+>>> t
+>>> print(t)
+None
+>>> 
+
+

@@ -1,0 +1,112 @@
+>>> t=re.match('asudjhasdjkhasdjlh','[a-z]+')
+>>> t
+>>> print(t)
+None
+>>> t=re.compile('..').match('aasjhdj')
+>>> print(t)
+<_sre.SRE_Match object; span=(0, 2), match='aa'>
+>>> t=re.compile('..+').match('aasjhdj')
+>>> print(t)
+<_sre.SRE_Match object; span=(0, 7), match='aasjhdj'>
+>>> t=re.compile('^+').match('aasjhdj')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.5/re.py", line 224, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.5/re.py", line 293, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.5/sre_compile.py", line 536, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.5/sre_parse.py", line 829, in parse
+    p = _parse_sub(source, pattern, 0)
+  File "/usr/lib/python3.5/sre_parse.py", line 437, in _parse_sub
+    itemsappend(_parse(source, state))
+  File "/usr/lib/python3.5/sre_parse.py", line 638, in _parse
+    source.tell() - here + len(this))
+sre_constants.error: nothing to repeat at position 1
+>>> t=re.compile('^a+').match('aasjhdj')
+>>> print(t)
+<_sre.SRE_Match object; span=(0, 2), match='aa'>
+>>> t=re.compile('.+.j$').match('aasjhdj')
+>>> print(t)
+<_sre.SRE_Match object; span=(0, 7), match='aasjhdj'>
+>>> t=re.compile('a$').match('a')
+>>> print(t)
+<_sre.SRE_Match object; span=(0, 1), match='a'>
+>>> t=re.compile('m*n*').match('masddsgsasnashgdhagd')
+>>> print(t)
+<_sre.SRE_Match object; span=(0, 1), match='m'>
+>>> t=re.compile('m*n').match('masddsgsasnashgdhagd')
+>>> print(t)
+None
+>>> t=re.compile('m*n').match('masddsgsasnashgdhagdn')
+>>> print(t)
+None
+>>> t=re.compile('m*n').match('masddsgsasnn')
+>>> print(t)
+None
+>>> t=re.compile('ma*n').match('mann')
+>>> print(t)
+<_sre.SRE_Match object; span=(0, 3), match='man'>
+>>> t=re.compile('ma*n').match('mannnnnnnnnn')
+>>> print(t)
+<_sre.SRE_Match object; span=(0, 3), match='man'>
+>>> t=re.compile('ma**n').match('mannnnnnnnnn')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.5/re.py", line 224, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.5/re.py", line 293, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.5/sre_compile.py", line 536, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.5/sre_parse.py", line 829, in parse
+    p = _parse_sub(source, pattern, 0)
+  File "/usr/lib/python3.5/sre_parse.py", line 437, in _parse_sub
+    itemsappend(_parse(source, state))
+  File "/usr/lib/python3.5/sre_parse.py", line 641, in _parse
+    source.tell() - here + len(this))
+sre_constants.error: multiple repeat at position 3
+>>> t=re.compile('ma*n').match('maaaaaaaaaaaaaaaaaaaaaannnnnnnnnn')
+>>> print(t)
+<_sre.SRE_Match object; span=(0, 24), match='maaaaaaaaaaaaaaaaaaaaaan'>
+>>> t=re.compile('m+a*n+').match('maaaaaaaaaaaaaaaaaaaaaannnnnnnnnn')
+>>> print(t)
+<_sre.SRE_Match object; span=(0, 33), match='maaaaaaaaaaaaaaaaaaaaaannnnnnnnnn'>
+>>> t=re.compile('m?a*n+').match('maaaaaaaaaaaaaaaaaaaaaannnnnnnnnn')
+>>> print(t)
+<_sre.SRE_Match object; span=(0, 33), match='maaaaaaaaaaaaaaaaaaaaaannnnnnnnnn'>
+>>> q=re.compile('[a-z]{10:10}')
+>>> q
+re.compile('[a-z]{10:10}')
+>>> r=q.match("ganeshkuma")
+>>> print(r)
+None
+>>> q=re.compile('[a-z]{10:10}').match('ganeshkuma')
+>>> print(q)
+None
+>>> q
+>>> q=re.compile('[a-z]+{10:10}').match('ganeshkuma')
+>>> q
+>>> print(q)
+None
+>>> q=re.compile('[a-z]+').match('ganeshkuma')
+>>> q
+<_sre.SRE_Match object; span=(0, 10), match='ganeshkuma'>
+>>> q=re.compile('[a-z]+{0,10}').match('ganeshkuma')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.5/re.py", line 224, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.5/re.py", line 293, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.5/sre_compile.py", line 536, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.5/sre_parse.py", line 829, in parse
+    p = _parse_sub(source, pattern, 0)
+  File "/usr/lib/python3.5/sre_parse.py", line 437, in _parse_sub
+    itemsappend(_parse(source, state))
+  File "/usr/lib/python3.5/sre_parse.py", line 641, in _parse
+    source.tell() - here + len(this))
+sre_constants.error: multiple repeat at position 6
+

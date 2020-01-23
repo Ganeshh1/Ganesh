@@ -1,0 +1,170 @@
+>>> q=re.compile('[a-z]+').match('ganeshkuma')
+>>> q
+<_sre.SRE_Match object; span=(0, 10), match='ganeshkuma'>
+>>> q=re.compile('[a-z]+{0,10}').match('ganeshkuma')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.5/re.py", line 224, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.5/re.py", line 293, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.5/sre_compile.py", line 536, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.5/sre_parse.py", line 829, in parse
+    p = _parse_sub(source, pattern, 0)
+  File "/usr/lib/python3.5/sre_parse.py", line 437, in _parse_sub
+    itemsappend(_parse(source, state))
+  File "/usr/lib/python3.5/sre_parse.py", line 641, in _parse
+    source.tell() - here + len(this))
+sre_constants.error: multiple repeat at position 6
+>>> q=re.compile('[a-z]+{0,10}').match('ganeshkuma')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.5/re.py", line 224, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.5/re.py", line 293, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.5/sre_compile.py", line 536, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.5/sre_parse.py", line 829, in parse
+    p = _parse_sub(source, pattern, 0)
+  File "/usr/lib/python3.5/sre_parse.py", line 437, in _parse_sub
+    itemsappend(_parse(source, state))
+  File "/usr/lib/python3.5/sre_parse.py", line 641, in _parse
+    source.tell() - here + len(this))
+sre_constants.error: multiple repeat at position 6
+>>> q=re.compile('[a-z]{0,10}+').match('ganeshkuma')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.5/re.py", line 224, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.5/re.py", line 293, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.5/sre_compile.py", line 536, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.5/sre_parse.py", line 829, in parse
+    p = _parse_sub(source, pattern, 0)
+  File "/usr/lib/python3.5/sre_parse.py", line 437, in _parse_sub
+    itemsappend(_parse(source, state))
+  File "/usr/lib/python3.5/sre_parse.py", line 641, in _parse
+    source.tell() - here + len(this))
+sre_constants.error: multiple repeat at position 11
+>>> q=re.compile('[a-z]{0,10}').match('ganeshkuma')
+>>> q
+<_sre.SRE_Match object; span=(0, 10), match='ganeshkuma'>
+>>> q=re.compile('g|a').match('ganeshkuma')
+>>> q
+<_sre.SRE_Match object; span=(0, 1), match='g'>
+>>> q=re.compile('(g|a|)anesh').match('ganeshkuma')
+>>> q
+<_sre.SRE_Match object; span=(0, 6), match='ganesh'>
+>>> q=re.compile('(g|a|)anesh').match('ganeshkumar is a very good boy')
+>>> q
+<_sre.SRE_Match object; span=(0, 6), match='ganesh'>
+>>> q=re.compile('\Aga').match('ganeshkumar is a very good boy')
+>>> q
+<_sre.SRE_Match object; span=(0, 2), match='ga'>
+>>> q=re.compile('\Aga|\Ais').match('ganeshkumar is a very good boy')
+>>> q
+<_sre.SRE_Match object; span=(0, 2), match='ga'>
+>>> q=re.compile('boy\b').match('ganeshkumar is a very good boy')
+>>> g
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'g' is not defined
+>>> q
+>>> print(q)
+None
+>>> q=re.compile('boy\b').match('ganeshkumar is a very good boy')
+>>> q
+>>> q=re.compile('boy\B').match('ganeshkumar is a very good boy')
+>>> q
+>>> q=re.compile('oy\b').match('ganeshkumar is a very good boy')
+>>> q
+>>> q=re.compile('\bboy').match('ganeshkumar is a very good boy')
+>>> q
+>>> q=re.compile('\bboy').findall('ganeshkumar is a very good boy')
+>>> q
+[]
+>>> q=re.compile('\Ais').match('ganeshkumar is a very good boy')
+>>> a
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'a' is not defined
+>>> q
+>>> q=re.compile('\bgane').match('ganeshkumar is a very good boy')
+>>> q
+>>> q=re.compile('\bgan+').match('ganeshkumar is a very good boy')
+>>> q
+>>> q=re.compile('\bg.+').match('ganeshkumar is a very good boy')
+>>> q
+>>> q=re.compile('\d').matc
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: '_sre.SRE_Pattern' object has no attribute 'matc'
+>>> q=re.compile('\d').match('978707')
+>>> q
+<_sre.SRE_Match object; span=(0, 1), match='9'>
+>>> q=re.compile('\d{0,10}').match('978707')
+>>> q
+<_sre.SRE_Match object; span=(0, 6), match='978707'>
+>>> q=re.compile('\D+').match('97870ahkdjh7')
+>>> q
+>>> q=re.compile('\D').match('97870ahkdjh7')
+>>> q
+>>> q=re.compile('[^0-9]').match('97870ahkdjh7')
+>>> q
+>>> q=re.compile('[^0-9]+').match('97870ahkdjh7')
+>>> q
+>>> q=re.compile('[^0-9]+').match('ad97870ahkdjh7')
+>>> q
+<_sre.SRE_Match object; span=(0, 2), match='ad'>
+>>> q=re.compile('\s').match('ganeshkumar is a very good boy')
+>>> q
+>>> q=re.compile('\S').match('ganeshkumar is a very good boy')
+>>> q
+<_sre.SRE_Match object; span=(0, 1), match='g'>
+>>> q=re.compile('\s{0,100}').match('ganeshkumar is a very good boy')
+>>> q
+<_sre.SRE_Match object; span=(0, 0), match=''>
+>>> q=re.compile('\s{0,100}+').match('ganeshkumar is a very good boy')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.5/re.py", line 224, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.5/re.py", line 293, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.5/sre_compile.py", line 536, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.5/sre_parse.py", line 829, in parse
+    p = _parse_sub(source, pattern, 0)
+  File "/usr/lib/python3.5/sre_parse.py", line 437, in _parse_sub
+    itemsappend(_parse(source, state))
+  File "/usr/lib/python3.5/sre_parse.py", line 641, in _parse
+    source.tell() - here + len(this))
+sre_constants.error: multiple repeat at position 9
+>>> q=re.compile('\s+').match('ganeshkumar is a very good boy')
+>>> q
+>>> q=re.compile('_+').match('ganesh213dumar is a very good boy')
+>>> q
+>>> q=re.compile('_+').match('12ganesh213dumar is a very good boy')
+>>> q
+>>> q=re.compile('\w').match('12ganesh213dumar is a very good boy')
+>>> q
+<_sre.SRE_Match object; span=(0, 1), match='1'>
+>>> q=re.compile('[a-zA-Z0-9_]').match('12ganesh213dumar is a very good boy')
+>>> q
+<_sre.SRE_Match object; span=(0, 1), match='1'>
+>>> q=re.compile('[a-zA-Z0-9_]{0,100}').match('12ganesh213dumar is a very good boy')
+>>> q
+<_sre.SRE_Match object; span=(0, 16), match='12ganesh213dumar'>
+>>> q=re.compile('boy\b{0,30}').match('ganeshkumar is a very good boy')
+>>> q
+>>> q=re.compile('\bboy\b{0,30}').match('ganeshkumar is a very good boy')
+>>> q
+>>> q=re.compile('\b boy \b{0,30}').match('ganeshkumar is a very good boy')
+>>> q
+>>> q=re.compile('boy \b{0,30}').match('ganeshkumar is a very good boy')
+>>> q
+>>> 
+

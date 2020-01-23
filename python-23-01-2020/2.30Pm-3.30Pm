@@ -1,0 +1,51 @@
+>>> import re
+>>> re.findall('\d+','string functions')
+[]
+>>> re.findall('\d+','string functio1233n56s')
+['1233', '56']
+>>> sum(int(re.findall('\d+','string functio1233n56s'))
+... )
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+>>> s=re.findall('\d+','string functio1233n56s')
+>>> sum(int(s))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+>>> s=[int(i) for i in s]
+>>> s
+[1233, 56]
+>>> sum(s)
+1289
+>>> re.splir('\d+',"akshgdasfs6dg4e654g6s5df46s5df4gs6d5f46s55f4a6s5f46s8fd46s85df46s54f")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 're' has no attribute 'splir'
+>>> re.split('\d+',"akshgdasfs6dg4e654g6s5df46s5df4gs6d5f46s55f4a6s5f46s8fd46s85df46s54f")
+['akshgdasfs', 'dg', 'e', 'g', 's', 'df', 's', 'df', 'gs', 'd', 'f', 's', 'f', 'a', 's', 'f', 's', 'fd', 's', 'df', 's', 'f']
+>>> re.splir('a',"akshgdasfs6dg4e654g6s5df46s5df4gs6d5f46s55f4a6s5f46s8fd46s85df46s54f")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 're' has no attribute 'splir'
+>>> re.split('a',"akshgdasfs6dg4e654g6s5df46s5df4gs6d5f46s55f4a6s5f46s8fd46s85df46s54f")
+['', 'kshgd', 'sfs6dg4e654g6s5df46s5df4gs6d5f46s55f4', '6s5f46s8fd46s85df46s54f']
+>>> re.split('\d+',"gasdjhau1sd2a15r55")
+['gasdjhau', 'sd', 'a', 'r', '']
+>>> re.split('\d+',"gasdjhau1sd2a15r55",3)
+['gasdjhau', 'sd', 'a', 'r55']
+>>> re.split('\d+',"gasdjhau1sd2a15r55",4)
+['gasdjhau', 'sd', 'a', 'r', '']
+>>> re.split('\d+',"gasdjhau1sd2a15r55",5)
+['gasdjhau', 'sd', 'a', 'r', '']
+>>> re.split('\d+',"gasdjhau1sd2a15r55asdasd",5)
+['gasdjhau', 'sd', 'a', 'r', 'asdasd']
+>>> re.sub('\d+','',"askjd asjdhkasjd oiha ahush")
+'askjd asjdhkasjd oiha ahush'
+>>> re.sub('\d','',"askjd asjdhkasjd oiha ahush")
+'askjd asjdhkasjd oiha ahush'
+>>> re.sub('\D','',"askjd asjdhkasjd oiha ahush")
+''
+>>> re.subn('\D','',"askjd asjdhkasjd oiha ahush")
+('', 27)
+

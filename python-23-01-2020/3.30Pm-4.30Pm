@@ -1,0 +1,48 @@
+>>> p='(\d{4}).(\d{3})' 
+>>> match=re.search(p,'97887.0485')
+>>> match
+<_sre.SRE_Match object; span=(1, 9), match='7887.048'>
+>>> print(match)
+<_sre.SRE_Match object; span=(1, 9), match='7887.048'>
+>>> match.group()
+'7887.048'
+>>> match.group(1)
+'7887'
+>>> match.group(2)
+'048'
+>>> match.group(1,2)
+('7887', '048')
+>>> match.groups()
+('7887', '048')
+>>> match.start(0
+... )
+1
+>>> match.start()
+1
+>>> match.end()
+9
+>>> match.span()
+(1, 9)
+>>> match.span(1)
+(1, 5)
+>>> match.span(2)
+(6, 9)
+>>> match.re
+re.compile('(\\d{4}).(\\d{3})')
+>>> match.string
+'97887.0485'
+>>> re.findall('r[\n\r]',"ganesg \r asdhkjasdh \n')
+  File "<stdin>", line 1
+    re.findall('r[\n\r]',"ganesg \r asdhkjasdh \n')
+                                                  ^
+SyntaxError: EOL while scanning string literal
+>>> re.findall('r[\n\r]',"ganesg \r asdhkjasdh \n")
+[]
+>>> re.findall('r[\n\r]',"ganesg \n asdhkjasdh \r")
+[]
+>>> string = '\n and \r are escape sequences.'
+>>> re.findall(r'[\n\r]',string)
+['\n', '\r']
+>>> 
+
+

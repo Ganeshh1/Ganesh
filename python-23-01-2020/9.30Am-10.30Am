@@ -1,0 +1,37 @@
+import re
+>>> dir(re)
+['A', 'ASCII', 'DEBUG', 'DOTALL', 'I', 'IGNORECASE', 'L', 'LOCALE', 'M', 'MULTILINE', 'S', 'Scanner', 'T', 'TEMPLATE', 'U', 'UNICODE', 'VERBOSE', 'X', '_MAXCACHE', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '__version__', '_alphanum_bytes', '_alphanum_str', '_cache', '_cache_repl', '_compile', '_compile_repl', '_expand', '_locale', '_pattern_type', '_pickle', '_subx', 'compile', 'copyreg', 'error', 'escape', 'findall', 'finditer', 'fullmatch', 'match', 'purge', 'search', 'split', 'sre_compile', 'sre_parse', 'sub', 'subn', 'sys', 'template']
+>>> import os
+>>> os.getcwd()
+'/home/aspire1326/Ganesh/python-22-01-2020'
+>>> os.chdir('/home/aspire1326/Ganesh')
+>>> os.mkdir('python-23-01-2020')
+>>> os.listdir()
+['python', 'python-1', 'python-20-01-2020', 'python-11-02-2020', 'python-16-01-2020', 'python-23-01-2020', 'python-22-01-2020', 'python-11-01-2020', 'python-14-01-2020 and 17-01-2020', 'python-21-01-2020', 'python-10-01-2020', 'Documentation', '.git', 'python-day-2']
+>>> os.chdir('/home/aspire1326/Ganesh/python-23-01-2020')
+>>> f=open('9.30-10.30','w+')
+>>> os.rename('9.30-10.30','9.30Am-10.30Am')
+>>> f.read()
+''
+>>> import re
+>>> p='^shah$'
+>>> p.findall('sikjlikjlkh')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'findall'
+>>> pattern='^a...s$'
+>>> t='abyss'
+>>> r=re.match(pattern,t)
+>>> r
+<_sre.SRE_Match object; span=(0, 5), match='abyss'>
+>>> if(r):
+...     print('true')
+... 
+true
+>>> pattern='^a....$'
+>>> t='a'
+>>> r=re.match(pattern,t)
+>>> if(r):
+...     print('true')
+... 
+
