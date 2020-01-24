@@ -1,0 +1,52 @@
+==============================================================ASSERTION STATMENT=========================================================
+>>>def f():
+...    assert 1!=1
+...    print('Hello')
+>>>f()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 2, in f
+AssertionError
+>>> try:
+...     print('hello')
+...     assert 1!=1
+... except AssertionError as x:
+...     print('error')
+... 
+hello
+error
+>>> try:
+...     print('Hello')
+...     assert 1!=1,"Ganesh"
+... except AssertionError as x:
+...     print(x)
+... 
+Hello
+Ganesh
+>>> try:
+...     print('Hello')
+...     assert 1==1,"Ganesh"
+... except AssertionError as x:
+...     print(x)
+... 
+Hello
+>>> def f():
+...     assert 1!=1,"ganesh"
+... 
+>>> f()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 2, in f
+AssertionError: ganesh
+>>> def f():
+...     assert 1!=1,"ganesh"
+...     print('hi')
+... 
+>>> f()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 2, in f
+AssertionError: ganesh
+>>> 
+
+   
