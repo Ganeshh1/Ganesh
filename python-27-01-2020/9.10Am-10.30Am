@@ -1,0 +1,58 @@
+====================================================================DECORATORS==========================================================================
+
+def outer_FUNCTION():
+    message='hi'
+    def inner_function():
+        print(message)
+    return inner_function()
+outer_FUNCTION()
+
+def outer_FUNCTION(msg):
+    message=msg
+    def inner_function():
+        print(message)
+    return inner_function()
+outer_FUNCTION('hi')
+
+def outer_FUNCTION(msg,function):
+    function()
+    def inner_function():
+        print(msg)
+        return function
+    return inner_function
+def dis():
+    print('hello')
+dis=outer_FUNCTION('hi',dis)
+dis()
+
+
+def split_string(function):
+    def wrapper():
+        func = function()
+        splitted_string = func.split()
+        return splitted_string
+
+    return wrapper
+@split_string
+@uppercase_decorator
+def say_hi():
+    return 'hello there'
+say_hi()
+['HELLO', 'THERE']
+
+
+def decorator_with_arguments(function):
+    def wrapper_accepting_arguments(arg1, arg2):
+        print("My arguments are: {0}, {1}".format(arg1,arg2))
+        function(arg1, arg2)
+    return wrapper_accepting_arguments
+
+
+@decorator_with_arguments
+def cities(city_one, city_two):
+    print("Cities I love are {0} and {1}".format(city_one, city_two))
+
+cities("Nairobi", "Accra")
+
+My arguments are: Nairobi, Accra
+Cities I love are Nairobi and Accra 	
