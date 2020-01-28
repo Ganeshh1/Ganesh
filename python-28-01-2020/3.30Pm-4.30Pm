@@ -1,0 +1,46 @@
+=====================================================================FUNCTIONS=========================================================================
+# Define a function `plus()`
+def plus(a,b):
+  return a + b
+  
+# Create a `Summation` class
+class Summation(object):
+  def sum(self, a, b):
+    self.contents = a + b
+    return self.contents 
+=====================================================================LAMBDA============================================================================
+>>> double = lambda x: x * 2
+>>> double(10)
+20
+>>> new_list = list(map(lambda x: x * 2 , [1,2,3,4]))
+>>> new_list
+[2, 4, 6, 8]
+======================================================================FUNCTION WITH A FUNCTION========================================================
+def plus(a,b):
+	def plus1():
+		return(a+b)
+	def plus2():
+		return(a-b)
+	if(a<b):
+		return plus1()
+	else:
+		return plus2()
+=====================================================================CONSTRUCTOR AND DESTRUCTOR========================================================
+class Example:
+	def __init__(self):
+		print "Object created"
+	
+	# destructor
+	def __del__(self):
+	    print "Object destroyed"
+
+# creating an object
+myObj = Example()
+# to delete the object explicitly
+del myObj
+
+Object created
+Object destroyed
+
+====================================================================
+
