@@ -1,0 +1,24 @@
+class Calculator:
+
+   
+    @staticmethod
+    def multiplyNums(x, y):
+        return x + y
+
+print('Product:', Calculator.multiplyNums(15, 110))
+
+
+========================================================INSTANCE METHOD===============================================================================
+
+
+class Pizza:
+    def __init__(self, ingredients):
+        self.ingredients = ingredients
+
+    def __repr__(self):
+        return f'Pizza({self.ingredients!r})'
+
+>>> Pizza(['cheese', 'tomatoes'])
+Pizza(['cheese', 'tomatoes'])
+
+

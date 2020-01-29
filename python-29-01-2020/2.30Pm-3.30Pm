@@ -1,0 +1,13 @@
+==================================================================RDEUCE=============================================================
+>>> from functools import reduce
+>>>x=lambda a,y:a+y
+>>> print(reduce(x,m))
+285
+ from functools import reduce
+>>> #Mulitplier all numbers in a list
+... 
+>>> d=[2,3,5,7,11,13,17,19,23,29]
+>>> m=lambda x,y:x*y
+>>> reduce(m,d)
+6469693230
+
