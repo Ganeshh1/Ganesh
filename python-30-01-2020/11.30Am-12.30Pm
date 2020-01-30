@@ -1,0 +1,314 @@
+
+	//Magical methods
+class employee:
+	
+	
+	raise_amount=1.04	
+	def __init__ (self,first,last,pay):
+		self.first=first
+		self.last=last	
+		self.pay=pay
+		self.email=first+'.'+last+'@compay.com'
+		
+	def fullname(self):
+		return '{} {}'.format(self.first,self.last)
+	def apply_raise(self):
+		self.pay=int(self.pay*self.raise_amount)
+	def __repr__(self):
+		return "employee('{}','{}','{}')".format(self.first,self.last,self.pay)
+	def __str__(self):
+		return '{}-{}'.format(self.fullname(),self.email)
+
+emp1=employee("abi","janu",5000)
+emp2=employee("gane","verr",6000)
+#print(emp1)
+
+print(repr(emp1))
+print(str(emp1))
+
+#print(emp1.__repr__())
+#print(emp1.__str__())
+
+
+===========================================================FILE HANDLING===============================================================================
+>>> import os
+>>> os.listdir()
+\['Desktop', '.local', 'python', 'Templates', '.python_history', '.compiz', '.pki', '.bash_logout', 'Documents', '.profile', 'Sky_received_files', 'Downloads', '.cache', '.gconf', 'ganesh', 'Videos', '.sky2', '.wget-hsts', 'Ganesh', '.dmrc', '.gnupg', '.remmina', 'Python-3.6.0', '.mozilla', 'Pictures', '.ICEauthority', '.Xauthority', '.bash_history', '.gitconfig', '.nano', 'Python-3.6.0.tar.xz', 'Public', 'examples.desktop', '.xsession-errors.old', '.git', '.bashrc', '.config', 'Music', '.xsession-errors', '.sudo_as_admin_successful', '.thunderbird', '.vscode', '.gnome2']
+>>> os.getcwd()
+'/home/aspire1326'
+>>> os.chdir('/home/aspire1326/Desktop')
+>>> os.listdir()
+['Questions', 'py.html', 'default.html', 'newdesign.html', 'js1.js', 'loginpage.html', 'Untitled Document', 'ganesh.html']
+>>> f=open('py.html','rw+')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: must have exactly one of create/read/write/append mode
+>>> 
+>>> f=open('py.html','r+')
+>>> for i in f:
+...     print(i)
+... 
+<html>
+
+<head>
+
+    <style>
+
+</style>   
+
+<title> Ganesh</title>
+
+</head>
+
+<body>
+
+    
+
+    <br> this is ganesh 
+
+    <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1">Click here to access the Gmail </a>
+
+    <h1><i>Google Maps</i></h1>
+
+    <p1><a href="https://www.google.com/maps/@12.8371605,80.2246172,15z">Google Maps</a><br>
+
+    </p1>
+
+    <p1>mostly speaking this this is my first document in  ubuntu Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, eum maiores aliquid eligendi eaque veniam repellat architecto. Odio labore harum ducimus dolor ex, exercitationem facilis. Consequatur, dolorum. Odit, earum rem?  </p>
+
+    </body>
+
+
+
+</html>
+
+
+
+>>> f.tell()
+684
+>>> f.append('hi')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: '_io.TextIOWrapper' object has no attribute 'append'
+>>> f.close()\
+... 
+>>> os.listdir()
+['Questions', 'py.html', 'default.html', 'newdesign.html', 'js1.js', 'loginpage.html', 'Untitled Document', 'ganesh.html']
+>>> with open('Questions','r') as f:
+...     f.print()
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+AttributeError: '_io.TextIOWrapper' object has no attribute 'print'
+>>> with open('Questions','r') as f:
+...     for i in f:
+...             print(i)
+... 
+						             COMPARE THE TRIPLETS		
+
+
+
+def fun(l,m):
+
+    arr=[]
+
+    apow=0
+
+    bpow=0
+
+    for i in range (0,len(l)):
+
+        if(l[i]>m[i]):
+
+            apow+=1
+
+        elif(m[i]>l[i]):
+
+            bpow+=1
+
+    arr.extend([j,c])
+
+    return(arr)
+
+try:
+
+    num=int(input('enter the number'))
+
+except TypeError as xerr:
+
+    print(xerr)
+
+alice=[]
+
+bobi=[]
+
+for i in range(0,num):
+
+    xnum=int(input('Enter the values of '+str(i+1)+'Alice power'))
+
+    alice.append(xnum)
+
+    
+
+for i in range(0,n):
+
+    xnum=int(input('Enter the values of '+str(i+1)+'bobi power'))
+
+    bobi.append(xnum)
+
+zpo=fun(alice,bobi)
+
+print("the power rate is ",zpo)
+
+
+
+
+
+
+
+=======================================================================================================================================================
+
+								DIAGONAL DIFFERENCE 								
+
+
+
+
+
+def fun(l):
+
+    sum1=sum2=0
+
+    
+
+    for i in range(0,len(l)):
+
+        for j in range(0,len(l)):
+
+            if(i==j):
+
+                sum1+=l[i][j]
+
+            if((i+j)==2):
+
+                sum2+=l[i][j]
+
+    x=int(math.fabs(sum1-sum2))
+
+    print('The abs Difference will be',x)
+
+try:
+
+    num=int(input('Enter the number'))
+
+except TyperError as x:
+
+    print(x)
+
+list1=[]
+
+for i in range(0,num):
+
+    clist=[]
+
+    for j in range(0,num):
+
+        xnum=int(input('ENTER THE ELEMENT OF THE MATRIX'))
+
+        clist.append(xnum)
+
+    list1.append(clist)
+
+    
+
+
+
+fun(list1)
+
+    
+
+>>> f.closed
+True
+>>> os.listdir()
+['Questions', 'py.html', 'default.html', 'newdesign.html', 'js1.js', 'loginpage.html', 'Untitled Document', 'ganesh.html']
+>>> f=open('ganesh.html','r')
+>>> d=open('ganeshh1','a+')
+>>> for i in f:
+...     d.write(i)
+... 
+7
+7
+12
+12
+23
+8
+7
+5
+25
+117
+32
+93
+10
+304
+12
+1
+8
+1
+>>> d.close()
+>>> f.close()
+>>> d=open('ganeshh1','a')
+>>> d.write('hello wrold')
+11
+>>> d.tell()
+695
+>>> d.seek(0,0)
+0
+>>> for i in d:
+...     print(i)
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+io.UnsupportedOperation: not readable
+>>> d.close()
+>>> d=open('ganeshh1','r+')
+>>> for i in d:
+...     print(i)
+... 
+<html>
+
+<head>
+
+    <style>
+
+</style>   
+
+<title> Ganesh</title>
+
+</head>
+
+<body>
+
+    
+
+    <br> this is ganesh 
+
+    <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1">Click here to access the Gmail </a>
+
+    <h1><i>Google Maps</i></h1>
+
+    <p1><a href="https://www.google.com/maps/@12.8371605,80.2246172,15z">Google Maps</a><br>
+
+    </p1>
+
+    <p1>mostly speaking this this is my first document in  ubuntu Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, eum maiores aliquid eligendi eaque veniam repellat architecto. Odio labore harum ducimus dolor ex, exercitationem facilis. Consequatur, dolorum. Odit, earum rem?  </p>
+
+    </body>
+
+
+
+</html>
+
+
+
+hello wrold
+
+

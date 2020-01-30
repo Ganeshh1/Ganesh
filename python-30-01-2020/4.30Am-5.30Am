@@ -1,0 +1,25 @@
+===============================================================LIST COMPREHENSION======================================================================
+new_list = [n**2 for n in numbers if n%2==0]
+print(new_list)
+[0, 4, 16, 36, 64]
+
+divided = [x for x in range(100) if x % 2 == 0 if x % 6 == 0]
+
+print(divided)
+
+[0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96]
+
+
+list_of_list = [[1,2,3],[4,5,6],[7,8]]
+[y for x in list_of_list for y in x]
+[1, 2, 3, 4, 5, 6, 7, 8]
+
+matrix = [[1,2,3],[4,5,6],[7,8,9]]
+
+[[row[i] for row in matrix] for i in range(3)]
+[[1, 4, 7], [2, 5, 8], [3, 6, 9]]
+
+matrix = [[0 for col in range(4)] for row in range(3)]
+
+matrix
+[[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]

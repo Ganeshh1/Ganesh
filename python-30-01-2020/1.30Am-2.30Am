@@ -1,0 +1,101 @@
+>>> os.getcwd()
+'/home/aspire1326/Desktop'
+>>> os.mkdir('ganesh')
+>>> os.remove('ganesh')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IsADirectoryError: [Errno 21] Is a directory: 'ganesh'
+>>> os.rmdir('ganesh')
+>>> os.listdir()
+['Questions', 'py.html', 'default.html', 'newdesign.html', 'js1.js', 'loginpage.html', 'Untitled Document', 'ganeshh1', 'ganesh.html']
+>>> os.remove('ganeshh1')
+>>> os.listdir()
+]['Questions', 'py.html', 'default.html', 'newdesign.html', 'js1.js', 'loginpage.html', 'Untitled Document', 'ganesh.html']
+>>> [t for t in os.listdir() if os.path.isfile(os.path.join())]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 1, in <listcomp>
+TypeError: join() missing 1 required positional argument: 'a'
+>>> [t for t in os.listdir() if os.path.isfile(os.path.join(''))]
+[]
+>>> [t for t in os.listdir() if os.path.isfile(os.path.join('/home/aspire1326/',t))]
+[]
+>>> [t for t in os.listdir('/home') if os.path.isfile(os.path.join('/home/aspire1326/',t))]
+[]
+>>> s=os.listdir()
+>>> s
+['Questions', 'py.html', 'default.html', 'newdesign.html', 'js1.js', 'loginpage.html', 'Untitled Document', 'ganesh.html']
+>>> s.pop()
+'ganesh.html'
+>>> s
+['Questions', 'py.html', 'default.html', 'newdesign.html', 'js1.js', 'loginpage.html', 'Untitled Document']
+>>> s=os.getcwd()
+>>> s
+'/home/aspire1326/Desktop'
+>>> import shutil
+>>> shutil.move(s,'/home/aspire1326/Downloads',copy_function=copy2)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'copy2' is not defined
+>>> shutil.move(s,'/home/aspire1326/Downloads')
+'/home/aspire1326/Downloads/Desktop'
+>>> os.getcwd()
+'/home/aspire1326/Downloads/Desktop'
+>>> os.listdir()
+['Questions', 'py.html', 'default.html', 'newdesign.html', 'js1.js', 'loginpage.html', 'Untitled Document', 'ganesh.html']
+>>> os.chdir('/home/aspire1326/Downloads')
+>>> os.listdir()
+['Desktop', 'Python_Fresher_Training_2016.xlsx', 'ganesh.txt', 'assassins-creed-iphone-wallpaper.jpg', 'joker.jpg', 'Python-3.8.1.tar (1).xz', 'torbrowser-install-8.5.5_en-US.exe', 'avengers.html', 'ga.jpg', '9.01.2020', 'ActivePython-3.6.6.0000-linux-x86_64-glibc-2.12-432e1938.tar.gz', 'IMG-20191123-WA0010.jpg', '5A4140BD59D66BCAC57CF05AF4A8FAB4EBCAE1C1.torrent', 'IMG-20191103-WA0007.jpg', 'SampleQuestionnairo (1).zip', 'Python-3.8.1.tar (2).xz', '80.jpg', 'joker1.jpg', 'Python-3.8.1.tar.xz', 'avengers_files', 'Python-3.8.1', 'sky_features28march2017 (1).xlsx', 'sky_features28march2017.xlsx', 'the_avengers_age_of_ultron_team-wallpaper-3840x2160.jpg', 'update16.1.2020', 'SampleQuestionnairo.zip', 'ganesh-1.jpg']
+>>> shutil.move('/home/aspire1326/Dowmloads/Desktop','/home/aspire1326/')
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/shutil.py", line 538, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aspire1326/Dowmloads/Desktop' -> '/home/aspire1326/Desktop'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.5/shutil.py", line 552, in move
+    copy_function(src, real_dst)
+  File "/usr/lib/python3.5/shutil.py", line 251, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.5/shutil.py", line 114, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aspire1326/Dowmloads/Desktop'
+>>> shutil.move('/home/aspire1326/Dowmloads/Desktop','/home/aspire1326')
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/shutil.py", line 538, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aspire1326/Dowmloads/Desktop' -> '/home/aspire1326/Desktop'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.5/shutil.py", line 552, in move
+    copy_function(src, real_dst)
+  File "/usr/lib/python3.5/shutil.py", line 251, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.5/shutil.py", line 114, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aspire1326/Dowmloads/Desktop'
+>>> shutil.move('/home/aspire1326/Dowmloads/Desktop/','/home/aspire1326')
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/shutil.py", line 538, in move
+    os.rename(src, real_dst)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aspire1326/Dowmloads/Desktop/' -> '/home/aspire1326/Desktop'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3.5/shutil.py", line 552, in move
+    copy_function(src, real_dst)
+  File "/usr/lib/python3.5/shutil.py", line 251, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.5/shutil.py", line 114, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aspire1326/Dowmloads/Desktop/'
+>>> os.listdir()
+['Python_Fresher_Training_2016.xlsx', 'ganesh.txt', 'assassins-creed-iphone-wallpaper.jpg', 'joker.jpg', 'Python-3.8.1.tar (1).xz', 'torbrowser-install-8.5.5_en-US.exe', 'avengers.html', 'ga.jpg', '9.01.2020', 'ActivePython-3.6.6.0000-linux-x86_64-glibc-2.12-432e1938.tar.gz', 'IMG-20191123-WA0010.jpg', '5A4140BD59D66BCAC57CF05AF4A8FAB4EBCAE1C1.torrent', 'IMG-20191103-WA0007.jpg', 'SampleQuestionnairo (1).zip', 'Python-3.8.1.tar (2).xz', '80.jpg', 'joker1.jpg', 'Python-3.8.1.tar.xz', 'avengers_files', 'Python-3.8.1', 'sky_features28march2017 (1).xlsx', 'sky_features28march2017.xlsx', 'the_avengers_age_of_ultron_team-wallpaper-3840x2160.jpg', 'update16.1.2020', 'SampleQuestionnairo.zip', 'ganesh-1.jpg']
