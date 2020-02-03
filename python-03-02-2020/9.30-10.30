@@ -1,0 +1,92 @@
+>>>os.scandir()
+<posix.ScandirIterator object at 0x7f3af6ae1030>
+>>> os.error()
+OSError()
+>>> os.rename('ganesh','kumar')
+>>> os.rmdir('kumar')
+>>> os.lsitdir()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'os' has no attribute 'lsitdir'
+>>> os.listdir()
+['py.html', 'default.html', 'newdesign.html', 'js1.js', 'loginpage.html', 'ganesh.html']
+>>> os.chdir('/home/aspire1326/Downloads')
+>>> os.listdir()
+['Python_Fresher_Training_2016.xlsx', 'assassins-creed-iphone-wallpaper.jpg', 'joker.jpg', 'Python-3.8.1.tar (1).xz', 'torbrowser-install-8.5.5_en-US.exe', 'avengers.html', 'ga.jpg', 'ActivePython-3.6.6.0000-linux-x86_64-glibc-2.12-432e1938.tar.gz', 'IMG-20191123-WA0010.jpg', '5A4140BD59D66BCAC57CF05AF4A8FAB4EBCAE1C1.torrent', 'IMG-20191103-WA0007.jpg', 'Python-3.8.1.tar (2).xz', '80.jpg', 'joker1.jpg', 'Python-3.8.1.tar.xz', 'avengers_files', 'Python-3.8.1', '.~lock.Python_Fresher_Training_2016.xlsx#', 'sky_features28march2017 (1).xlsx', 'sky_features28march2017.xlsx', 'the_avengers_age_of_ultron_team-wallpaper-3840x2160.jpg', 'update16.1.2020', 'ganesh-1.jpg']
+>>> f=open('update16.1.2020','a+')
+>>> f.tell()
+5
+>>> f.write("askdhalskdhakljskdhakjsdfhkiausragbdsik")
+39
+>>> f.read()
+''
+>>> f.readline()
+''
+>>> f.tell()
+\44
+>>> f.seek(0,0)
+0
+>>> f.read()
+'helooaskdhalskdhakljskdhakjsdfhkiausragbdsik'
+>>> f.write("\n")
+1
+>>> f.write("\nalskdnhalskjdfalskfhlaskfhalksdhlaksfhlajksfhlaksfhlakfshn")
+59
+>>> f.seek(0,0)
+0
+>>> f.read()
+'helooaskdhalskdhakljskdhakjsdfhkiausragbdsik\n\nalskdnhalskjdfalskfhlaskfhalksdhlaksfhlajksfhlaksfhlakfshn'
+>>> f.tell()
+104
+>>> f.seek(0,0)
+0
+>>> s.readline()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 's' is not defined
+>>> f.readline()
+'helooaskdhalskdhakljskdhakjsdfhkiausragbdsik\n'
+>>> f.readlines()
+['\n', 'alskdnhalskjdfalskfhlaskfhalksdhlaksfhlajksfhlaksfhlakfshn']
+>>> f.seek(0,0)
+0
+>>> f.readlines()
+['helooaskdhalskdhakljskdhakjsdfhkiausragbdsik\n', '\n', 'alskdnhalskjdfalskfhlaskfhalksdhlaksfhlajksfhlaksfhlakfshn']
+>>> f.close()
+>>> f.read()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: I/O operation on closed file.
+>>> os.mkdir('ganesh')
+>>> os.mkdir('ganesh')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileExistsError: [Errno 17] File exists: 'ganesh'
+>>> os.listdir()
+['Python_Fresher_Training_2016.xlsx', 'assassins-creed-iphone-wallpaper.jpg', 'joker.jpg', 'Python-3.8.1.tar (1).xz', 'torbrowser-install-8.5.5_en-US.exe', 'avengers.html', 'ganesh', 'ga.jpg', 'ActivePython-3.6.6.0000-linux-x86_64-glibc-2.12-432e1938.tar.gz', 'IMG-20191123-WA0010.jpg', '5A4140BD59D66BCAC57CF05AF4A8FAB4EBCAE1C1.torrent', 'IMG-20191103-WA0007.jpg', 'Python-3.8.1.tar (2).xz', '80.jpg', 'joker1.jpg', 'Python-3.8.1.tar.xz', 'avengers_files', 'Python-3.8.1', '.~lock.Python_Fresher_Training_2016.xlsx#', 'sky_features28march2017 (1).xlsx', 'sky_features28march2017.xlsx', 'the_avengers_age_of_ultron_team-wallpaper-3840x2160.jpg', 'update16.1.2020', 'ganesh-1.jpg']
+>>> os.chdir('/home/aspire1326/Downloads/ganesh')
+>>> f=open('gan.txt',w)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'w' is not defined
+>>> f=open('gan.txt','w')
+>>> f.remove('gan.txt')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: '_io.TextIOWrapper' object has no attribute 'remove'
+>>> os.remove('gan.txt')
+>>> os.listdir()
+[]
+>>> f.read()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+io.UnsupportedOperation: not readable
+>>> os.chdir('/home/aspire1326/Download')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '/home/aspire1326/Download'
+>>> os.chdir('/home/aspire1326/Downloads')
+>>> os.rmdir('ganesh')
+>>> os.getcwd()
+'/home/aspire1326/Downloads'
+
