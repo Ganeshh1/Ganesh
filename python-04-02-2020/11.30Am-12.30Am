@@ -1,0 +1,45 @@
+>>>for i,v in d.items():
+...     print('{0}==>{1}'.format(i,v))
+... 
+c==>3
+a==>1
+b==>2
+>>> table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 8637678}
+>>> print('Jack: {0[Jack]:d}; Sjoerd: {0[Sjoerd]:d}; '
+...       'Dcab: {0[Dcab]:d}'.format(table))
+Jack: 4098; Sjoerd: 4127; Dcab: 8637678
+>>> table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 8637678}
+>>> print('Jack: {Jack:d}; Sjoerd: {Sjoerd:d}; Dcab: {Dcab:d}'.format(**table))
+Jack: 4098; Sjoerd: 4127; Dcab: 8637678
+>>> f=open('ga.jpg','b')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: Must have exactly one of create/read/write/append mode and at most one plus
+>>> f=open('ga.jpg','rb')
+>>> for i in f:
+...     print(i)
+... 
+b'\xff\xd8\xff\xe0\x00\x10JFIF\x00\x01\x01\x01\x00H\x00H\x00\x00\xff\xdb\x00C\x00\x06\x04\x05\x06\x05\x04\x06\x06\x05\x06\x07\x07\x06\x08\n'
+b'\x10\n'
+b'\n'
+b'\t\t\n'
+b"\x14\x0e\x0f\x0c\x10\x17\x14\x18\x18\x17\x14\x16\x16\x1a\x1d%\x1f\x1a\x1b#\x1c\x16\x16 , #&')*)\x19\x1f-0-(0%()(\xff\xdb\x00C\x01\x07\x07\x07\n"
+b'\x08\n'
+b'\x13\n'
+b'\n'
+b'\x13(\x1a\x16\x1a((((((((((((((((((((((((((((((((((((((((((((((((((\xff\xc2\x00\x11\x08\x06\xa4\n'
+b'\xf0\x03\x01"\x00\x02\x11\x01\x03\x11\x01\xff\xc4\x00\x1b\x00\x01\x00\x02\x03\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x03\x01\x0...
+>>> with open('update16.1.2020') as f:
+...     readl=f.read()
+... 
+>>> readl
+'def add_sub(x,y):\n    c=x+y;\n    d=x-y;\n    return c,d \na,s=add_sub(3,5)\nprint(a,s)\n===================================================\ni=5\ndef val(a):\n    print(a)\ni=10\nval(i)\n=====================================================\ndef tst(arg1,arg2):\n    arg1=10;\n    arg2[0]="abi"\n    print(arg1,arg2)\n\'\'\'def tst1(arg1,arg2):\n    arg1=30\n    arg2[0]="tst"\n ........
+
+>>> f.closed
+True
+>>> value = ('the answer', 42)
+>>> s = str(value)  # convert the tuple to string
+>>> f.write(s)
+18
+
+
