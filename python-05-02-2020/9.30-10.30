@@ -1,0 +1,20 @@
+>>> import pdb
+>>> import mymodule
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: No module named mymodule
+>>> pdb.pm()
+> <stdin>(1)<module>()
+(Pdb) hi
+*** NameError: name 'hi' is not defined
+(Pdb) print('hi')
+hi
+(Pdb) >>>.pm()
+*** SyntaxError: invalid syntax (<stdin>, line 1)
+(Pdb) 
+>>> hi
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'hi' is not defined
+>>> 
+

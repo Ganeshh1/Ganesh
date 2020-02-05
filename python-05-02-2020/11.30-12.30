@@ -1,0 +1,130 @@
+>>> 
+aspire1326@aspire1326:~$ ^C
+aspire1326@aspire1326:~$ python
+Python 2.7.12 (default, Oct  8 2019, 14:14:10) 
+[GCC 5.4.0 20160609] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import camelcase
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: No module named camelcase
+>>> 
+aspire1326@aspire1326:~$ pip install camelcase
+Collecting camelcase
+  Downloading https://files.pythonhosted.org/packages/24/54/6bc20bf371c1c78193e2e4179097a7b779e56f420d0da41222a3b7d87890/camelcase-0.2.tar.gz
+Building wheels for collected packages: camelcase
+  Running setup.py bdist_wheel for camelcase ... done
+  Stored in directory: /home/aspire1326/.cache/pip/wheels/b1/fe/08/84d2143069bc44c20127c38cc1bf202332319b3da7315ca766
+Successfully built camelcase
+Installing collected packages: camelcase
+Successfully installed camelcase
+You are using pip version 8.1.1, however version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+aspire1326@aspire1326:~$ pip install --upgrade pip
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/54/0c/d01aa759fdc501a58f431eb594a17495f15b88da142ce14b5845662c13f3/pip-20.0.2-py2.py3-none-any.whl (1.4MB)
+    100% |████████████████████████████████| 1.4MB 461kB/s 
+Installing collected packages: pip
+Successfully installed pip-20.0.2
+aspire1326@aspire1326:~$ python3.5
+Python 3.5.2 (default, Oct  8 2019, 13:06:37) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import camelcase
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: No module named 'camelcase'
+>>> import pip
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: No module named 'pip'
+>>> 
+aspire1326@aspire1326:~$ python
+Python 2.7.12 (default, Oct  8 2019, 14:14:10) 
+[GCC 5.4.0 20160609] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import camelcase
+>>> c=camelcase.CamelCase()
+>>> c.hump('hello world')
+'Hello World'
+>>> dir(camelcase)
+['CamelCase', '__builtins__', '__doc__', '__file__', '__name__', '__package__', '__path__', 'main']
+>>> 
+aspire1326@aspire1326:~$ sudo apt python update
+[sudo] password for aspire1326: 
+E: Invalid operation python
+aspire1326@aspire1326:~$ sudo apt python update --version
+apt 1.2.32 (amd64)
+aspire1326@aspire1326:~$ sudo apt update python
+E: The update command takes no arguments
+aspire1326@aspire1326:~$ sudo apt-get install python3.7
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+E: Unable to locate package python3.7
+E: Couldn't find any package by glob 'python3.7'
+E: Couldn't find any package by regex 'python3.7'
+aspire1326@aspire1326:~$ apt-get.install python
+apt-get.install: command not found
+aspire1326@aspire1326:~$ install python3.7
+install: missing destination file operand after 'python3.7'
+Try 'install --help' for more information.
+aspire1326@aspire1326:~$ install --help
+Usage: install [OPTION]... [-T] SOURCE DEST
+  or:  install [OPTION]... SOURCE... DIRECTORY
+  or:  install [OPTION]... -t DIRECTORY SOURCE...
+  or:  install [OPTION]... -d DIRECTORY...
+
+This install program copies files (often just compiled) into destination
+locations you choose.  If you want to download and install a ready-to-use
+package on a GNU/Linux system, you should instead be using a package manager
+like yum(1) or apt-get(1).
+
+In the first three forms, copy SOURCE to DEST or multiple SOURCE(s) to
+the existing DIRECTORY, while setting permission modes and owner/group.
+In the 4th form, create all components of the given DIRECTORY(ies).
+
+Mandatory arguments to long options are mandatory for short options too.
+      --backup[=CONTROL]  make a backup of each existing destination file
+  -b                  like --backup but does not accept an argument
+  -c                  (ignored)
+  -C, --compare       compare each pair of source and destination files, and
+                        in some cases, do not modify the destination at all
+  -d, --directory     treat all arguments as directory names; create all
+                        components of the specified directories
+  -D                  create all leading components of DEST except the last,
+                        or all components of --target-directory,
+                        then copy SOURCE to DEST
+  -g, --group=GROUP   set group ownership, instead of process' current group
+  -m, --mode=MODE     set permission mode (as in chmod), instead of rwxr-xr-x
+  -o, --owner=OWNER   set ownership (super-user only)
+  -p, --preserve-timestamps   apply access/modification times of SOURCE files
+                        to corresponding destination files
+  -s, --strip         strip symbol tables
+      --strip-program=PROGRAM  program used to strip binaries
+  -S, --suffix=SUFFIX  override the usual backup suffix
+  -t, --target-directory=DIRECTORY  copy all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory  treat DEST as a normal file
+  -v, --verbose       print the name of each directory as it is created
+      --preserve-context  preserve SELinux security context
+  -Z                      set SELinux security context of destination
+                            file to default type
+      --context[=CTX]     like -Z, or if CTX is specified then set the
+                            SELinux or SMACK security context to CTX
+      --help     display this help and exit
+      --version  output version information and exit
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Full documentation at: <http://www.gnu.org/software/coreutils/install>
+or available locally via: info '(coreutils) install invocation'
+
+
