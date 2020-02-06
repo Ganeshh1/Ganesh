@@ -1,0 +1,151 @@
+
+=====================================================================VIRTUALENV========================================================================
+
+aspire1326@aspire1326:~$ pip install virtuallenv
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Defaulting to user installation because normal site-packages is not writeable
+ERROR: Could not find a version that satisfies the requirement virtuallenv (from versions: none)
+ERROR: No matching distribution found for virtuallenv
+aspire1326@aspire1326:~$ pip install virtualenv
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Defaulting to user installation because normal site-packages is not writeable
+Collecting virtualenv
+  Downloading virtualenv-16.7.9-py2.py3-none-any.whl (3.4 MB)
+     |████████████████████████████████| 3.4 MB 246 kB/s 
+Installing collected packages: virtualenv
+Successfully installed virtualenv-16.7.9
+aspire1326@aspire1326:~$ pip list
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Package            Version
+------------------ -------
+adium-theme-ubuntu 0.3.4  
+camelcase          0.2    
+pip                20.0.2 
+setuptools         20.7.0 
+unity-lens-photos  1.0    
+virtualenv         16.7.9 
+wheel              0.29.0 
+aspire1326@aspire1326:~$ ls
+Desktop    examples.desktop  Music     python               Sky_received_files
+Documents  ganesh            Pictures  Python-3.6.0         Templates
+Downloads  Ganesh            Public    Python-3.6.0.tar.xz  Videos
+aspire1326@aspire1326:~$ cd Ganesh
+aspire1326@aspire1326:~/Ganesh$ mkdir Environments
+aspire1326@aspire1326:~/Ganesh$ cd !$
+cd Environments
+aspire1326@aspire1326:~/Ganesh/Environments$ ls
+aspire1326@aspire1326:~/Ganesh/Environments$ virtualenv project1_env
+New python executable in /home/aspire1326/Ganesh/Environments/project1_env/bin/python
+Installing setuptools, pip, wheel...
+done.
+aspire1326@aspire1326:~/Ganesh/Environments$ source project1_env/bin/activate
+(project1_env) aspire1326@aspire1326:~/Ganesh/Environments$ which python
+/home/aspire1326/Ganesh/Environments/project1_env/bin/python
+(project1_env) aspire1326@aspire1326:~/Ganesh/Environments$ pip list
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Package    Version
+---------- -------
+pip        20.0.2 
+setuptools 44.0.0 
+wheel      0.34.2 
+(project1_env) aspire1326@aspire1326:~/Ganesh/Environments$ pip install numpy
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Collecting numpy
+  Downloading numpy-1.16.6-cp27-cp27mu-manylinux1_x86_64.whl (17.0 MB)
+     |████████████████████████████████| 17.0 MB 297 kB/s 
+Installing collected packages: numpy
+Successfully installed numpy-1.16.6
+(project1_env) aspire1326@aspire1326:~/Ganesh/Environments$ pip list
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Package    Version
+---------- -------
+numpy      1.16.6 
+pip        20.0.2 
+setuptools 44.0.0 
+wheel      0.34.2 
+(project1_env) aspire1326@aspire1326:~/Ganesh/Environments$ pip freeze >requirements.txt
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+(project1_env) aspire1326@aspire1326:~/Ganesh/Environments$ ls
+project1_env  requirements.txt
+(project1_env) aspire1326@aspire1326:~/Ganesh/Environments$ cat requirements.txt
+numpy==1.16.6
+(project1_env) aspire1326@aspire1326:~/Ganesh/Environments$ deactivate
+aspire1326@aspire1326:~/Ganesh/Environments$ which python
+/usr/bin/python
+aspire1326@aspire1326:~/Ganesh/Environments$ pip list
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Package            Version
+------------------ -------
+adium-theme-ubuntu 0.3.4  
+camelcase          0.2    
+pip                20.0.2 
+setuptools         20.7.0 
+unity-lens-photos  1.0    
+virtualenv         16.7.9 
+wheel              0.29.0 
+aspire1326@aspire1326:~/Ganesh/Environments$ ls
+project1_env  requirements.txt
+aspire1326@aspire1326:~/Ganesh/Environments$ rm -rf project1_env/
+aspire1326@aspire1326:~/Ganesh/Environments$ ls
+requirements.txt
+aspire1326@aspire1326:~/Ganesh/Environments$ virtualenv -p usr/bin/python3.5
+The path usr/bin/python3.5 (from --python=usr/bin/python3.5) does not exist
+aspire1326@aspire1326:~/Ganesh/Environments$ virtualenv -p usr/lib/python3.5
+The path usr/lib/python3.5 (from --python=usr/lib/python3.5) does not exist
+aspire1326@aspire1326:~/Ganesh/Environments$ virtualenv -p /usr/lib/python3.5
+The path /usr/lib/python3.5 (from --python=/usr/lib/python3.5) is not an executable file
+aspire1326@aspire1326:~/Ganesh/Environments$ virtualenv -p /usr/lib/python2.7
+The path /usr/lib/python2.7 (from --python=/usr/lib/python2.7) is not an executable file
+aspire1326@aspire1326:~/Ganesh/Environments$ virtualenv -p /usr/lib/python2.7 py27_env
+The path /usr/lib/python2.7 (from --python=/usr/lib/python2.7) is not an executable file
+aspire1326@aspire1326:~/Ganesh/Environments$ virtualenv py_27
+New python executable in /home/aspire1326/Ganesh/Environments/py_27/bin/python
+Installing setuptools, pip, wheel...
+done.
+aspire1326@aspire1326:~/Ganesh/Environments$ ls
+py_27  requirements.txt
+aspire1326@aspire1326:~/Ganesh/Environments$ source py26_env/bin/activate
+bash: py26_env/bin/activate: No such file or directory
+aspire1326@aspire1326:~/Ganesh/Environments$ source py_27/bin/activate
+(py_27) aspire1326@aspire1326:~/Ganesh/Environments$ which python
+/home/aspire1326/Ganesh/Environments/py_27/bin/python
+(py_27) aspire1326@aspire1326:~/Ganesh/Environments$ python --version
+Python 2.7.12
+(py_27) aspire1326@aspire1326:~/Ganesh/Environments$ pip install -r requirements.txt
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Collecting numpy==1.16.6
+  Using cached numpy-1.16.6-cp27-cp27mu-manylinux1_x86_64.whl (17.0 MB)
+Installing collected packages: numpy
+Successfully installed numpy-1.16.6
+(py_27) aspire1326@aspire1326:~/Ganesh/Environments$ pip list
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Package    Version
+---------- -------
+numpy      1.16.6 
+pip        20.0.2 
+setuptools 44.0.0 
+wheel      0.34.2 
+(py_27) aspire1326@aspire1326:~/Ganesh/Environments$ deactivate
+aspire1326@aspire1326:~/Ganesh/Environments$ rm -rf py_27
+aspire1326@aspire1326:~/Ganesh/Environments$ ls
+requirements.txt
+aspire1326@aspire1326:~/Ganesh/Environments$ cat requirements
+cat: requirements: No such file or directory
+aspire1326@aspire1326:~/Ganesh/Environments$ cat requirements.txt
+numpy==1.16.6
+aspire1326@aspire1326:~/Ganesh/Environments$ cd ..
+aspire1326@aspire1326:~/Ganesh/python-05-02-2020$ cd
+aspire1326@aspire1326:~$ cd Ganesh
+aspire1326@aspire1326:~/Ganesh$ ls
+Documentation      python-05-02-2020  python-11-01-2020                 python-20-01-2020  python-24-01-2020  python-30-01-2020
+python             python-06-02-2020  python-11-02-2020                 python-21-01-2020  python-27-01-2020  python-31-01-2020
+python-03-02-2020  python-1           python-14-01-2020 and 17-01-2020  python-22-01-2020  python-28-01-2020  python-day-2
+python-04-02-2020  python-10-01-2020  python-16-01-2020                 python-23-01-2020  python-29-01-2020
+aspire1326@aspire1326:~/Ganesh$ cat a Documentation
+cat: a: No such file or directory
+Open the GitHub
+Open Your Reposities
+Over there you will be finding the Ganesh folder ,Click on the file and upload the Program what you have done in the notepad 
+enter commit new file
+aspire1326@aspire1326:~/Ganesh$ 
+

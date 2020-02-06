@@ -1,0 +1,107 @@
+
+=====================================================================INHERITANCE ======================================================================
+
+>>>class A:
+...    def func1(self):
+...        print("calling function 1 of A")
+...    def func2(self):
+...        print("calling function 2 of A")
+
+>>>class B(A):
+...	def func1(self):
+...        A.func1(self)
+...        print("calling function 1 of B")
+...    def func2(self):
+...        A.func2(self)
+...        print("calling function 2 of B")
+...
+>>>obj=B()
+>>>obj.func1()
+calling function 1 of A                                                                                                        
+calling function 1 of B    
+>>>obj.func2()
+calling function 2 of A                                                                                                        
+calling function 2 of B         
+
+=====================================================================SUPER() and Constructor==========================================================
+
+>>>class A:
+...    def __init__(self):
+...        print("calling Constructor 1 of A")
+...    def func1(self):
+...        print("calling function 1 of A")
+...    def func2(self):
+...        print("calling function 2 of A")
+
+>>>class B(A):
+...    def __init__(self):
+...	   super().__init()		
+...        print("calling Constructor 1 of B")
+...	def func1(self):
+...        A.func1(self)
+...        print("calling function 1 of B")
+...    def func2(self):
+...        A.func2(self)
+...        print("calling function 2 of B")
+...
+>>>obj=B()
+>>>obj.func1()
+calling Constructor 1 of A
+calling Constructor 1 of B
+calling function 1 of A                                                                                                        
+calling function 1 of B    
+>>>obj.func2()
+calling function 2 of A                                                                                                        
+calling function 2 of B   
+
+
+======================================================================MULTIPLE INHERITANCE=============================================================
+>>>class A:
+...    def __init__(self):
+...        print("calling constructor of A")
+...    def func1(self):
+...        print("calling function 1 of A")
+...    def func2(self):
+...        print("calling function 2 of A")
+...
+>>>class B():
+...    def __init__(self):
+...        # super().__init__()
+...        print("calling constructor of B")
+...    def func1(self):
+...        # A.func1(self)
+...        print("calling function 1 of B")
+...    def func2(self):
+...        # A.func2(self)
+...        print("calling function 2 of B")
+...
+>>>class C(A,B):
+...    def __init__(self):
+...        super().__init__()
+...        print("calling constructor of C")
+...    def func1(self):
+...        A.func1(self)
+...        B.func1(self)
+...        print("calling function 1 of C")
+...    def func2(self):
+...        A.func2(self)
+...        super().func2()
+...        print("calling function 2 of C")
+...
+        
+>>>obj=C()
+calling constructor of A                                                                                                        
+calling constructor of C  
+>>>obj.func1()
+calling function 1 of A                                                                                                         
+calling function 1 of B                                                                                                         
+calling function 1 of C
+>>>obj.func2()   
+calling function 2 of A                                                                                                         
+calling function 2 of A                                                                                                         
+calling function 2 of C
+
+
+===========================================================
+
+
