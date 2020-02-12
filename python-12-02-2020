@@ -1,0 +1,289 @@
+===============================================================Logging===========================================================================
+========================================================TIME:11.30Pm-12.30Pm==================================================
+
+aspire1326@aspire1326-thinkcenter-m71e:~$ python
+Python 3.6.9 (default, Nov  7 2019, 10:44:02) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import logging
+>>> def add(x,y):
+...     return (x+y)
+... 
+>>> add(10,20)
+30
+>>> def add(x,y):
+...     return (x+y)
+... 
+>>> logging.debug(add(10,20))
+>>> logging.warning(add(10,20))
+WARNING:root:30
+>>> logging.info(add(10,20))
+>>> logging.basicConfig(level=logging.DEBUG)
+>>> logging.debug(add(10,20))
+>>> def add(x,y):
+...     return (x+y)
+... 
+>>> logging.debug(add(10,20))
+>>> logging.basicConfig(filename='test.log',level=logging.DEBUG)
+>>> import os
+>>> os.getcwd()
+'/home/aspire1326'
+>>> os.listdir()
+['.git', '.ssh', 'Videos', 'Documents', '.vscode', '.dmrc', '.mozilla', 'Music', '.compiz', 'Templates', '.bash_logout', '.xsession-errors', '.bash_history', '.gconf', '.local', 'Downloads', '.gnupg', '.pki', 'Pictures', 'Ganesh', '.ICEauthority', 'examples.desktop', '.bash_aliases', 'Desktop', '.python_history', '.sudo_as_admin_successful', '.cache', '.xsession-errors.old', 'Public', '.config', '.gitconfig', '.Xauthority', '.bashrc', '.profile', '.remmina']
+>>> logging.critical(add(10,20))
+CRITICAL:root:30
+>>> logging.error(add(10,20))
+ERROR:root:30
+>>> logging.basicConfig(filename='test.log',level=logging.DEBUG,format='%(asctime)s')
+>>> logger=logging.getLogger(__name__)
+>>> import os
+>>> os.lsdir()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'os' has no attribute 'lsdir'
+>>> os.listdir()
+['.git', '.ssh', 'Videos', 'Documents', '.vscode', '.dmrc', '.mozilla', 'Music', '.compiz', 'Templates', '.bash_logout', '.xsession-errors', '.bash_history', '.gconf', '.local', 'Downloads', '.gnupg', '.pki', 'Pictures', 'Ganesh', '.ICEauthority', 'examples.desktop', '.bash_aliases', 'Desktop', '.python_history', '.sudo_as_admin_successful', '.cache', '.xsession-errors.old', 'Public', '.config', '.gitconfig', '.Xauthority', '.bashrc', '.profile', '.remmina']
+======================================================HTTPIE====================================================================================
+================================================TIME:2.30Pm-3.30Pm=================================
+
+
+
+                               
+aspire1326@aspire1326-thinkcenter-m71e:~$ sudo apt-get install httpie
+[sudo] password for aspire1326: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libpython-all-dev libpython-dev libpython2.7-dev
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  python3-pygments
+Suggested packages:
+  ttf-bitstream-vera
+The following NEW packages will be installed:
+  httpie python3-pygments
+0 upgraded, 2 newly installed, 0 to remove and 1 not upgraded.
+Need to get 641 kB of archives.
+After this operation, 3,462 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 python3-pygments all 2.2.0+dfsg-1 [574 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 httpie all 0.9.8-2 [67.1 kB]
+Fetched 641 kB in 1s (784 kB/s)  
+Selecting previously unselected package python3-pygments.
+(Reading database ... 189418 files and directories currently installed.)
+Preparing to unpack .../python3-pygments_2.2.0+dfsg-1_all.deb ...
+Unpacking python3-pygments (2.2.0+dfsg-1) ...
+Selecting previously unselected package httpie.
+Preparing to unpack .../httpie_0.9.8-2_all.deb ...
+Unpacking httpie (0.9.8-2) ...
+Setting up python3-pygments (2.2.0+dfsg-1) ...
+Setting up httpie (0.9.8-2) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+aspire1326@aspire1326-thinkcenter-m71e:~$ httpie --version
+httpie: command not found
+aspire1326@aspire1326-thinkcenter-m71e:~$ http --version
+0.9.8
+aspire1326@aspire1326-thinkcenter-m71e:~$ http httpie.org
+^C
+aspire1326@aspire1326-thinkcenter-m71e:~$ http :/foo
+
+http: error: ConnectionError: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /foo (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5ad18fe8d0>: Failed to establish a new connection: [Errno 111] Connection refused',)) while doing GET request to URL: http://localhost/foo
+aspire1326@aspire1326-thinkcenter-m71e:~$ http -v github.com
+GET / HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: github.com
+User-Agent: HTTPie/0.9.8
+
+
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 0
+Date: Wed, 12 Feb 2020 09:40:16 GMT
+Location: https://github.com/
+X-Cache: MISS from proxy1
+X-Cache-Lookup: MISS from proxy1:3128
+
+
+
+aspire1326@aspire1326-thinkcenter-m71e:~$ http PUT httpbin.org/put/hello=world
+HTTP/1.1 404 Not Found
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Connection: keep-alive
+Content-Length: 233
+Content-Type: text/html
+Date: Wed, 12 Feb 2020 09:43:58 GMT
+Server: gunicorn/19.9.0
+X-Cache: MISS from proxy1
+X-Cache-Lookup: MISS from proxy1:3128
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.</p>
+
+aspire1326@aspire1326-thinkcenter-m71e:~$ http PUT httpbin.org/status/148
+HTTP/1.1 148 Unknown
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Connection: keep-alive
+Content-Type: text/html; charset=utf-8
+Date: Wed, 12 Feb 2020 09:44:16 GMT
+Server: gunicorn/19.9.0
+
+===============================================================AUTOPEP8===========================================================================
+========================================================TIME:4.30Pm-5.30Pm=======================================================================
+
+
+aspire1326@aspire1326-thinkcenter-m71e:~$ pip3 install autopep8
+Collecting autopep8
+  Downloading https://files.pythonhosted.org/packages/12/55/7b07585ca0c30e5b216e4d627f82f96f1a7e82d2dd727b1f926cb3f3d58b/autopep8-1.5.tar.gz (116kB)
+    100% |████████████████████████████████| 122kB 349kB/s 
+Collecting pycodestyle>=2.5.0 (from autopep8)
+  Downloading https://files.pythonhosted.org/packages/0e/0c/04a353e104d2f324f8ee5f4b32012618c1c86dd79e52a433b64fceed511b/pycodestyle-2.5.0-py2.py3-none-any.whl (51kB)
+    100% |████████████████████████████████| 51kB 324kB/s 
+Building wheels for collected packages: autopep8
+  Running setup.py bdist_wheel for autopep8 ... done
+  Stored in directory: /home/aspire1326/.cache/pip/wheels/2b/dc/d5/e4bc37df332b7a88022bc79d6cdccb79068fdc1620d86afc3a
+Successfully built autopep8
+Installing collected packages: pycodestyle, autopep8
+Successfully installed autopep8-1.5 pycodestyle-2.5.0
+aspire1326@aspire1326-thinkcenter-m71e:~$ autopep8 --in-place --aggressive --aggressive Questions.txt
+[Errno 2] No such file or directory: 'Questions.txt'
+aspire1326@aspire1326-thinkcenter-m71e:~$ ls
+Desktop  Documents  Downloads  examples.desktop  Ganesh  Music  Pictures  Public  Templates  Videos
+aspire1326@aspire1326-thinkcenter-m71e:~$ cd Downloads
+aspire1326@aspire1326-thinkcenter-m71e:~/Downloads$ ls
+ 12-02-2020                              code_1.42.0-1580986622_amd64.deb   IMG_5384.JPG                         Questions.txt
+ Assignment-2                           'IMG-168(1)-01-01.jpeg'             matrix-rotation-algo-testcases.zip
+'code_1.42.0-1580986622_amd64 (1).deb'   IMG20190106110637.jpg              Python_Fresher_Training_2016.xlsx
+aspire1326@aspire1326-thinkcenter-m71e:~/Downloads$ autopep8 --in-place --aggressive --aggressive Questions.txt
+aspire1326@aspire1326-thinkcenter-m71e:~/Downloads$ autopep8 --in-place --aggressive --aggressive Assignment-2
+aspire1326@aspire1326-thinkcenter-m71e:~/Downloads$ cat Assignment-2
+== == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == = ASSIGNMENT 2 == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == ==
+
+row = int(input("Enter the no of rows"))
+column = int(input("Enter the no of columns"))
+rotation = int(input('Enter the no of rotations'))
+matrix = []
+matrix_inner = []
+for row_elements in range(0, row):
+    matrix_inner = []
+    for column_elements in range(0, column):
+        element = int(input('Enter the element '))
+        matrix_inner.append(element)
+    matrix.append(matrix_inner)
+print(matrix)
+rings = row if(row < column) else column
+ring_row = row
+ring_column = column
+temp_rotation = rotation
+
+for rotations in range(0, int(rings / 2)):
+    temp_rotation = rotation % (
+        ((row - (rotations * 2)) + (column - (rotations * 2)) - 2) * 2)
+    while(temp_rotation > 0):
+        row_elements = column_elements = rotations
+        dublicate = matrix[row_elements][column_elements]
+        while(row_elements < ring_row):
+            second_dublicate = matrix[row_elements][column_elements]
+            # print(q)
+            matrix[row_elements][column_elements] = dublicate
+            dublicate = second_dublicate
+            row_elements += 1
+        row_elements -= 1
+        column_elements += 1
+        while(column_elements < ring_column):
+            second_dublicate = matrix[row_elements][column_elements]
+            matrix[row_elements][column_elements] = dublicate
+            dublicate = second_dublicate
+            column_elements += 1
+        column_elements -= 1
+        row_elements -= 1
+        while(row_elements >= rotations):
+            second_dublicate = matrix[row_elements][column_elements]
+            matrix[row_elements][column_elements] = dublicate
+            dublicate = second_dublicate
+            row_elements -= 1
+        row_elements += 1
+        column_elements -= 1
+        while(column_elements >= rotations):
+            second_dublicate = matrix[row_elements][column_elements]
+            matrix[row_elements][column_elements] = dublicate
+            dublicate = second_dublicate
+            column_elements -= 1
+        temp_rotation -= 1
+    ring_row -= 1
+    ring_column -= 1
+
+print(matrix)
+aspire1326@aspire1326-thinkcenter-m71e:~/Downloads$ more Question.txt
+more: stat of Question.txt failed: No such file or directory
+aspire1326@aspire1326-thinkcenter-m71e:~/Downloads$ more Questions.txt
+COMPARE THE TRIPLETS
+
+
+def fun(l, m):
+    arr = []
+    apow = 0
+    bpow = 0
+    for i in range(0, len(l)):
+        if(l[i] > m[i]):
+            apow += 1
+        elif(m[i] > l[i]):
+            bpow += 1
+    arr.extend([j, c])
+    return(arr)
+
+
+try:
+    num = int(input('enter the number'))
+except TypeError as xerr:
+    print(xerr)
+alice = []
+bobi = []
+for i in range(0, num):
+    xnum = int(input('Enter the values of ' + str(i + 1) + 'Alice power'))
+    alice.append(xnum)
+
+for i in range(0, n):
+    xnum = int(input('Enter the values of ' + str(i + 1) + 'bobi power'))
+    bobi.append(xnum)
+zpo = fun(alice, bobi)
+print("the power rate is ", zpo)
+
+
+== == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == == 
+== == == == == == == == == == == == == == == == == == == == == == == == == == == =
+DIAGONAL DIFFERENCE import math
+
+
+def fun(l):
+    sum1 = sum2 = 0
+    for i in range(0, len(l)):
+        for j in range(0, len(l)):
+
+            if(i == j):
+                sum1 += l[i][j]
+            if(i + j == len(l) - 1):
+                sum2 += l[i][j]
+    x = int(math.fabs(sum1 - sum2))
+    print('The abs Difference will be', x)
+
+
+try:
+    num = int(input('Enter the number'))
+except TyperError as x:
+    print(x)
+list1 = []
+for i in range(0, num):
+    clist = []
+    for j in range(0, num):
+        xnum = int(input('ENTER THE ELEMENT OF THE MATRIX'))
+        clist.append(xnum)
+    list1.append(clist)
+fun(list1)
