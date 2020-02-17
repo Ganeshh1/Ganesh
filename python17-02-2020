@@ -1,0 +1,1494 @@
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/__pycache__/_appengine_environ.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/__pycache__/appengine.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/__pycache__/ntlmpool.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/__pycache__/pyopenssl.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/__pycache__/securetransport.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/__pycache__/socks.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/_appengine_environ.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/_securetransport/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/_securetransport/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/_securetransport/__pycache__/bindings.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/_securetransport/__pycache__/low_level.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/_securetransport/bindings.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/_securetransport/low_level.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/appengine.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/ntlmpool.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/pyopenssl.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/securetransport.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/contrib/socks.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/exceptions.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/fields.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/filepost.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/packages/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/packages/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/packages/__pycache__/six.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/packages/backports/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/packages/backports/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/packages/backports/__pycache__/makefile.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/packages/backports/makefile.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/packages/six.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/packages/ssl_match_hostname/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/packages/ssl_match_hostname/__pycache__/_implementation.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/poolmanager.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/request.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/response.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/__pycache__/connection.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/__pycache__/queue.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/__pycache__/request.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/__pycache__/response.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/__pycache__/retry.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/__pycache__/ssl_.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/__pycache__/timeout.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/__pycache__/url.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/__pycache__/wait.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/connection.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/queue.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/request.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/response.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/retry.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/ssl_.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/timeout.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/url.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/urllib3/util/wait.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/webencodings/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/webencodings/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/webencodings/__pycache__/labels.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/webencodings/__pycache__/mklabels.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/webencodings/__pycache__/tests.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/webencodings/__pycache__/x_user_defined.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/webencodings/labels.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/webencodings/mklabels.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/webencodings/tests.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/pip-20.0.2-py2.py3-none-any/pip/_vendor/webencodings/x_user_defined.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/easy_install.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/__pycache__/py2_warn.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/__pycache__/py31compat.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/__pycache__/appdirs.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/__pycache__/pyparsing.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/__pycache__/six.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/appdirs.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/__about__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/__pycache__/__about__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/__pycache__/_compat.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/__pycache__/_structures.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/__pycache__/markers.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/__pycache__/requirements.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/__pycache__/specifiers.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/__pycache__/utils.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/__pycache__/version.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/_compat.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/_structures.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/markers.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/requirements.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/specifiers.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/utils.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/packaging/version.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/pyparsing.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/_vendor/six.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/extern/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/extern/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/py2_warn.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/pkg_resources/py31compat.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools-45.2.0.dist-info.virtualenv
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools-45.2.0.dist-info/INSTALLER
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools-45.2.0.dist-info/LICENSE
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools-45.2.0.dist-info/METADATA
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools-45.2.0.dist-info/RECORD
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools-45.2.0.dist-info/WHEEL
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools-45.2.0.dist-info/dependency_links.txt
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools-45.2.0.dist-info/entry_points.txt
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools-45.2.0.dist-info/top_level.txt
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools-45.2.0.dist-info/zip-safe
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/_deprecation_warning.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/_imp.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/archive_util.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/build_meta.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/config.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/dep_util.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/depends.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/dist.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/errors.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/extension.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/glob.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/installer.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/launch.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/lib2to3_ex.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/monkey.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/msvc.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/namespaces.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/package_index.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/py27compat.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/py31compat.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/py33compat.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/py34compat.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/sandbox.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/site-patch.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/ssl_support.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/unicode_utils.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/version.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/wheel.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/__pycache__/windows_support.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_deprecation_warning.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_imp.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/__pycache__/ordered_set.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/__pycache__/pyparsing.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/__pycache__/six.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/ordered_set.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/__about__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/__pycache__/__about__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/__pycache__/_compat.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/__pycache__/_structures.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/__pycache__/markers.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/__pycache__/requirements.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/__pycache__/specifiers.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/__pycache__/tags.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/__pycache__/utils.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/__pycache__/version.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/_compat.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/_structures.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/markers.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/requirements.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/specifiers.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/tags.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/utils.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/packaging/version.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/pyparsing.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/_vendor/six.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/archive_util.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/build_meta.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/cli-32.exe
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/cli-64.exe
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/cli.exe
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/alias.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/bdist_egg.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/bdist_rpm.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/bdist_wininst.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/build_clib.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/build_ext.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/build_py.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/develop.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/dist_info.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/easy_install.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/egg_info.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/install.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/install_egg_info.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/install_lib.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/install_scripts.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/py36compat.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/register.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/rotate.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/saveopts.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/sdist.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/setopt.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/test.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/upload.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/__pycache__/upload_docs.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/alias.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/bdist_egg.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/bdist_rpm.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/bdist_wininst.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/build_clib.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/build_ext.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/build_py.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/develop.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/dist_info.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/easy_install.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/egg_info.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/install.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/install_egg_info.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/install_lib.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/install_scripts.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/launcher manifest.xml
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/py36compat.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/register.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/rotate.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/saveopts.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/sdist.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/setopt.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/test.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/upload.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/command/upload_docs.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/config.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/dep_util.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/depends.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/dist.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/errors.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/extension.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/extern/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/extern/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/glob.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/gui-32.exe
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/gui-64.exe
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/gui.exe
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/installer.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/launch.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/lib2to3_ex.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/monkey.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/msvc.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/namespaces.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/package_index.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/py27compat.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/py31compat.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/py33compat.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/py34compat.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/sandbox.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/script (dev).tmpl
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/script.tmpl
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/site-patch.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/ssl_support.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/unicode_utils.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/version.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/wheel.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/setuptools-45.2.0-py3-none-any/setuptools/windows_support.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel-0.34.2.dist-info.virtualenv
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel-0.34.2.dist-info/INSTALLER
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel-0.34.2.dist-info/LICENSE.txt
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel-0.34.2.dist-info/METADATA
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel-0.34.2.dist-info/RECORD
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel-0.34.2.dist-info/WHEEL
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel-0.34.2.dist-info/entry_points.txt
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel-0.34.2.dist-info/top_level.txt
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/__main__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/__pycache__/__main__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/__pycache__/_version.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/__pycache__/bdist_wheel.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/__pycache__/macosx_libfile.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/__pycache__/metadata.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/__pycache__/pep425tags.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/__pycache__/pkginfo.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/__pycache__/util.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/__pycache__/wheelfile.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/_version.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/bdist_wheel.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/cli/__init__.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/cli/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/cli/__pycache__/convert.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/cli/__pycache__/install.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/cli/__pycache__/pack.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/cli/__pycache__/unpack.cpython-36.pyc
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/cli/convert.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/cli/install.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/cli/pack.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/cli/unpack.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/macosx_libfile.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/metadata.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/pep425tags.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/pkginfo.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/util.py
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/image/SymlinkPipInstall/wheel-0.34.2-py2.py3-none-any/wheel/wheelfile.py
+ create mode 100755 .local/share/virtualenv/seed-v1/3.6/wheels.lock
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/wheels/pip-20.0.2-py2.py3-none-any.whl
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/wheels/setuptools-45.2.0-py3-none-any.whl
+ create mode 100644 .local/share/virtualenv/seed-v1/3.6/wheels/wheel-0.34.2-py2.py3-none-any.whl
+ create mode 100644 .local/share/xorg/Xorg.0.log
+ create mode 100644 .local/share/zeitgeist/activity.sqlite
+ create mode 100644 .local/share/zeitgeist/activity.sqlite-shm
+ create mode 100644 .local/share/zeitgeist/activity.sqlite-wal
+ create mode 100644 .local/share/zeitgeist/fts.index/flintlock
+ create mode 100644 .local/share/zeitgeist/fts.index/iamchert
+ create mode 100644 .local/share/zeitgeist/fts.index/position.DB
+ create mode 100644 .local/share/zeitgeist/fts.index/position.baseA
+ create mode 100644 .local/share/zeitgeist/fts.index/position.baseB
+ create mode 100644 .local/share/zeitgeist/fts.index/postlist.DB
+ create mode 100644 .local/share/zeitgeist/fts.index/postlist.baseA
+ create mode 100644 .local/share/zeitgeist/fts.index/postlist.baseB
+ create mode 100644 .local/share/zeitgeist/fts.index/record.DB
+ create mode 100644 .local/share/zeitgeist/fts.index/record.baseA
+ create mode 100644 .local/share/zeitgeist/fts.index/record.baseB
+ create mode 100644 .local/share/zeitgeist/fts.index/termlist.DB
+ create mode 100644 .local/share/zeitgeist/fts.index/termlist.baseA
+ create mode 100644 .local/share/zeitgeist/fts.index/termlist.baseB
+ create mode 100644 .mozilla/firefox/Crash Reports/InstallTime20180704194937
+ create mode 100644 .mozilla/firefox/Crash Reports/InstallTime20200117190643
+ create mode 100644 .mozilla/firefox/installs.ini
+ create mode 100644 .mozilla/firefox/profiles.ini
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/.parentlock
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/AlternateServices.txt
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/SecurityPreloadState.txt
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/SiteSecurityServiceState.txt
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/TRRBlacklist.txt
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/addonStartup.json.lz4
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/addons.json
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/blocklist.xml
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/bookmarkbackups/bookmarks-2020-02-07_19_Wfjyd96V7dXDY82B88I5uQ==.jsonlz4
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/broadcast-listeners.json
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/cert8.db
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/cert9.db
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/compatibility.ini
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/containers.json
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/content-prefs.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/cookies.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/cookies.sqlite-shm
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/crashes/store.json.mozlz4
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/datareporting/archived/2020-02/1581089055888.cb5e3466-1fed-4ef2-8299-ef4fdfac7b96.modules.jsonlz4
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/datareporting/archived/2020-02/1581090165678.ab546459-9746-470e-a921-306a2ae39e74.new-profile.jsonlz4
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/datareporting/archived/2020-02/1581100200013.851eed21-e25c-4347-b646-aa51ce627ee2.main.jsonlz4
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/datareporting/archived/2020-02/1581121676074.a2af29af-6300-4104-ad1e-ae16f22fc1f7.main.jsonlz4
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/datareporting/archived/2020-02/1581309306212.c969b8b3-8998-49a4-af12-a6a5b50c65bb.health.jsonlz4
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/datareporting/archived/2020-02/1581310505341.f202a9e9-f3b2-4d25-a63d-f8467847792c.event.jsonlz4
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/datareporting/archived/2020-02/1581310505351.a62d9d5c-fe4c-4a7b-a704-068d952a1bbd.main.jsonlz4
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/datareporting/archived/2020-02/1581314971815.315c70df-1fd3-4824-8e4c-dafca7ac00bf.health.jsonlz4
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/datareporting/archived/2020-02/1581315706677.0d5c03e9-dfbc-4ef9-9119-4004242c35a5.health.jsonlz4
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/datareporting/archived/2020-02/1581315706690.e856f6b3-bf6f-4af1-a449-e8d5d5d70091.main.jsonlz4
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/datareporting/session-state.json
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/datareporting/state.json
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/extension-preferences.json
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/extensions.json
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/favicons.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/favicons.sqlite-shm
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/formhistory.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/handlers.json
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/key3.db
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/key4.db
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/permissions.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/pkcs11.txt
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/places.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/places.sqlite-shm
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/pluginreg.dat
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/prefs.js
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/protections.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/revocations.txt
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/saved-telemetry-pings/0d5c03e9-dfbc-4ef9-9119-4004242c35a5
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/saved-telemetry-pings/e856f6b3-bf6f-4af1-a449-e8d5d5d70091
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/search.json.mozlz4
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/secmod.db
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/sessionCheckpoints.json
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/sessionstore-backups/previous.jsonlz4
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/sessionstore-backups/upgrade.jsonlz4-20200117190643
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/sessionstore.jsonlz4
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/shield-preference-experiments.json
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/default/about+newtab/.metadata
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/default/about+newtab/.metadata-v2
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/default/about+newtab/idb/3312185054sbndi_pspte.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/default/moz-extension+++1648ae29-0fc1-45d0-a657-3afcde3f96c6^userContextId=4294967295/.metadata-v2
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/default/moz-extension+++1648ae29-0fc1-45d0-a657-3afcde3f96c6^userContextId=4294967295/idb/3647222921wleabcEoxlt-eengsairo.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/permanent/chrome/.metadata
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/permanent/chrome/.metadata-v2
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/permanent/chrome/idb/1059394878bslnoicgkullipsFt2s%.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/permanent/chrome/idb/1451318868ntouromlalnodry--epcr.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/permanent/chrome/idb/1657114595AmcateirvtiSty.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/permanent/chrome/idb/1725441852bxlfogcFk2l%isst.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/permanent/chrome/idb/2823318777ntouromlalnodry--naod.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/permanent/chrome/idb/2918063365piupsah.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/permanent/chrome/idb/3345959086bslnoocdkdlaiFs2t%s.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/permanent/chrome/idb/3561288849sdhlie.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/permanent/chrome/idb/3899588440psinninpiFn2g%.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/storage/permanent/chrome/idb/727688008bsleotcakcliifsittsr%.sqlite
+ create mode 100755 .mozilla/firefox/sj6zarwh.default/times.json
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/weave/failed/tabs.json
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/weave/logs/error-sync-1581315142459.txt
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/weave/toFetch/tabs.json
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/webappsstore.sqlite
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/webappsstore.sqlite-shm
+ create mode 100644 .mozilla/firefox/sj6zarwh.default/xulstore.json
+ create mode 100644 .pki/nssdb/cert9.db
+ create mode 100644 .pki/nssdb/key4.db
+ create mode 100644 .pki/nssdb/pkcs11.txt
+ create mode 100644 .profile
+ create mode 100644 .python_history
+ create mode 100644 .remmina/remmina.pref
+ create mode 100644 .sudo_as_admin_successful
+ create mode 100644 .vscode/argv.json
+ create mode 100644 .xsession-errors
+ create mode 100644 .xsession-errors.old
+ create mode 100644 Downloads/.~lock.Python_Fresher_Training_2016.xlsx#
+ create mode 100644 Downloads/12-02-2020
+ create mode 100644 Downloads/Assignment-2
+ create mode 100644 Downloads/IMG-168(1)-01-01.jpeg
+ create mode 100644 Downloads/IMG20190106110637.jpg
+ create mode 100644 Downloads/IMG_5384.JPG
+ create mode 100644 Downloads/Python_Fresher_Training_2016.xlsx
+ create mode 100644 Downloads/Questions.txt
+ create mode 100644 Downloads/Untitled Document 1
+ create mode 100644 Downloads/code_1.42.0-1580986622_amd64 (1).deb
+ create mode 100644 Downloads/code_1.42.0-1580986622_amd64.deb
+ create mode 100644 Downloads/matrix-rotation-algo-testcases.zip
+ create mode 100644 Downloads/project14.02.2020
+ create mode 100644 Downloads/review.pdf
+ create mode 160000 Ganesh
+ create mode 100644 examples.desktop
+aspire1326@aspire1326-thinkcenter-m71e:~$ gedit ganesh
+aspire1326@aspire1326-thinkcenter-m71e:~$ cd
+aspire1326@aspire1326-thinkcenter-m71e:~$ cd ..
+aspire1326@aspire1326-thinkcenter-m71e:/home$ cd ..
+aspire1326@aspire1326-thinkcenter-m71e:/$ ls
+bin   cdrom  etc   initrd.img      lib    lost+found  mnt  proc  run   snap  sys  usr  vmlinuz
+boot  dev    home  initrd.img.old  lib64  media       opt  root  sbin  srv   tmp  var  vmlinuz.old
+aspire1326@aspire1326-thinkcenter-m71e:/$ cd home
+aspire1326@aspire1326-thinkcenter-m71e:/home$ ls
+aspire1326
+aspire1326@aspire1326-thinkcenter-m71e:/home$ cd aspire1326
+aspire1326@aspire1326-thinkcenter-m71e:~$ ls
+Desktop  Documents  Downloads  examples.desktop  Ganesh  Music  Pictures  Public  Templates  Videos
+aspire1326@aspire1326-thinkcenter-m71e:~$ django - admin
+django: command not found
+aspire1326@aspire1326-thinkcenter-m71e:~$ django-admin
+
+Type 'django-admin help <subcommand>' for help on a specific subcommand.
+
+Available subcommands:
+
+[django]
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    loaddata
+    makemessages
+    makemigrations
+    migrate
+    runserver
+    sendtestemail
+    shell
+    showmigrations
+    sqlflush
+    sqlmigrate
+    sqlsequencereset
+    squashmigrations
+    startapp
+    startproject
+    test
+    testserver
+Note that only Django core commands are listed as settings are not properly configured (error: Requested setting INSTALLED_APPS, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.).
+aspire1326@aspire1326-thinkcenter-m71e:~$ django-admin startproject test_project
+aspire1326@aspire1326-thinkcenter-m71e:~$ ls
+Desktop  Documents  Downloads  examples.desktop  Ganesh  Music  Pictures  Public  Templates  test_project  Videos
+aspire1326@aspire1326-thinkcenter-m71e:~$ cd test_project
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ tree 
+
+Command 'tree' not found, but can be installed with:
+
+sudo apt install tree
+
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ sudo apt install tree
+[sudo] password for aspire1326: 
+Sorry, try again.
+[sudo] password for aspire1326: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libpython-all-dev libpython-dev libpython2.7-dev
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  tree
+0 upgraded, 1 newly installed, 0 to remove and 2 not upgraded.
+Need to get 40.7 kB of archives.
+After this operation, 105 kB of additional disk space will be used.
+Get:1 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 tree amd64 1.7.0-5 [40.7 kB]
+Fetched 40.7 kB in 0s (124 kB/s)
+Selecting previously unselected package tree.
+(Reading database ... 189671 files and directories currently installed.)
+Preparing to unpack .../tree_1.7.0-5_amd64.deb ...
+Unpacking tree (1.7.0-5) ...
+Setting up tree (1.7.0-5) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ tree
+.
+├── manage.py
+└── test_project
+    ├── asgi.py
+    ├── __init__.py
+    ├── settings.py
+    ├── urls.py
+    └── wsgi.py
+
+1 directory, 6 files
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 04:56:02
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[17/Feb/2020 04:56:26] "GET / HTTP/1.1" 200 16351
+[17/Feb/2020 04:56:26] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[17/Feb/2020 04:56:26] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[17/Feb/2020 04:56:26] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[17/Feb/2020 04:56:26] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+Not Found: /favicon.ico
+[17/Feb/2020 04:56:26] "GET /favicon.ico HTTP/1.1" 404 1978
+[17/Feb/2020 04:58:22] "GET / HTTP/1.1" 200 16351
+[17/Feb/2020 04:58:23] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[17/Feb/2020 04:58:23] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[17/Feb/2020 04:58:23] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[17/Feb/2020 04:58:23] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+Not Found: /favicon.ico
+[17/Feb/2020 04:58:23] "GET /favicon.ico HTTP/1.1" 404 1978
+[17/Feb/2020 05:00:16] "GET /admin HTTP/1.1" 301 0
+[17/Feb/2020 05:00:16] "GET /admin/ HTTP/1.1" 302 0
+[17/Feb/2020 05:00:16] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+[17/Feb/2020 05:00:16] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[17/Feb/2020 05:00:16] "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+[17/Feb/2020 05:00:16] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py startapp
+usage: manage.py startapp [-h] [--template TEMPLATE] [--extension EXTENSIONS]
+                          [--name FILES] [--version] [-v {0,1,2,3}]
+                          [--settings SETTINGS] [--pythonpath PYTHONPATH]
+                          [--traceback] [--no-color] [--force-color]
+                          name [directory]
+manage.py startapp: error: You must provide an application name.
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py startapp blog
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ tree
+.
+├── blog
+│   ├── admin.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   └── __init__.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+├── db.sqlite3
+├── manage.py
+└── test_project
+    ├── asgi.py
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── __init__.cpython-36.pyc
+    │   ├── settings.cpython-36.pyc
+    │   ├── urls.cpython-36.pyc
+    │   └── wsgi.cpython-36.pyc
+    ├── settings.py
+    ├── urls.py
+    └── wsgi.py
+
+4 directories, 18 files
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 590, in url_patterns
+    iter(patterns)
+TypeError: 'module' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/base.py", line 395, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/base.py", line 382, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/checks/registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 408, in check
+    messages.extend(check_resolver(pattern))
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 407, in check
+    for pattern in self.url_patterns:
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 597, in url_patterns
+    raise ImproperlyConfigured(msg.format(name=self.urlconf_name))
+django.core.exceptions.ImproperlyConfigured: The included URLconf '<module 'blog.urls' from '/home/aspire1326/test_project/blog/urls.py'>' does not appear to have any patterns in it. If you see valid patterns in the file then the issue is probably caused by a circular import.
+
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ tree
+.
+├── blog
+│   ├── admin.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   └── __init__.py
+│   ├── models.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-36.pyc
+│   │   ├── urls.cpython-36.pyc
+│   │   └── views.cpython-36.pyc
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── db.sqlite3
+├── manage.py
+└── test_project
+    ├── asgi.py
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── __init__.cpython-36.pyc
+    │   ├── settings.cpython-36.pyc
+    │   ├── urls.cpython-36.pyc
+    │   └── wsgi.cpython-36.pyc
+    ├── settings.py
+    ├── urls.py
+    └── wsgi.py
+
+5 directories, 22 files
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ pyhton manage startapp blog
+
+Command 'pyhton' not found, did you mean:
+
+  command 'python' from deb python3
+  command 'python' from deb python
+  command 'python' from deb python-minimal
+
+Try: sudo apt install <deb name>
+
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage startapp blog
+python3: can't open file 'manage': [Errno 2] No such file or directory
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py startapp blog
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ tree
+.
+├── blog
+│   ├── admin.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   └── __init__.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+├── manage.py
+└── test_project
+    ├── asgi.py
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── __init__.cpython-36.pyc
+    │   ├── settings.cpython-36.pyc
+    │   ├── urls.cpython-36.pyc
+    │   └── wsgi.cpython-36.pyc
+    ├── settings.py
+    ├── urls.py
+    └── wsgi.py
+
+4 directories, 17 files
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ sudo apt install http
+[sudo] password for aspire1326: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+E: Unable to locate package http
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ dir(http)
+bash: syntax error near unexpected token `http'
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ dir(httpie)
+bash: syntax error near unexpected token `httpie'
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python
+Python 3.6.9 (default, Nov  7 2019, 10:44:02) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import hppie
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'hppie'
+>>> import httpie
+>>> dir(httpie)
+['EXIT_STATUS_LABELS', 'ExitStatus', '__author__', '__builtins__', '__cached__', '__doc__', '__file__', '__licence__', '__loader__', '__name__', '__package__', '__path__', '__spec__', '__version__']
+>>> 
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/base.py", line 395, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/base.py", line 382, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/checks/registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 407, in check
+    for pattern in self.url_patterns:
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 588, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 581, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/aspire1326/test_project/test_project/urls.py", line 21, in <module>
+    path('blog/',include('blog.urls')),
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/aspire1326/test_project/blog/urls.py", line 4, in <module>
+    path('', view.home,name='blog-home'),
+NameError: name 'view' is not defined
+
+/home/aspire1326/test_project/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:15:35
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:15:40
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[17/Feb/2020 08:15:58] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+[17/Feb/2020 08:15:59] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+[17/Feb/2020 08:15:59] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+[17/Feb/2020 08:16:00] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+Not Found: /
+[17/Feb/2020 08:16:04] "GET / HTTP/1.1" 404 2032
+[17/Feb/2020 08:16:26] "GET /blog HTTP/1.1" 301 0
+[17/Feb/2020 08:16:26] "GET /blog/ HTTP/1.1" 200 18
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:20:16
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+/home/aspire1326/test_project/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:20:49
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+/home/aspire1326/test_project/test_project/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:21:20
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:21:26
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[17/Feb/2020 08:21:38] "GET /blog/ HTTP/1.1" 200 18
+Not Found: /
+[17/Feb/2020 08:21:46] "GET / HTTP/1.1" 404 2138
+[17/Feb/2020 08:21:55] "GET /about HTTP/1.1" 301 0
+[17/Feb/2020 08:21:55] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:22:24] "GET /about/ HTTP/1.1" 200 18
+/home/aspire1326/test_project/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:23:08
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:23:11
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:23:15
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[17/Feb/2020 08:23:18] "GET /about/ HTTP/1.1" 200 18
+Not Found: /
+[17/Feb/2020 08:23:22] "GET / HTTP/1.1" 404 2138
+[17/Feb/2020 08:23:28] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:23:30] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:23:30] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:23:31] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:23:31] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:23:31] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:23:31] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:23:31] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:23:32] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:23:32] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:23:32] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:23:49] "GET /blog/ HTTP/1.1" 200 18
+/home/aspire1326/test_project/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:25:10
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:25:15
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[17/Feb/2020 08:25:30] "GET /about/ HTTP/1.1" 200 18
+Not Found: /
+[17/Feb/2020 08:25:36] "GET / HTTP/1.1" 404 2138
+Not Found: /
+[17/Feb/2020 08:25:36] "GET / HTTP/1.1" 404 2138
+Not Found: /
+[17/Feb/2020 08:25:36] "GET / HTTP/1.1" 404 2138
+Not Found: /
+[17/Feb/2020 08:25:36] "GET / HTTP/1.1" 404 2138
+Not Found: /
+[17/Feb/2020 08:25:37] "GET / HTTP/1.1" 404 2138
+Not Found: /
+[17/Feb/2020 08:25:37] "GET / HTTP/1.1" 404 2138
+Not Found: /
+[17/Feb/2020 08:25:37] "GET / HTTP/1.1" 404 2138
+Not Found: /
+[17/Feb/2020 08:25:37] "GET / HTTP/1.1" 404 2138
+[17/Feb/2020 08:25:42] "GET /about/ HTTP/1.1" 200 18
+/home/aspire1326/test_project/test_project/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:30:19
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:30:24
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Not Found: /about/
+[17/Feb/2020 08:30:32] "GET /about/ HTTP/1.1" 404 2068
+/home/aspire1326/test_project/test_project/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:30:54
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:31:05
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[17/Feb/2020 08:31:11] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:31:12] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:31:12] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:31:12] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:31:13] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:31:13] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:31:13] "GET /about/ HTTP/1.1" 200 18
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:31:26
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[17/Feb/2020 08:31:28] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:31:28] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:31:28] "GET /about/ HTTP/1.1" 200 18
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:31:35
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[17/Feb/2020 08:31:38] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:31:38] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:31:39] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:31:39] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:31:39] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:31:46] "GET /about/ HTTP/1.1" 200 18
+[17/Feb/2020 08:33:44] "GET /about/ HTTP/1.1" 200 18
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:38:02
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:38:07
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[17/Feb/2020 08:38:13] "GET /about/ HTTP/1.1" 200 22
+Not Found: /
+[17/Feb/2020 08:38:22] "GET / HTTP/1.1" 404 2138
+[17/Feb/2020 08:38:28] "GET /blog/ HTTP/1.1" 200 22
+Not Found: /
+[17/Feb/2020 08:38:37] "GET / HTTP/1.1" 404 2138
+[17/Feb/2020 08:38:41] "GET /about/ HTTP/1.1" 200 22
+/home/aspire1326/test_project/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:39:13
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:39:16
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Not Found: /about/
+[17/Feb/2020 08:39:19] "GET /about/ HTTP/1.1" 404 2422
+Not Found: /about/about/blog
+[17/Feb/2020 08:39:38] "GET /about/about/blog HTTP/1.1" 404 2452
+/home/aspire1326/test_project/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:39:46
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+/home/aspire1326/test_project/test_project/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:40:05
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+/home/aspire1326/test_project/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:40:10
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:40:13
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:40:44
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[17/Feb/2020 08:40:47] "GET /about HTTP/1.1" 301 0
+[17/Feb/2020 08:40:47] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:40:55] "GET /blog HTTP/1.1" 301 0
+[17/Feb/2020 08:40:55] "GET /blog/ HTTP/1.1" 200 22
+[17/Feb/2020 08:41:01] "GET /admin/ HTTP/1.1" 302 0
+[17/Feb/2020 08:41:01] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+[17/Feb/2020 08:41:01] "GET /static/admin/css/login.css HTTP/1.1" 200 1233
+[17/Feb/2020 08:41:01] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[17/Feb/2020 08:41:01] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:42:17
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:42:20
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[17/Feb/2020 08:42:37] "GET /blog/ HTTP/1.1" 200 22
+[17/Feb/2020 08:42:42] "GET /about/ HTTP/1.1" 200 22
+/home/aspire1326/test_project/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:44:00
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+/home/aspire1326/test_project/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:44:20
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:44:25
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[17/Feb/2020 08:44:32] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:44:32] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:44:33] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:44:33] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:44:33] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:44:33] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:44:33] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:44:42] "GET /blog/ HTTP/1.1" 200 22
+/home/aspire1326/test_project/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/commands/runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/base.py", line 395, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/base.py", line 382, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/checks/registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 407, in check
+    for pattern in self.url_patterns:
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 588, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 581, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/aspire1326/test_project/test_project/urls.py", line 21, in <module>
+    path('blog/',include('blog.urls')),
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/aspire1326/test_project/blog/urls.py", line 4, in <module>
+    path(' ', views.home,name='blog-home'),
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/urls/conf.py", line 70, in _path
+    pattern = Pattern(route, name=name, is_endpoint=True)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 254, in __init__
+    self.converters = _route_to_regex(str(route), is_endpoint)[1]
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 212, in _route_to_regex
+    raise ImproperlyConfigured("URL route '%s' cannot contain whitespace." % route)
+django.core.exceptions.ImproperlyConfigured: URL route ' ' cannot contain whitespace.
+
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:47:15
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[17/Feb/2020 08:47:19] "GET /blog/ HTTP/1.1" 200 22
+[17/Feb/2020 08:47:26] "GET /about/ HTTP/1.1" 200 22
+/home/aspire1326/test_project/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:47:39
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[17/Feb/2020 08:47:42] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:47:42] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:47:42] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:47:43] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:47:43] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:47:43] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:47:43] "GET /about/ HTTP/1.1" 200 22
+/home/aspire1326/test_project/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:49:22
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[17/Feb/2020 08:49:24] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:49:25] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:49:25] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:49:25] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:49:26] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:49:26] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:49:26] "GET /about/ HTTP/1.1" 200 22
+[17/Feb/2020 08:49:26] "GET /about/ HTTP/1.1" 200 22
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:53:39
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Not Found: /blog/about/
+[17/Feb/2020 08:53:54] "GET /blog/about/ HTTP/1.1" 404 2430
+/home/aspire1326/test_project/blog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:54:11
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 17, 2020 - 08:54:12
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[17/Feb/2020 08:54:16] "GET /blog/about/ HTTP/1.1" 200 19
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ from dj
+=================================================================================================================================================
+=================================================================================================================================================
+============================================================VIEWS.PY=============================================================================
+from django.shortcuts import render
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse('<h1>Blog hahahaha</h1>')
+def about(request):
+    return HttpResponse('<h1>Blog About</h1>')
+
+=================================================================================================================================================
+=================================================================================================================================================
+============================================================URLS.PY[blog]=============================================================================
+from django.urls import path,include
+from . import views
+urlpatterns = [
+    path('', views.home,name='blog-home'),
+    path('about/',views.about,name='blog-about')
+	
+]   
+
+=================================================================================================================================================
+=================================================================================================================================================
+============================================================URLS.PY[test_project]================================================================
+
+"""test_project URL Configuration
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/3.0/topics/http/urls/
+Examples:
+Function views
+    1. Add an import:  from my_app import views
+    2. Add a URL to urlpatterns:  path('', views.home, name='home')
+Class-based views
+    1. Add an import:  from other_app.views import Home
+    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
+Including another URLconf
+    1. Import the include() function: from django.urls import include, path
+    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+"""
+from django.contrib import admin
+from django.urls import path,include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+	path('blog/',include('blog.urls')),
+    path('about/',include('blog.urls')),
+]
