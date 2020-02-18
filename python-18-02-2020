@@ -1,0 +1,378 @@
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 18, 2020 - 06:18:42
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Not Found: /
+[18/Feb/2020 06:18:52] "GET / HTTP/1.1" 404 2138
+Not Found: /favicon.ico
+[18/Feb/2020 06:18:52] "GET /favicon.ico HTTP/1.1" 404 2189
+[18/Feb/2020 06:19:07] "GET /blog/ HTTP/1.1" 200 124
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 18, 2020 - 06:20:41
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 18, 2020 - 06:20:47
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[18/Feb/2020 06:20:48] "GET /blog/ HTTP/1.1" 200 124
+[18/Feb/2020 06:20:53] "GET /blog/about HTTP/1.1" 301 0
+[18/Feb/2020 06:20:53] "GET /blog/about/ HTTP/1.1" 200 125
+[18/Feb/2020 06:21:08] "GET /about/ HTTP/1.1" 200 124
+[18/Feb/2020 06:21:14] "GET /about/ HTTP/1.1" 200 124
+[18/Feb/2020 06:21:37] "GET /about/ HTTP/1.1" 200 124
+Not Found: /
+[18/Feb/2020 06:25:20] "GET / HTTP/1.1" 404 2138
+[18/Feb/2020 06:25:29] "GET /admin HTTP/1.1" 301 0
+[18/Feb/2020 06:25:29] "GET /admin/ HTTP/1.1" 302 0
+[18/Feb/2020 06:25:29] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+[18/Feb/2020 06:25:29] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[18/Feb/2020 06:25:29] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[18/Feb/2020 06:25:29] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[18/Feb/2020 06:25:29] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[18/Feb/2020 06:25:29] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[18/Feb/2020 06:25:29] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[18/Feb/2020 06:25:40] "GET /blog/ HTTP/1.1" 200 124
+[18/Feb/2020 06:25:55] "GET /blog/about/ HTTP/1.1" 200 2048
+[18/Feb/2020 06:28:56] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:28:58] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:28:58] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:28:58] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:28:58] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:28:58] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:28:59] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:28:59] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:29:00] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:29:00] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:29:00] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:29:00] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:29:01] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:29:01] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:29:01] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:29:02] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:29:02] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:29:02] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:29:02] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:29:02] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:29:02] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:29:03] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:29:03] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:29:03] "GET /blog/about/ HTTP/1.1" 200 2223
+[18/Feb/2020 06:29:17] "GET /blog/about/ HTTP/1.1" 200 2225
+[18/Feb/2020 06:29:18] "GET /blog/about/ HTTP/1.1" 200 2225
+[18/Feb/2020 06:29:18] "GET /blog/about/ HTTP/1.1" 200 2225
+[18/Feb/2020 06:29:18] "GET /blog/about/ HTTP/1.1" 200 2225
+[18/Feb/2020 06:29:18] "GET /blog/about/ HTTP/1.1" 200 2225
+[18/Feb/2020 06:29:18] "GET /blog/about/ HTTP/1.1" 200 2225
+[18/Feb/2020 06:29:19] "GET /blog/about/ HTTP/1.1" 200 2225
+[18/Feb/2020 06:29:32] "GET /blog/ HTTP/1.1" 200 124
+[18/Feb/2020 06:29:36] "GET /blog/about/ HTTP/1.1" 200 2225
+[18/Feb/2020 06:29:54] "GET /blog/about/ HTTP/1.1" 200 2231
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 18, 2020 - 06:32:25
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 18, 2020 - 06:33:45
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[18/Feb/2020 06:36:49] "GET /blog/ HTTP/1.1" 200 252
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 18, 2020 - 06:37:46
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[18/Feb/2020 06:37:53] "GET /blog/ HTTP/1.1" 200 265
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 18, 2020 - 06:45:39
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[18/Feb/2020 06:45:44] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:45:45] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:45:45] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:45:45] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:45:46] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:45:46] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:45:46] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:45:46] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:45:46] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:45:47] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:45:47] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:45:47] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:45:47] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:45:47] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:45:48] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:45:48] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:45:48] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:45:48] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:46:10] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:46:11] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:46:11] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:46:11] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:46:11] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:46:12] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:46:12] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:46:12] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:46:27] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:46:28] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:46:28] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:46:28] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:46:28] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:46:28] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:46:28] "GET /blog/ HTTP/1.1" 200 286
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 18, 2020 - 06:47:04
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[18/Feb/2020 06:47:09] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:47:13] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:47:13] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:47:14] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:47:14] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:47:49] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:47:50] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:47:50] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:47:50] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:47:50] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:47:51] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:47:51] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:47:51] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:47:51] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:47:51] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:47:52] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:47:52] "GET /blog/ HTTP/1.1" 200 286
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 18, 2020 - 06:47:57
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[18/Feb/2020 06:47:58] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:48:03] "GET /blog/about/ HTTP/1.1" 200 141
+[18/Feb/2020 06:49:45] "GET /blog/about/ HTTP/1.1" 200 141
+[18/Feb/2020 06:49:46] "GET /blog/ HTTP/1.1" 200 286
+[18/Feb/2020 06:52:50] "GET /blog/ HTTP/1.1" 200 286
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 18, 2020 - 06:53:21
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[18/Feb/2020 06:53:23] "GET /blog/ HTTP/1.1" 200 286
+Internal Server Error: /blog/about/
+Traceback (most recent call last):
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aspire1326/test_project/blog/views.py", line 23, in about
+    return render(request,'blog/about.html',{'title':'About'},context)
+NameError: name 'context' is not defined
+[18/Feb/2020 06:53:27] "GET /blog/about/ HTTP/1.1" 500 70012
+[18/Feb/2020 06:53:35] "GET /blog/ HTTP/1.1" 200 286
+Internal Server Error: /blog/about/
+Traceback (most recent call last):
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/aspire1326/test_project/blog/views.py", line 23, in about
+    return render(request,'blog/about.html',{'title':'About'},context)
+NameError: name 'context' is not defined
+[18/Feb/2020 06:53:44] "GET /blog/about/ HTTP/1.1" 500 70012
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+February 18, 2020 - 06:53:48
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[18/Feb/2020 06:53:50] "GET /blog/about/ HTTP/1.1" 200 141
+[18/Feb/2020 07:01:45] "GET /blog/about/ HTTP/1.1" 200 141
+[18/Feb/2020 07:01:47] "GET /blog/ HTTP/1.1" 200 286
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ 
+=================================================================================================================================================
+=========================================================HOME.HTML===============================================================================
+=================================================================================================================================================
+<html>  
+    <head>
+        {% if title%}
+        <title> Django Blog - {{ title }}       </title>
+        {% else %}
+        <title> Django Blog </title>
+        {% endif %}
+    </head>
+    <body>
+        {% for post in posts %}
+            <h1>{{post.name}}</h1>
+            <p>{{post.Age}} and bone on {{post.DOB}}</p>
+        {% endfor %}
+    </body>
+</html>
+=================================================================================================================================================
+=========================================================ABOUT.HTML===============================================================================
+=================================================================================================================================================
+<html>  
+    <head>
+        {% if title%}
+        <title> Django Blog - {{ title }}       </title>
+        {% else %}
+        <title> Django Blog </title>
+        {% endif %}
+    </head>
+    <body>
+        {% for post in posts %}
+            <h1>{{post.name}}</h1>
+            <p>{{post.Age}} and bone on {{post.DOB}}</p>
+        {% endfor %}
+    </body>
+</html>
+================================================================================================================================================
+=============================================================SETTINGS.PY========================================================================
+================================================================================================================================================
+  ADDDED THIS STRING IN THE INSTALLED_APPS
+'blog.apps.BlogConfig'
+
+================================================================================================================================================
+=============================================================URLS.PY========================================================================
+================================================================================================================================================
+
+from django.urls import path,include
+from . import views
+urlpatterns = [
+    path('', views.home,name='blog-home'),
+    path('about/',views.about,name='blog-about')
+
+================================================================================================================================================
+=============================================================VIEWS.PY========================================================================
+================================================================================================================================================
+from django.shortcuts import render
+posts=[
+    {
+        'name':'Ganesh',
+        'Age':'21',
+        'DOB':'06061999'
+    },
+     {
+        'name':'Abi',
+        'Age':'91',
+        'DOB':'Un-Defined'
+    }
+
+]
+# from django.http import HttpResponse
+
+def home(request):
+    context={
+        'posts':posts
+    }
+    return render(request,'blog/home.html',context)
+def about(request):
+    return render(request,'blog/about.html',{'title':'About'})
+
+	
+]   
+
+================================================================================================================================================
+=============================================================OUTPUT=============================================================================
+================================================================================================================================================
+Ganesh
+21 and bone on 06061999
+
+Abi
+91 and bone on Un-Defined
