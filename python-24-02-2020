@@ -1,0 +1,753 @@
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py makemigration
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    main()
+  File "manage.py", line 17, in main
+    execute_from_command_line(sys.argv)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/__init__.py", line 401, in execute_from_command_line
+    utility.execute()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/__init__.py", line 377, in execute
+    django.setup()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/apps/registry.py", line 114, in populate
+    app_config.import_models()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/apps/config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/aspire1326/test_project/blog/models.py", line 2, in <module>
+    from django.urls import timezone
+ImportError: cannot import name 'timezone'
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py makemigration
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    main()
+  File "manage.py", line 17, in main
+    execute_from_command_line(sys.argv)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/__init__.py", line 401, in execute_from_command_line
+    utility.execute()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/__init__.py", line 377, in execute
+    django.setup()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/apps/registry.py", line 114, in populate
+    app_config.import_models()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/apps/config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/aspire1326/test_project/blog/models.py", line 2, in <module>
+    from django.urls import timezone
+ImportError: cannot import name 'timezone'
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/commands/runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/utils/autoreload.py", line 76, in raise_last_exception
+    raise _exception[1]
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/__init__.py", line 357, in execute
+    autoreload.check_errors(django.setup)()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/apps/registry.py", line 114, in populate
+    app_config.import_models()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/apps/config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/aspire1326/test_project/blog/models.py", line 2, in <module>
+    from django.urls import timezone
+ImportError: cannot import name 'timezone'
+
+/home/aspire1326/test_project/blog/models.py changed, reloading.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/commands/runserver.py", line 109, in inner_run
+    autoreload.raise_last_exception()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/utils/autoreload.py", line 76, in raise_last_exception
+    raise _exception[1]
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/__init__.py", line 357, in execute
+    autoreload.check_errors(django.setup)()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/apps/registry.py", line 114, in populate
+    app_config.import_models()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/apps/config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/aspire1326/test_project/blog/models.py", line 6, in <module>
+    class Post(models.Model):
+  File "/home/aspire1326/test_project/blog/models.py", line 10, in Post
+    author=model.ForeignKey(User,on_delete=models.CASECADE)
+NameError: name 'model' is not defined
+
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py makemigration
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    main()
+  File "manage.py", line 17, in main
+    execute_from_command_line(sys.argv)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/__init__.py", line 401, in execute_from_command_line
+    utility.execute()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/__init__.py", line 377, in execute
+    django.setup()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/apps/registry.py", line 114, in populate
+    app_config.import_models()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/apps/config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/aspire1326/test_project/blog/models.py", line 6, in <module>
+    class Post(models.Model):
+  File "/home/aspire1326/test_project/blog/models.py", line 10, in Post
+    author=model.ForeignKey(User,on_delete=models.CASECADE)
+NameError: name 'model' is not defined
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py makemigration
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    main()
+  File "manage.py", line 17, in main
+    execute_from_command_line(sys.argv)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/__init__.py", line 401, in execute_from_command_line
+    utility.execute()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/core/management/__init__.py", line 377, in execute
+    django.setup()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/apps/registry.py", line 114, in populate
+    app_config.import_models()
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/apps/config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/aspire1326/test_project/blog/models.py", line 6, in <module>
+    class Post(models.Model):
+  File "/home/aspire1326/test_project/blog/models.py", line 10, in Post
+    author=models.ForeignKey(User,on_delete=models.CASECADE)
+AttributeError: module 'django.db.models' has no attribute 'CASECADE'
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py makemigration
+Unknown command: 'makemigration'. Did you mean makemigrations?
+Type 'manage.py help' for usage.
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py makemigrations
+Migrations for 'blog':
+  blog/migrations/0001_initial.py
+    - Create model Post
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 1 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): blog.
+Run 'python manage.py migrate' to apply them.
+
+February 21, 2020 - 11:23:38
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[21/Feb/2020 11:23:40] "GET /about/ HTTP/1.1" 200 5418
+[21/Feb/2020 11:23:46] "GET /about/ HTTP/1.1" 200 5418
+[21/Feb/2020 11:23:47] "GET /about/about/ HTTP/1.1" 200 4649
+[21/Feb/2020 11:23:55] "GET /about/ HTTP/1.1" 200 5418
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py sqlmigrate blog 0001
+BEGIN;
+--
+-- Create model Post
+--
+CREATE TABLE "blog_post" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "title" varchar(100) NOT NULL, "content" text NOT NULL, "date_posted" datetime NOT NULL, "author_id" integer NOT NULL REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED);
+CREATE INDEX "blog_post_author_id_dd7a8485" ON "blog_post" ("author_id");
+COMMIT;
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, blog, contenttypes, sessions
+Running migrations:
+  Applying blog.0001_initial... OK
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py shell
+Python 3.6.9 (default, Nov  7 2019, 10:44:02) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from blog.models import Post
+>>> from django.contrib.auth.models import User
+>>> User.objects.all()
+<QuerySet [<User: Ganesh>, <User: TestuUser>]>
+>>> User.objects.first()
+<User: Ganesh>
+>>> User.objects.last()
+<User: TestuUser>
+>>> User.objects.filter(username='Ganesh')
+<QuerySet [<User: Ganesh>]>
+>>> di(User)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/code.py", line 91, in runcode
+    exec(code, self.locals)
+  File "<console>", line 1, in <module>
+NameError: name 'di' is not defined
+>>> dir(User)
+['DoesNotExist', 'EMAIL_FIELD', 'Meta', 'MultipleObjectsReturned', 'REQUIRED_FIELDS', 'USERNAME_FIELD', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_check_column_name_clashes', '_check_constraints', '_check_field_name_clashes', '_check_fields', '_check_id_field', '_check_index_together', '_check_indexes', '_check_local_fields', '_check_long_column_names', '_check_m2m_through_same_relationship', '_check_managers', '_check_model', '_check_model_name_db_lookup_clashes', '_check_ordering', '_check_property_name_related_field_accessor_clashes', '_check_single_primary_key', '_check_swappable', '_check_unique_together', '_do_insert', '_do_update', '_get_FIELD_display', '_get_next_or_previous_by_FIELD', '_get_next_or_previous_in_order', '_get_pk_val', '_get_unique_checks', '_meta', '_password', '_perform_date_checks', '_perform_unique_checks', '_save_parents', '_save_table', '_set_pk_val', 'check', 'check_password', 'clean', 'clean_fields', 'date_error_message', 'date_joined', 'delete', 'email', 'email_user', 'first_name', 'from_db', 'full_clean', 'get_all_permissions', 'get_deferred_fields', 'get_email_field_name', 'get_full_name', 'get_group_permissions', 'get_next_by_date_joined', 'get_previous_by_date_joined', 'get_session_auth_hash', 'get_short_name', 'get_user_permissions', 'get_username', 'groups', 'has_module_perms', 'has_perm', 'has_perms', 'has_usable_password', 'id', 'is_active', 'is_anonymous', 'is_authenticated', 'is_staff', 'is_superuser', 'last_login', 'last_name', 'logentry_set', 'natural_key', 'normalize_username', 'objects', 'password', 'pk', 'post_set', 'prepare_database_save', 'refresh_from_db', 'save', 'save_base', 'serializable_value', 'set_password', 'set_unusable_password', 'unique_error_message', 'user_permissions', 'username', 'username_validator', 'validate_unique']
+>>> User.objects.filter(username='Ganesh').first()
+<User: Ganesh>
+>>> a=User.objects.filter(username='Ganesh').first()
+>>> a
+<User: Ganesh>
+>>> a.id
+1
+>>> a.pk
+1
+>>> b=User.objects.filter(username='Ganesh')
+>>> b
+<QuerySet [<User: Ganesh>]>
+>>> b[0]
+<User: Ganesh>
+>>> b=User.objects.all()
+>>> b
+<QuerySet [<User: Ganesh>, <User: TestuUser>]>
+>>> b[0]
+<User: Ganesh>
+>>> b[1]
+<User: TestuUser>
+>>> for i in range(len(b)):L
+... 
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/code.py", line 91, in runcode
+    exec(code, self.locals)
+  File "<console>", line 1, in <module>
+NameError: name 'L' is not defined
+>>> for i in range(len(b)):
+...     print(b[i])
+...     print(b[i].id,b[i].pk)
+... 
+Ganesh
+1 1
+TestuUser
+2 2
+>>> for i in b:
+...     print(i)
+...     print(i.email)
+... 
+Ganesh
+Ganesh.veeramani@aspiressys.com
+TestuUser
+testuser@gmail.com
+>>> a
+<User: Ganesh>
+>>> Post.objects.all()
+<QuerySet []>
+>>> post_1=Post(title='Blog 1',content='First Post content!',author=a)
+>>> Post.objects.all()
+<QuerySet []>
+>>> post_1.save()
+>>> Post.objects.all()
+<QuerySet [<Post: Post object (1)>]>
+>>> User.objects.all()
+<QuerySet [<User: Ganesh>, <User: TestuUser>]>
+>>> exit()
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py shell
+Python 3.6.9 (default, Nov  7 2019, 10:44:02) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from blog.models import Post
+>>> from django.contrib.auth.models import User
+>>> Post.objects.all()
+<QuerySet [<Post: Blog 1>]>
+>>> a=User.objects.first()
+>>> a
+<User: Ganesh>
+>>> post_2=Post(title='zVlog 2',content='Second Post Content!',author_id=a.id())
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/code.py", line 91, in runcode
+    exec(code, self.locals)
+  File "<console>", line 1, in <module>
+TypeError: 'int' object is not callable
+>>> post_2=Post(title='zVlog 2',content='Second Post Content!',author_id=a.id)
+>>> post_2.svae()
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/code.py", line 91, in runcode
+    exec(code, self.locals)
+  File "<console>", line 1, in <module>
+AttributeError: 'Post' object has no attribute 'svae'
+>>> post_2.save()
+>>> Post.objects.all()
+<QuerySet [<Post: Blog 1>, <Post: zVlog 2>]>
+>>> c=Post.objects.first()
+>>> c
+<Post: Blog 1>
+>>> c.content
+'First Post content!'
+>>> c.author_id
+1
+>>> c.date_posted
+datetime.datetime(2020, 2, 24, 6, 42, 21, 956060, tzinfo=<UTC>)
+>>> c.author
+<User: Ganesh>
+>>> c.author.email
+'Ganesh.veeramani@aspiressys.com'
+>>> a
+<User: Ganesh>
+>>> a.post_set
+<django.db.models.fields.related_descriptors.create_reverse_many_to_one_manager.<locals>.RelatedManager object at 0x7f56471d8208>
+>>> a.post_set.all()
+<QuerySet [<Post: Blog 1>, <Post: zVlog 2>]>
+>>> user.post_set.create(title='Blog 3',content='3rd post')
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/code.py", line 91, in runcode
+    exec(code, self.locals)
+  File "<console>", line 1, in <module>
+NameError: name 'user' is not defined
+>>> a.post_set.create(title='Blog 3',content='3rd post')
+<Post: Blog 3>
+>>> a.objects.all()
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/code.py", line 91, in runcode
+    exec(code, self.locals)
+  File "<console>", line 1, in <module>
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/db/models/manager.py", line 176, in __get__
+    raise AttributeError("Manager isn't accessible via %s instances" % cls.__name__)
+AttributeError: Manager isn't accessible via User instances
+>>> Post.objects.all()
+<QuerySet [<Post: Blog 1>, <Post: zVlog 2>, <Post: Blog 3>]>
+>>> exit()
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 24, 2020 - 09:52:36
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[24/Feb/2020 09:52:42] "GET /about/ HTTP/1.1" 200 5788
+[24/Feb/2020 09:52:52] "GET /admin/auth/ HTTP/1.1" 200 2969
+[24/Feb/2020 09:52:52] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[24/Feb/2020 09:52:52] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[24/Feb/2020 09:52:52] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[24/Feb/2020 09:52:52] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[24/Feb/2020 09:52:52] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[24/Feb/2020 09:52:52] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[24/Feb/2020 09:52:52] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[24/Feb/2020 09:52:52] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[24/Feb/2020 09:52:52] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[24/Feb/2020 09:52:54] "GET /admin/auth/user/ HTTP/1.1" 200 7296
+[24/Feb/2020 09:52:54] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[24/Feb/2020 09:52:54] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[24/Feb/2020 09:52:54] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[24/Feb/2020 09:52:54] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[24/Feb/2020 09:52:54] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[24/Feb/2020 09:52:54] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[24/Feb/2020 09:52:54] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[24/Feb/2020 09:52:54] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[24/Feb/2020 09:52:54] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[24/Feb/2020 09:52:54] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[24/Feb/2020 09:52:54] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[24/Feb/2020 09:52:54] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[24/Feb/2020 09:52:54] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[24/Feb/2020 09:52:54] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[24/Feb/2020 09:52:59] "GET /about/ HTTP/1.1" 200 5788
+[24/Feb/2020 09:52:59] "GET /about/about/ HTTP/1.1" 200 4649
+[24/Feb/2020 09:53:01] "GET /about/ HTTP/1.1" 200 5788
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 24, 2020 - 09:54:25
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[24/Feb/2020 09:54:32] "GET /about/ HTTP/1.1" 200 5788
+[24/Feb/2020 09:54:33] "GET /about/ HTTP/1.1" 200 5788
+[24/Feb/2020 09:54:33] "GET /about/ HTTP/1.1" 200 5788
+[24/Feb/2020 09:54:33] "GET /about/ HTTP/1.1" 200 5788
+[24/Feb/2020 09:54:33] "GET /about/ HTTP/1.1" 200 5788
+^F^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 24, 2020 - 09:54:45
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[24/Feb/2020 09:54:49] "GET /about/ HTTP/1.1" 200 5788
+[24/Feb/2020 09:54:50] "GET /about/ HTTP/1.1" 200 5788
+[24/Feb/2020 09:54:51] "GET /about/about/ HTTP/1.1" 200 4649
+[24/Feb/2020 09:54:52] "GET /about/ HTTP/1.1" 200 5788
+[24/Feb/2020 09:55:06] "GET /about/ HTTP/1.1" 200 5788
+[24/Feb/2020 09:55:07] "GET /about/about/ HTTP/1.1" 200 4649
+[24/Feb/2020 09:55:09] "GET /about/ HTTP/1.1" 200 5788
+[24/Feb/2020 09:56:45] "GET /about/ HTTP/1.1" 200 5897
+[24/Feb/2020 10:11:19] "GET /about/about/ HTTP/1.1" 200 4649
+[24/Feb/2020 10:11:21] "GET /about/ HTTP/1.1" 200 5897
+^Z
+[1]+  Stopped                 python3 manage.py runserver
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py shell
+Python 3.6.9 (default, Nov  7 2019, 10:44:02) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from blog.models import Post
+>>> from django.contrib.auth.models import User
+>>> User.objects.all()
+<QuerySet [<User: Ganesh>, <User: TestuUser>]>
+>>> user=User.objects.last()
+>>> user
+<User: TestuUser>
+>>> post.objects.all()
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/code.py", line 91, in runcode
+    exec(code, self.locals)
+  File "<console>", line 1, in <module>
+NameError: name 'post' is not defined
+>>> Post.objects.all()
+<QuerySet [<Post: Blog 1>, <Post: zVlog 2>, <Post: Blog 3>]>
+>>> post_4=Post(title='Blog 4',content='HAHA',author_id=user.id)
+>>> post_4
+<Post: Blog 4>
+>>> post_4.email
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/code.py", line 91, in runcode
+    exec(code, self.locals)
+  File "<console>", line 1, in <module>
+AttributeError: 'Post' object has no attribute 'email'
+>>> post_4.author.email
+'testuser@gmail.com'
+>>> post_4.save()
+>>> exit()
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 24, 2020 - 10:17:47
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Error: That port is already in use.
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 24, 2020 - 10:18:03
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Error: That port is already in use.
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py shell
+Python 3.6.9 (default, Nov  7 2019, 10:44:02) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from blog.models import Post
+>>> from django.contrib.auth.models import User
+>>> Post.objects.all()
+<QuerySet [<Post: Blog 1>, <Post: zVlog 2>, <Post: Blog 3>, <Post: Blog 4>]>
+>>> a.date_posted
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/code.py", line 91, in runcode
+    exec(code, self.locals)
+  File "<console>", line 1, in <module>
+NameError: name 'a' is not defined
+>>> a=Post.objects.get(id=4)
+>>> a
+<Post: Blog 4>
+>>> a.date_posted
+datetime.datetime(2020, 2, 24, 10, 16, 30, 282896, tzinfo=<UTC>)
+>>> a.delete()
+(1, {'blog.Post': 1})
+>>> a
+<Post: Blog 4>
+>>> dir(User)
+['DoesNotExist', 'EMAIL_FIELD', 'Meta', 'MultipleObjectsReturned', 'REQUIRED_FIELDS', 'USERNAME_FIELD', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_check_column_name_clashes', '_check_constraints', '_check_field_name_clashes', '_check_fields', '_check_id_field', '_check_index_together', '_check_indexes', '_check_local_fields', '_check_long_column_names', '_check_m2m_through_same_relationship', '_check_managers', '_check_model', '_check_model_name_db_lookup_clashes', '_check_ordering', '_check_property_name_related_field_accessor_clashes', '_check_single_primary_key', '_check_swappable', '_check_unique_together', '_do_insert', '_do_update', '_get_FIELD_display', '_get_next_or_previous_by_FIELD', '_get_next_or_previous_in_order', '_get_pk_val', '_get_unique_checks', '_meta', '_password', '_perform_date_checks', '_perform_unique_checks', '_save_parents', '_save_table', '_set_pk_val', 'check', 'check_password', 'clean', 'clean_fields', 'date_error_message', 'date_joined', 'delete', 'email', 'email_user', 'first_name', 'from_db', 'full_clean', 'get_all_permissions', 'get_deferred_fields', 'get_email_field_name', 'get_full_name', 'get_group_permissions', 'get_next_by_date_joined', 'get_previous_by_date_joined', 'get_session_auth_hash', 'get_short_name', 'get_user_permissions', 'get_username', 'groups', 'has_module_perms', 'has_perm', 'has_perms', 'has_usable_password', 'id', 'is_active', 'is_anonymous', 'is_authenticated', 'is_staff', 'is_superuser', 'last_login', 'last_name', 'logentry_set', 'natural_key', 'normalize_username', 'objects', 'password', 'pk', 'post_set', 'prepare_database_save', 'refresh_from_db', 'save', 'save_base', 'serializable_value', 'set_password', 'set_unusable_password', 'unique_error_message', 'user_permissions', 'username', 'username_validator', 'validate_unique']
+>>> Post.objects.all()
+<QuerySet [<Post: Blog 1>, <Post: zVlog 2>, <Post: Blog 3>]>
+>>> a
+<Post: Blog 4>
+>>> Post.save()
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/code.py", line 91, in runcode
+    exec(code, self.locals)
+  File "<console>", line 1, in <module>
+TypeError: save() missing 1 required positional argument: 'self'
+>>> 
+KeyboardInterrupt
+>>> 
+now exiting InteractiveConsole...
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 24, 2020 - 10:23:37
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Error: That port is already in use.
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver 8080
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 24, 2020 - 10:24:00
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8080/
+Quit the server with CONTROL-C.
+Not Found: /
+[24/Feb/2020 10:24:23] "GET / HTTP/1.1" 404 2138
+Not Found: /favicon.ico
+[24/Feb/2020 10:24:23] "GET /favicon.ico HTTP/1.1" 404 2189
+[24/Feb/2020 10:24:32] "GET /blog HTTP/1.1" 301 0
+[24/Feb/2020 10:24:32] "GET /blog/ HTTP/1.1" 200 5897
+[24/Feb/2020 10:24:55] "GET /about/ HTTP/1.1" 200 5897
+[24/Feb/2020 10:24:56] "GET /about/about/ HTTP/1.1" 200 4649
+[24/Feb/2020 10:24:58] "GET /about/ HTTP/1.1" 200 5897
+[24/Feb/2020 10:25:08] "GET /about/ HTTP/1.1" 200 5897
+[24/Feb/2020 10:30:15] "GET /about/ HTTP/1.1" 200 5897
+[24/Feb/2020 10:32:59] "GET /about/ HTTP/1.1" 200 5879
+[24/Feb/2020 10:33:20] "GET /about/ HTTP/1.1" 200 5873
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 24, 2020 - 10:34:08
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8080/
+Quit the server with CONTROL-C.
+[24/Feb/2020 10:34:10] "GET /about/ HTTP/1.1" 200 5873
+[24/Feb/2020 10:34:21] "GET /admin HTTP/1.1" 301 0
+[24/Feb/2020 10:34:21] "GET /admin/ HTTP/1.1" 200 4198
+[24/Feb/2020 10:34:21] "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[24/Feb/2020 10:34:21] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+[24/Feb/2020 10:34:21] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[24/Feb/2020 10:34:21] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[24/Feb/2020 10:34:21] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[24/Feb/2020 10:34:21] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[24/Feb/2020 10:34:21] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[24/Feb/2020 10:34:21] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[24/Feb/2020 10:34:21] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+/home/aspire1326/test_project/blog/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 24, 2020 - 10:35:54
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8080/
+Quit the server with CONTROL-C.
+[24/Feb/2020 10:35:55] "GET /admin/ HTTP/1.1" 200 4850
+[24/Feb/2020 10:36:00] "GET /admin/blog/post/ HTTP/1.1" 200 4733
+[24/Feb/2020 10:36:00] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6190
+[24/Feb/2020 10:36:00] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 280364
+[24/Feb/2020 10:36:00] "GET /static/admin/js/core.js HTTP/1.1" 200 5723
+[24/Feb/2020 10:36:00] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[24/Feb/2020 10:36:00] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[24/Feb/2020 10:36:00] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[24/Feb/2020 10:36:00] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+[24/Feb/2020 10:36:00] "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+[24/Feb/2020 10:36:00] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[24/Feb/2020 10:36:00] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[24/Feb/2020 10:36:00] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[24/Feb/2020 10:36:02] "GET /admin/blog/post/3/change/ HTTP/1.1" 200 6888
+[24/Feb/2020 10:36:02] "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+[24/Feb/2020 10:36:02] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[24/Feb/2020 10:36:02] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[24/Feb/2020 10:36:02] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20232
+[24/Feb/2020 10:36:02] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+[24/Feb/2020 10:36:02] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[24/Feb/2020 10:36:03] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10322
+[24/Feb/2020 10:36:03] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[24/Feb/2020 10:36:03] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[24/Feb/2020 10:36:10] "GET /admin/blog/post/ HTTP/1.1" 200 4733
+[24/Feb/2020 10:36:16] "GET /admin/blog/post/3/change/ HTTP/1.1" 200 6888
+[24/Feb/2020 10:36:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[24/Feb/2020 10:36:19] "GET /admin/blog/post/ HTTP/1.1" 200 4733
+[24/Feb/2020 10:36:20] "GET /admin/blog/post/2/change/ HTTP/1.1" 200 6902
+[24/Feb/2020 10:36:20] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[24/Feb/2020 10:36:30] "POST /admin/blog/post/2/change/ HTTP/1.1" 302 0
+[24/Feb/2020 10:36:30] "GET /admin/blog/post/ HTTP/1.1" 200 4912
+[24/Feb/2020 10:36:30] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[24/Feb/2020 10:36:31] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[24/Feb/2020 10:36:40] "GET /blog/ HTTP/1.1" 200 5872
+[24/Feb/2020 10:37:07] "GET /admin/ HTTP/1.1" 200 5131
+[24/Feb/2020 10:37:09] "GET /admin/blog/post/ HTTP/1.1" 200 4732
+[24/Feb/2020 10:37:09] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[24/Feb/2020 10:37:10] "GET /admin/blog/post/1/change/ HTTP/1.1" 200 6899
+[24/Feb/2020 10:37:10] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[24/Feb/2020 10:37:15] "POST /admin/blog/post/1/change/ HTTP/1.1" 302 0
+[24/Feb/2020 10:37:15] "GET /admin/blog/post/ HTTP/1.1" 200 4912
+[24/Feb/2020 10:37:15] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[24/Feb/2020 10:37:23] "GET /blog/ HTTP/1.1" 200 5875
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver 8080
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 24, 2020 - 11:29:00
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8080/
+Quit the server with CONTROL-C.
+[24/Feb/2020 11:29:04] "GET /blog/ HTTP/1.1" 200 5875
+[24/Feb/2020 11:29:07] "GET /admin/ HTTP/1.1" 200 5412
+[24/Feb/2020 11:29:09] "GET /admin/blog/post/ HTTP/1.1" 200 4732
+[24/Feb/2020 11:29:09] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[24/Feb/2020 11:29:11] "GET /admin/blog/post/3/change/ HTTP/1.1" 200 6888
+[24/Feb/2020 11:29:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[24/Feb/2020 11:29:32] "POST /admin/blog/post/3/change/ HTTP/1.1" 302 0
+[24/Feb/2020 11:29:32] "GET /admin/blog/post/ HTTP/1.1" 200 4916
+[24/Feb/2020 11:29:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[24/Feb/2020 11:29:41] "GET /admin/ HTTP/1.1" 200 5695
+[24/Feb/2020 11:29:55] "GET /about/ HTTP/1.1" 200 5877
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py shell
+Python 3.6.9 (default, Nov  7 2019, 10:44:02) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from blog.models import Post
+>>>  from django.contrib.auth.models import User
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/code.py", line 64, in runsource
+    code = self.compile(source, filename, symbol)
+  File "/usr/lib/python3.6/codeop.py", line 168, in __call__
+    return _maybe_compile(self.compiler, source, filename, symbol)
+  File "/usr/lib/python3.6/codeop.py", line 99, in _maybe_compile
+    raise err1
+  File "/usr/lib/python3.6/codeop.py", line 87, in _maybe_compile
+    code1 = compiler(source + "\n", filename, symbol)
+  File "/usr/lib/python3.6/codeop.py", line 133, in __call__
+    codeob = compile(source, filename, symbol, self.flags, 1)
+  File "<console>", line 1
+    from django.contrib.auth.models import User
+    ^
+IndentationError: unexpected indent
+>>> from django.contrib.auth.models import User
+>>> Post.objects.all()
+<QuerySet [<Post: Blog 1>, <Post: Blog 2>, <Post: Raju Bai>]>
+>>> a=Post(author='Ganesh',title='Hi baby',content='Summa kada')
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/code.py", line 91, in runcode
+    exec(code, self.locals)
+  File "<console>", line 1, in <module>
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/db/models/base.py", line 482, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/db/models/fields/related_descriptors.py", line 219, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "'Ganesh'": "Post.author" must be a "User" instance.
+>>> a=Post(author='Ganesh',title='Hi baby',content='Summa kada',author_id=User.objects.first())
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/code.py", line 91, in runcode
+    exec(code, self.locals)
+  File "<console>", line 1, in <module>
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/db/models/base.py", line 482, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/db/models/fields/related_descriptors.py", line 219, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "'Ganesh'": "Post.author" must be a "User" instance.
+>>> a=User.objects.first()
+>>> a
+<User: Ganesh>
+>>> a=Post(author='Ganesh',title='Hi baby',content='Summa kada',author_id=a.id)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/code.py", line 91, in runcode
+    exec(code, self.locals)
+  File "<console>", line 1, in <module>
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/db/models/base.py", line 482, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/db/models/fields/related_descriptors.py", line 219, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "'Ganesh'": "Post.author" must be a "User" instance.
+>>> a=Post(author='Ganesh1',title='Hi baby',content='Summa kada',author_id=a.id)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/code.py", line 91, in runcode
+    exec(code, self.locals)
+  File "<console>", line 1, in <module>
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/db/models/base.py", line 482, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/aspire1326/.local/lib/python3.6/site-packages/django/db/models/fields/related_descriptors.py", line 219, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "'Ganesh1'": "Post.author" must be a "User" instance.
+>>> a=Post(title='Hi baby',content='Summa kada',author_id=a.id)
+>>> a
+<Post: Hi baby>
+>>> a.save()
+>>> exit()
+aspire1326@aspire1326-thinkcenter-m71e:~/test_project$ python manage.py runserver 8080
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 24, 2020 - 11:41:37
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8080/
+Quit the server with CONTROL-C.
+[24/Feb/2020 11:41:43] "GET /about/ HTTP/1.1" 200 6289
+/home/aspire1326/test_project/blog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+February 24, 2020 - 11:42:18
+Django version 3.0.3, using settings 'test_project.settings'
+Starting development server at http://127.0.0.1:8080/
+Quit the server with CONTROL-C.
+^Caspire1326@aspire1326-thinkcenter-m71e:~/test_project$ 
